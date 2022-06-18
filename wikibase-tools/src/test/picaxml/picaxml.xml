@@ -1,0 +1,61 @@
+<ppxml:record xmlns:ppxml="http://www.oclcpica.org/xmlns/ppxml-1.0">
+  <ppxml:global opacflag="" status="">    <ppxml:tag id="001@" occ=""><ppxml:subf id="0">1-2</ppxml:subf><ppxml:subf id="a">5</ppxml:subf></ppxml:tag>
+    <ppxml:tag id="001A" occ=""><ppxml:subf id="0">9842:13-12-06</ppxml:subf></ppxml:tag>
+    <ppxml:tag id="001B" occ=""><ppxml:subf id="0">9999:01-07-08</ppxml:subf><ppxml:subf id="t">15:18:18.000</ppxml:subf></ppxml:tag>
+    <ppxml:tag id="001D" occ=""><ppxml:subf id="0">9842:13-12-06</ppxml:subf></ppxml:tag>
+    <ppxml:tag id="001U" occ=""><ppxml:subf id="0">utf8</ppxml:subf></ppxml:tag>
+    <ppxml:tag id="001X" occ=""><ppxml:subf id="0">0</ppxml:subf></ppxml:tag>
+    <ppxml:tag id="002@" occ=""><ppxml:subf id="0">Aa</ppxml:subf></ppxml:tag>
+    <ppxml:tag id="003@" occ=""><ppxml:subf id="0">982354061</ppxml:subf></ppxml:tag>
+    <ppxml:tag id="006U" occ=""><ppxml:subf id="0">08,H07,1717</ppxml:subf></ppxml:tag>
+    <ppxml:tag id="011@" occ=""><ppxml:subf id="a">2006</ppxml:subf></ppxml:tag>
+    <ppxml:tag id="017A" occ=""><ppxml:subf id="a">rh</ppxml:subf><ppxml:subf id="a">si</ppxml:subf></ppxml:tag>
+    <ppxml:tag id="021A" occ=""><ppxml:subf id="S">a</ppxml:subf><ppxml:subf id="a">Vergleichende funktionelle Charakterisierung von
+DnaK-Chaperonsystemen</ppxml:subf><ppxml:subf id="h">[vorgelegt von Simone
+Popp]</ppxml:subf></ppxml:tag>
+    <ppxml:tag id="028A" occ=""><ppxml:subf id="9">132404796</ppxml:subf><ppxml:subf id="a">Popp</ppxml:subf><ppxml:subf id="d">Simone</ppxml:subf></ppxml:tag>
+    <ppxml:tag id="034D" occ=""><ppxml:subf id="a">VI, 269
+S.</ppxml:subf></ppxml:tag>
+    <ppxml:tag id="034I" occ=""><ppxml:subf id="a">30
+cm</ppxml:subf></ppxml:tag>
+    <ppxml:tag id="034M" occ=""><ppxml:subf id="a">graph.
+Darst.</ppxml:subf></ppxml:tag>
+    <ppxml:tag id="037C" occ=""><ppxml:subf id="a">Heidelberg, Univ., Diss.,
+2006</ppxml:subf></ppxml:tag>
+    <ppxml:tag id="045E" occ=""><ppxml:subf id="e">570</ppxml:subf></ppxml:tag>
+    <ppxml:tag id="045F" occ=""><ppxml:subf id="e">DDC22ger</ppxml:subf><ppxml:subf id="a">572.693629321</ppxml:subf></ppxml:tag>
+    <ppxml:tag id="045F" occ="1"><ppxml:subf id="a">572.69</ppxml:subf></ppxml:tag>
+    <ppxml:tag id="045F" occ="2"><ppxml:subf id="a">572.36</ppxml:subf></ppxml:tag>
+    <ppxml:tag id="045F" occ="2"><ppxml:subf id="a">571.29</ppxml:subf></ppxml:tag>
+    <ppxml:tag id="045F" occ="2"><ppxml:subf id="a">579.321</ppxml:subf></ppxml:tag>
+    <ppxml:tag id="047A" occ=""><ppxml:subf id="a">hmg</ppxml:subf></ppxml:tag>
+  </ppxml:global>
+  <ppxml:owner iln="1">
+    <ppxml:local>
+      <ppxml:tag id="101@" occ=""><ppxml:subf id="a">1</ppxml:subf></ppxml:tag>
+    </ppxml:local>
+    <ppxml:copy occ="1" opacflag="" status="" epn="12231395X">
+      <ppxml:tag id="201B" occ="1"><ppxml:subf id="0">19-12-06</ppxml:subf><ppxml:subf id="t">12:13:00.000</ppxml:subf></ppxml:tag>
+      <ppxml:tag id="201U" occ="1"><ppxml:subf id="0">utf8</ppxml:subf></ppxml:tag>
+      <ppxml:tag id="203@" occ="1"><ppxml:subf id="0">12231395X</ppxml:subf></ppxml:tag>
+      <ppxml:tag id="208@" occ="1"><ppxml:subf id="a">13-12-06</ppxml:subf><ppxml:subf id="b">x</ppxml:subf></ppxml:tag>
+      <ppxml:tag id="209A" occ="1"><ppxml:subf id="a">2006 B
+41611</ppxml:subf><ppxml:subf id="x">00</ppxml:subf></ppxml:tag>
+      <ppxml:tag id="209C" occ="1"><ppxml:subf id="a">L-2006-144809</ppxml:subf></ppxml:tag>
+    </ppxml:copy>
+  </ppxml:owner>
+  <ppxml:owner iln="2">
+    <ppxml:local>
+      <ppxml:tag id="101@" occ=""><ppxml:subf id="a">2</ppxml:subf></ppxml:tag>
+    </ppxml:local>
+    <ppxml:copy occ="1" opacflag="" status="" epn="122298837">
+      <ppxml:tag id="201B" occ="1"><ppxml:subf id="0">26-06-08</ppxml:subf><ppxml:subf id="t">08:56:02.000</ppxml:subf></ppxml:tag>
+      <ppxml:tag id="201U" occ="1"><ppxml:subf id="0">utf8</ppxml:subf></ppxml:tag>
+      <ppxml:tag id="203@" occ="1"><ppxml:subf id="0">122298837</ppxml:subf></ppxml:tag>
+      <ppxml:tag id="208@" occ="1"><ppxml:subf id="a">13-12-06</ppxml:subf><ppxml:subf id="b">x</ppxml:subf></ppxml:tag>
+      <ppxml:tag id="209A" occ="1"><ppxml:subf id="a">2008 B
+16194</ppxml:subf><ppxml:subf id="x">00</ppxml:subf></ppxml:tag>
+      <ppxml:tag id="209C" occ="1"><ppxml:subf id="a">F-2006-144809</ppxml:subf></ppxml:tag>
+    </ppxml:copy>
+  </ppxml:owner>
+</ppxml:record>

@@ -1,0 +1,1 @@
+001@ a4001A 01340:24-11-06001B 01340:14-12-06t09:11:36.000001D 01340:24-11-06001X 00002@ 0Gaxh003@ 0382097114004E 9390008788aNat”rliche Sprachtechnik0087809004W 0R 9B017A a22021A aMethode naturelle, RussischdLektion 37034D a123034I a25 cm034M a[78 UpM]039D 9382097106gGaxhYMethode naturelle, Russisch046X a1047S a1

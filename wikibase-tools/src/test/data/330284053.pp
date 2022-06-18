@@ -1,0 +1,1 @@
+001A 01330:29-09-11001B 01330:22-02-12t10:10:01.000001D 01330:29-09-11001U 0utf8001X 00002@ 0Tvt003@ 0330284053033A nChristoph @Tettinger, {Daniel Dickkopf033C aHürth035A yPaRondorfer Str. 3c50354dHürth047A a[[GVL 2011.09]] Korr.: Kardex047A/02 aek

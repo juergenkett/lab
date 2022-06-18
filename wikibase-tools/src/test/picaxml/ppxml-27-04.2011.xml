@@ -1,0 +1,184 @@
+<ppxml:record xmlns:ppxml="http://www.oclcpica.org/xmlns/ppxml-1.0">
+	<ppxml:global opacflag="" status="">
+		<ppxml:tag id="001@" occ="">
+			<ppxml:subf id="a">5</ppxml:subf>
+			<ppxml:subf id="0">1-2</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="001A" occ="">
+			<ppxml:subf id="0">1240:02-01-03</ppxml:subf>
+		</ppxml:tag>
+		<!-- <ppxml:tag id="001B" occ="">
+			<ppxml:subf id="0">9999:18-02-11</ppxml:subf>
+			<ppxml:subf id="t">21:54:22.000</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="001D" occ="">
+			<ppxml:subf id="0">1240:02-01-03</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="001X" occ="">
+			<ppxml:subf id="0">0</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="002@" occ="">
+			<ppxml:subf id="0">Aa</ppxml:subf>
+		</ppxml:tag>
+		 -->
+		<ppxml:tag id="003@" occ="">
+			<ppxml:subf id="0">966001192</ppxml:subf>
+		</ppxml:tag>
+		<!--<ppxml:tag id="004A" occ="">
+			<ppxml:subf id="0">3-87975-849-2</ppxml:subf>
+			<ppxml:subf id="f">kart. : EUR 16.50</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="006U" occ="">
+			<ppxml:subf id="0">03,A08,0495</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="011@" occ="">
+			<ppxml:subf id="a">2002</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="017A" occ="">
+			<ppxml:subf id="a">ra</ppxml:subf>
+			<ppxml:subf id="a">si</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="021A" occ="">
+			<ppxml:subf id="a">Demokratie - wo und wie?</ppxml:subf>
+			<ppxml:subf id="h">Norman Paech</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="028C" occ="">
+			<ppxml:subf id="9">121801837</ppxml:subf>
+			<ppxml:subf id="v">a</ppxml:subf>
+			<ppxml:subf id="w">1938-</ppxml:subf>
+			<ppxml:subf id="a">Paech</ppxml:subf>
+			<ppxml:subf id="d">Norman</ppxml:subf>
+			<ppxml:subf id="B">Hrsg.</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="033A" occ="">
+			<ppxml:subf id="p">Hamburg</ppxml:subf>
+			<ppxml:subf id="n">VSA-Verl.</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="034D" occ="">
+			<ppxml:subf id="a">238 S.</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="034I" occ="">
+			<ppxml:subf id="a">21 cm</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="041A" occ="">
+			<ppxml:subf id="9">040118827</ppxml:subf>
+			<ppxml:subf id="0">4011882-4</ppxml:subf>
+			<ppxml:subf id="g">Deutschland</ppxml:subf>
+			<ppxml:subf id="Z">gik</ppxml:subf>
+			<ppxml:subf id="Z">gil</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="041A" occ="1">
+			<ppxml:subf id="9">040114139</ppxml:subf>
+			<ppxml:subf id="0">4011413-2</ppxml:subf>
+			<ppxml:subf id="s">Demokratie</ppxml:subf>
+			<ppxml:subf id="Z">saz</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="041A" occ="2">
+			<ppxml:subf id="a">f Kongress</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="041A" occ="3">
+			<ppxml:subf id="a">g Hamburg &lt;2001&gt;</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="041A" occ="8">
+			<ppxml:subf id="f">1234</ppxml:subf>
+			<ppxml:subf id="f">2134</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="041A" occ="9">
+			<ppxml:subf id="e">DE-101</ppxml:subf>
+			<ppxml:subf id="r">DE-101</ppxml:subf>
+			<ppxml:subf id="g">8.1</ppxml:subf>
+			<ppxml:subf id="h">XA-DE</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="045E" occ="">
+			<ppxml:subf id="a">16</ppxml:subf>
+			<ppxml:subf id="d">17</ppxml:subf>
+			<ppxml:subf id="m">320</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="045F" occ="">
+			<ppxml:subf id="e">004</ppxml:subf>
+			<ppxml:subf id="E">m</ppxml:subf>
+			<ppxml:subf id="H">dnb</ppxml:subf>
+			<ppxml:subf id="K">0,81</ppxml:subf>
+			<ppxml:subf id="D">2011-03-30</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="047A" occ="">
+			<ppxml:subf id="a">schub</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="047I" occ="">
+			<ppxml:subf id="u">$</ppxml:subf>
+			<ppxml:subf id="c">04</ppxml:subf>
+			<ppxml:subf id="d">GBV</ppxml:subf>
+			<ppxml:subf id="e">1</ppxml:subf>
+		</ppxml:tag>
+		 -->
+	</ppxml:global>
+	<ppxml:owner iln="1">
+		<ppxml:local>
+			<ppxml:tag id="101@" occ="">
+				<ppxml:subf id="a">1</ppxml:subf>
+			</ppxml:tag>
+		</ppxml:local>
+		<ppxml:copy occ="1" opacflag="" status="" epn="522043054">
+			<!-- --> <ppxml:tag id="003X" occ="">
+				<ppxml:subf id="0">966001192</ppxml:subf>
+			</ppxml:tag>
+			<ppxml:tag id="101@" occ="">
+				<ppxml:subf id="a">1</ppxml:subf>
+			</ppxml:tag>
+			
+			<ppxml:tag id="201B" occ="1">
+				<ppxml:subf id="0">12-10-08</ppxml:subf>
+				<ppxml:subf id="t">04:00:08.000</ppxml:subf>
+			</ppxml:tag>
+			<ppxml:tag id="203@" occ="1">
+				<ppxml:subf id="0">522043054</ppxml:subf>
+			</ppxml:tag>
+			<ppxml:tag id="208@" occ="1">
+				<ppxml:subf id="a">03-01-03</ppxml:subf>
+				<ppxml:subf id="b">x</ppxml:subf>
+			</ppxml:tag>
+			<ppxml:tag id="209A" occ="1">
+				<ppxml:subf id="a">2002 A 72318</ppxml:subf>
+				<ppxml:subf id="x">00</ppxml:subf>
+			</ppxml:tag>
+			<ppxml:tag id="209C" occ="1">
+				<ppxml:subf id="a">L-2002-522043054</ppxml:subf>
+			</ppxml:tag>
+		</ppxml:copy>
+	</ppxml:owner>
+	<!-- 
+	<ppxml:owner iln="2">
+		<ppxml:local>
+			<ppxml:tag id="101@" occ="">
+				<ppxml:subf id="a">2</ppxml:subf>
+			</ppxml:tag>
+		</ppxml:local>
+		<ppxml:copy occ="1" opacflag="" status="" epn="522043062">
+			<ppxml:tag id="003X" occ="">
+				<ppxml:subf id="0">966001192</ppxml:subf>
+			</ppxml:tag>
+			<ppxml:tag id="101@" occ="">
+				<ppxml:subf id="a">2</ppxml:subf>
+			</ppxml:tag>
+			<ppxml:tag id="201B" occ="1">
+				<ppxml:subf id="0">12-10-08</ppxml:subf>
+				<ppxml:subf id="t">04:00:08.000</ppxml:subf>
+			</ppxml:tag>
+			<ppxml:tag id="203@" occ="1">
+				<ppxml:subf id="0">522043062</ppxml:subf>
+			</ppxml:tag>
+			<ppxml:tag id="208@" occ="1">
+				<ppxml:subf id="a">02-01-03</ppxml:subf>
+				<ppxml:subf id="b">x</ppxml:subf>
+			</ppxml:tag>
+			<ppxml:tag id="209A" occ="1">
+				<ppxml:subf id="a">2002 A 72318</ppxml:subf>
+				<ppxml:subf id="x">00</ppxml:subf>
+			</ppxml:tag>
+			<ppxml:tag id="209C" occ="1">
+				<ppxml:subf id="a">F-2002-522043062</ppxml:subf>
+			</ppxml:tag>
+		</ppxml:copy>
+	</ppxml:owner>
+	 -->
+</ppxml:record>

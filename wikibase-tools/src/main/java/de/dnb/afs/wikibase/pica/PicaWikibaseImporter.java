@@ -1,13 +1,12 @@
-package de.dnb.afs.wikibase;
+package de.dnb.afs.wikibase.pica;
 
 /**
  * Hello world!
  *
  */
-public class App 
+public class PicaWikibaseImporter 
 {
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-    }
+
+	
+	
 }

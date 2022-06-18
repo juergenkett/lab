@@ -1,0 +1,1 @@
+001@ a4001A 01340:08-11-06001B 01340:08-11-06t17:39:55.000001D 01340:08-11-06001X 00002@ 0Gs003@ 0359281729011@ a2006022A 9300010621aToccata und Fuge, BWV 538028A 9310008891011850553XaBachdJohann Sebastian038A 9359281656ABachDJohann SebastianXAusw.YElisabeth Ullmann plays Johann Sebastian Bach

@@ -1,0 +1,1 @@
+001@ 0-001A 09002:18-04-89001B 09999:10-06-05t18:14:19.000001D 09002:10-06-05001X 00002@ 0Tbv003@ 0004940059007P 02038885-8029A aSachverst—ndigenrat f”r die Auswahl der Domino-B”cher

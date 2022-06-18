@@ -1,0 +1,1 @@
+001A 01250:01-04-11001B 01150:27-06-11t12:58:21.000001D 01250:01-04-11001X 00002@ 0Te003@ 01010836382037A aBelletristik / Deutsch/Italienisch037A aZweisprachige Ausgabe: Deutsch / Italienisch044E aZweisprachige Ausgaben: Deutsch / Italienisch044F aDeutsch/Italienisch045A a163045C 91010836153

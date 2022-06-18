@@ -1,0 +1,1 @@
+001A 00384:25-08-95001B 00384:07-09-95t16:26:23.991001D 09999:99-99-99001X 00002@ 0Ts003@ 0945378939007Q 04384748-1039C sBier039C sDi—tetisches Getr—nk041A sLeichtbier041F sKalorienarmes Bier042A a33.2a31.11046A Saa- Neumann-Duscha, Ingrid: Getr—nke. 1986046A SzaB50

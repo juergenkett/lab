@@ -1,0 +1,232 @@
+<ppxml:record xmlns:ppxml="http://www.oclcpica.org/xmlns/ppxml-1.0">
+	<ppxml:global opacflag="" status="">
+		<ppxml:tag id="001@" occ="">
+			<ppxml:subf id="a">5</ppxml:subf>
+			<ppxml:subf id="0">1-2</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="001A" occ="">
+			<ppxml:subf id="0">1240:02-01-03</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="001B" occ="">
+			<ppxml:subf id="0">9999:06-01-08</ppxml:subf>
+			<ppxml:subf id="t">23:21:36.000</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="001D" occ="">
+			<ppxml:subf id="0">1240:02-01-03</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="001X" occ="">
+			<ppxml:subf id="0">0</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="002@" occ="">
+			<ppxml:subf id="0">Aa</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="003@" occ="">
+			<ppxml:subf id="0">96600129X</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="004A" occ="">
+			<ppxml:subf id="f">Kunststoff : EUR 24.00</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="006U" occ="">
+			<ppxml:subf id="0">03,B07,0848</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="011@" occ="">
+			<ppxml:subf id="a">2003</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="017A" occ="">
+			<ppxml:subf id="a">rb</ppxml:subf>
+			<ppxml:subf id="a">si</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="021A" occ="">
+			<ppxml:subf id="S">a</ppxml:subf>
+			<ppxml:subf id="a">Ortssippenbuch Rotfelden &amp; Wenden
+			</ppxml:subf>
+			<ppxml:subf id="d">Kreis Calw in W&#252;rttemberg, Gemeinde
+				Ebhausen, Evangelische Pfarrei Rotfelden, 1580 - 1945 samt Anhang
+				f&#252;r die Neuzeit</ppxml:subf>
+			<ppxml:subf id="h">von Burkhart Oertel</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="028A" occ="">
+			<ppxml:subf id="9">108718670</ppxml:subf>
+			<ppxml:subf id="a">Oertel</ppxml:subf>
+			<ppxml:subf id="d">Burkhart</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="032@" occ="">
+			<ppxml:subf id="g">11</ppxml:subf>
+			<ppxml:subf id="a">1. Aufl.</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="033A" occ="">
+			<ppxml:subf id="p">Neubiberg, [Brunhildenstr. 4B]</ppxml:subf>
+			<ppxml:subf id="n">B. @Oertel</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="034D" occ="">
+			<ppxml:subf id="a">216 S.</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="034I" occ="">
+			<ppxml:subf id="a">30 cm</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="034M" occ="">
+			<ppxml:subf id="a">Ill., Kt.</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="036E" occ="1">
+			<ppxml:subf id="a">Reihe w&#252;rttembergischer
+				Ortssippenb&#252;cher</ppxml:subf>
+			<ppxml:subf id="l">Bd. 50</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="036F" occ="">
+			<ppxml:subf id="x">3317</ppxml:subf>
+			<ppxml:subf id="9">016717899</ppxml:subf>
+			<ppxml:subf id="g">Advz</ppxml:subf>
+			<ppxml:subf id="i">1143038-2</ppxml:subf>
+			<ppxml:subf id="V">Deutsche Ortssippenb&#252;cher / A
+			</ppxml:subf>
+			<ppxml:subf id="Y">Deutsche Ortssippenb&#252;cher</ppxml:subf>
+			<ppxml:subf id="h">hrsg. von der Zentralstelle f&#252;r
+				Personen- und Familiengeschichte</ppxml:subf>
+			<ppxml:subf id="p">[Wechselnde Verlagsorte und Verleger]
+			</ppxml:subf>
+			<ppxml:subf id="N">Reihe A</ppxml:subf>
+			<ppxml:subf id="l">Bd. 317</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="036F" occ="1">
+			<ppxml:subf id="x">250</ppxml:subf>
+			<ppxml:subf id="9">016116119</ppxml:subf>
+			<ppxml:subf id="g">Advz</ppxml:subf>
+			<ppxml:subf id="i">1080718-4</ppxml:subf>
+			<ppxml:subf id="Y">W&#252;rttembergische Ortssippenb&#252;cher
+			</ppxml:subf>
+			<ppxml:subf id="p">[Wechselnde Verlagsorte und Verleger]
+			</ppxml:subf>
+			<ppxml:subf id="l">Bd. 50</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="041A" occ="">
+			<ppxml:subf id="9">945907273</ppxml:subf>
+			<ppxml:subf id="0">4390296-0</ppxml:subf>
+			<ppxml:subf id="g">Rotfelden</ppxml:subf>
+			<ppxml:subf id="Z">gik</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="041A" occ="1">
+			<ppxml:subf id="9">040163970</ppxml:subf>
+			<ppxml:subf id="0">4016397-0</ppxml:subf>
+			<ppxml:subf id="s">Familie</ppxml:subf>
+			<ppxml:subf id="Z">saz</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="041A" occ="2">
+			<ppxml:subf id="a">z Geschichte</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="041A" occ="3">
+			<ppxml:subf id="a">f Verzeichnis</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="041A" occ="8">
+			<ppxml:subf id="f">1234</ppxml:subf>
+			<ppxml:subf id="f">2134</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="041A" occ="9">
+			<ppxml:subf id="e">DE-101</ppxml:subf>
+			<ppxml:subf id="r">DE-101</ppxml:subf>
+			<ppxml:subf id="g">16.5</ppxml:subf>
+			<ppxml:subf id="g">16.2</ppxml:subf>
+			<ppxml:subf id="h">XA-DE-BW</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="041A" occ="10">
+			<ppxml:subf id="9">945907419</ppxml:subf>
+			<ppxml:subf id="0">4390299-6</ppxml:subf>
+			<ppxml:subf id="g">Wenden &lt;Ebhausen&gt;</ppxml:subf>
+			<ppxml:subf id="Z">gik</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="041A" occ="11">
+			<ppxml:subf id="9">040163970</ppxml:subf>
+			<ppxml:subf id="0">4016397-0</ppxml:subf>
+			<ppxml:subf id="s">Familie</ppxml:subf>
+			<ppxml:subf id="Z">saz</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="041A" occ="12">
+			<ppxml:subf id="a">z Geschichte</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="041A" occ="13">
+			<ppxml:subf id="a">f Verzeichnis</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="041A" occ="18">
+			<ppxml:subf id="f">1234</ppxml:subf>
+			<ppxml:subf id="f">2134</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="041A" occ="19">
+			<ppxml:subf id="e">DE-101</ppxml:subf>
+			<ppxml:subf id="r">DE-101</ppxml:subf>
+			<ppxml:subf id="g">16.5</ppxml:subf>
+			<ppxml:subf id="g">16.2</ppxml:subf>
+			<ppxml:subf id="h">XA-DE-BW</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="045E" occ="">
+			<ppxml:subf id="a">63</ppxml:subf>
+			<ppxml:subf id="d">61</ppxml:subf>
+			<ppxml:subf id="d">03</ppxml:subf>
+			<ppxml:subf id="m">900</ppxml:subf>
+			<ppxml:subf id="m">920</ppxml:subf>
+			<ppxml:subf id="m">930</ppxml:subf>
+			<ppxml:subf id="m">940</ppxml:subf>
+			<ppxml:subf id="m">943</ppxml:subf>
+			<ppxml:subf id="m">950</ppxml:subf>
+			<ppxml:subf id="m">960</ppxml:subf>
+			<ppxml:subf id="m">970</ppxml:subf>
+			<ppxml:subf id="m">980</ppxml:subf>
+			<ppxml:subf id="m">990</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="047A" occ="">
+			<ppxml:subf id="a">r&#246;</ppxml:subf>
+		</ppxml:tag>
+	</ppxml:global>
+	<ppxml:owner iln="1">
+		<ppxml:local>
+			<ppxml:tag id="101@" occ="">
+				<ppxml:subf id="a">1</ppxml:subf>
+			</ppxml:tag>
+		</ppxml:local>
+		<ppxml:copy occ="1" opacflag="" status="" epn="522043259">
+			<ppxml:tag id="201B" occ="1">
+				<ppxml:subf id="0">12-10-08</ppxml:subf>
+				<ppxml:subf id="t">03:11:47.000</ppxml:subf>
+			</ppxml:tag>
+			<ppxml:tag id="203@" occ="1">
+				<ppxml:subf id="0">522043259</ppxml:subf>
+			</ppxml:tag>
+			<ppxml:tag id="208@" occ="1">
+				<ppxml:subf id="a">03-01-03</ppxml:subf>
+				<ppxml:subf id="b">x</ppxml:subf>
+			</ppxml:tag>
+			<ppxml:tag id="209A" occ="1">
+				<ppxml:subf id="a">2002 B 20484</ppxml:subf>
+				<ppxml:subf id="x">00</ppxml:subf>
+			</ppxml:tag>
+			<ppxml:tag id="209C" occ="1">
+				<ppxml:subf id="a">L-2003-522043259</ppxml:subf>
+			</ppxml:tag>
+		</ppxml:copy>
+	</ppxml:owner>
+	<ppxml:owner iln="2">
+		<ppxml:local>
+			<ppxml:tag id="101@" occ="">
+				<ppxml:subf id="a">2</ppxml:subf>
+			</ppxml:tag>
+		</ppxml:local>
+		<ppxml:copy occ="1" opacflag="" status="" epn="522043267">
+			<ppxml:tag id="201B" occ="1">
+				<ppxml:subf id="0">12-10-08</ppxml:subf>
+				<ppxml:subf id="t">03:11:47.000</ppxml:subf>
+			</ppxml:tag>
+			<ppxml:tag id="203@" occ="1">
+				<ppxml:subf id="0">522043267</ppxml:subf>
+			</ppxml:tag>
+			<ppxml:tag id="208@" occ="1">
+				<ppxml:subf id="a">02-01-03</ppxml:subf>
+				<ppxml:subf id="b">x</ppxml:subf>
+			</ppxml:tag>
+			<ppxml:tag id="209A" occ="1">
+				<ppxml:subf id="a">2002 B 20484</ppxml:subf>
+				<ppxml:subf id="x">00</ppxml:subf>
+			</ppxml:tag>
+			<ppxml:tag id="209C" occ="1">
+				<ppxml:subf id="a">F-2003-522043267</ppxml:subf>
+			</ppxml:tag>
+		</ppxml:copy>
+	</ppxml:owner>
+</ppxml:record>

@@ -1,0 +1,25 @@
+<ppxml:record xmlns:ppxml="http://www.oclcpica.org/xmlns/ppxml-1.0">
+	<ppxml:global opacflag="" status="">
+		<ppxml:tag id="045E" occ="">
+			<ppxml:subf id="H">dnb</ppxml:subf>
+			<ppxml:subf id="K">0,81</ppxml:subf>
+			<ppxml:subf id="D">2011-03-30</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="045E" occ="">
+			<ppxml:subf id="H">dnb</ppxml:subf>
+			<ppxml:subf id="K">0,81</ppxml:subf>
+			<ppxml:subf id="D">2011-03-30</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="045E" occ="">
+			<ppxml:subf id="a">NochEin</ppxml:subf>
+			<ppxml:subf id="b">FeldEinf&#252;gen</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="045E" occ="1">
+			<ppxml:subf id="a">FeldMit</ppxml:subf>
+			<ppxml:subf id="b">Occurence1</ppxml:subf>
+		</ppxml:tag>
+		<ppxml:tag id="045G" occ="">
+			<ppxml:subf id="0">HansDampf</ppxml:subf>
+		</ppxml:tag>
+	</ppxml:global>
+</ppxml:record>

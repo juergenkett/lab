@@ -1,0 +1,58 @@
+<ppxml:record xmlns:ppxml="http://www.oclcpica.org/xmlns/ppxml-1.0">
+  <ppxml:global opacflag="" status="">    <ppxml:tag id="001@" occ=""><ppxml:subf id="a">5</ppxml:subf><ppxml:subf id="0">1-2</ppxml:subf></ppxml:tag>
+    <ppxml:tag id="001A" occ=""><ppxml:subf id="0">1140:02-01-03</ppxml:subf></ppxml:tag>
+    <ppxml:tag id="001B" occ=""><ppxml:subf id="0">9999:06-01-08</ppxml:subf><ppxml:subf id="t">23:21:35.000</ppxml:subf></ppxml:tag>
+    <ppxml:tag id="001D" occ=""><ppxml:subf id="0">1140:02-01-03</ppxml:subf></ppxml:tag>
+    <ppxml:tag id="001U" occ=""><ppxml:subf id="0">utf8</ppxml:subf></ppxml:tag>
+    <ppxml:tag id="001X" occ=""><ppxml:subf id="0">0</ppxml:subf></ppxml:tag>
+    <ppxml:tag id="002@" occ=""><ppxml:subf id="0">Aa</ppxml:subf></ppxml:tag>
+    <ppxml:tag id="003@" occ=""><ppxml:subf id="0">966001265</ppxml:subf></ppxml:tag>
+    <ppxml:tag id="004A" occ=""><ppxml:subf id="0">3-8100-3625-0</ppxml:subf><ppxml:subf id="f">kart. : EUR 12.90 (DE), EUR 13.30 (AT), sfr 22.80</ppxml:subf></ppxml:tag>
+    <ppxml:tag id="006U" occ=""><ppxml:subf id="0">03,A25,2369</ppxml:subf></ppxml:tag>
+    <ppxml:tag id="011@" occ=""><ppxml:subf id="a">2003</ppxml:subf></ppxml:tag>
+    <ppxml:tag id="017A" occ=""><ppxml:subf id="a">ra</ppxml:subf><ppxml:subf id="a">sf</ppxml:subf><ppxml:subf id="a">li</ppxml:subf></ppxml:tag>
+    <ppxml:tag id="021A" occ=""><ppxml:subf id="a">Die @Wiehler Urgroßmutter und ihre Verwandtschaft</ppxml:subf><ppxml:subf id="d">Lebensberichte aus mehreren Generationen einer Familie</ppxml:subf><ppxml:subf id="h">Renate Wald ; Susanne Zimmermann</ppxml:subf></ppxml:tag>
+    <ppxml:tag id="028A" occ=""><ppxml:subf id="9">119535505</ppxml:subf><ppxml:subf id="v">a</ppxml:subf><ppxml:subf id="w">1922-</ppxml:subf><ppxml:subf id="a">Wald</ppxml:subf><ppxml:subf id="d">Renate</ppxml:subf></ppxml:tag>
+    <ppxml:tag id="028B" occ="1"><ppxml:subf id="9">130472883</ppxml:subf><ppxml:subf id="v">b</ppxml:subf><ppxml:subf id="w">2003</ppxml:subf><ppxml:subf id="a">Zimmermann</ppxml:subf><ppxml:subf id="d">Susanne</ppxml:subf></ppxml:tag>
+    <ppxml:tag id="033A" occ=""><ppxml:subf id="p">Opladen</ppxml:subf><ppxml:subf id="n">Leske und Budrich</ppxml:subf></ppxml:tag>
+    <ppxml:tag id="034D" occ=""><ppxml:subf id="a">113 S.</ppxml:subf></ppxml:tag>
+    <ppxml:tag id="034I" occ=""><ppxml:subf id="a">21 cm</ppxml:subf></ppxml:tag>
+    <ppxml:tag id="034M" occ=""><ppxml:subf id="a">Ill.</ppxml:subf></ppxml:tag>
+    <ppxml:tag id="037A" occ=""><ppxml:subf id="a">Literaturverz. S. 110 - 113</ppxml:subf></ppxml:tag>
+    <ppxml:tag id="041A" occ=""><ppxml:subf id="9">040659984</ppxml:subf><ppxml:subf id="0">4065998-7</ppxml:subf><ppxml:subf id="g">Wiehl &#60;Oberbergischer Kreis&#62;</ppxml:subf></ppxml:tag>
+    <ppxml:tag id="041A" occ="1"><ppxml:subf id="9">041468708</ppxml:subf><ppxml:subf id="0">4146870-3</ppxml:subf><ppxml:subf id="s">Bürgerfamilie</ppxml:subf></ppxml:tag>
+    <ppxml:tag id="041A" occ="2"><ppxml:subf id="9">041566017</ppxml:subf><ppxml:subf id="0">4156601-4</ppxml:subf><ppxml:subf id="s">Generation</ppxml:subf></ppxml:tag>
+    <ppxml:tag id="041A" occ="3"><ppxml:subf id="9">041339576</ppxml:subf><ppxml:subf id="0">4133957-5</ppxml:subf><ppxml:subf id="s">Verwandtschaft</ppxml:subf></ppxml:tag>
+    <ppxml:tag id="041A" occ="4"><ppxml:subf id="a">z Geschichte 1822-2000</ppxml:subf></ppxml:tag>
+    <ppxml:tag id="041A" occ="8"><ppxml:subf id="f">12345</ppxml:subf><ppxml:subf id="f">23415</ppxml:subf><ppxml:subf id="f">32415</ppxml:subf><ppxml:subf id="f">43215</ppxml:subf></ppxml:tag>
+    <ppxml:tag id="041A" occ="9"><ppxml:subf id="e">DE-101</ppxml:subf><ppxml:subf id="r">DE-101</ppxml:subf><ppxml:subf id="g">9.1c</ppxml:subf><ppxml:subf id="g">9.3c</ppxml:subf><ppxml:subf id="h">XA-DE-NW</ppxml:subf></ppxml:tag>
+    <ppxml:tag id="045E" occ=""><ppxml:subf id="a">64</ppxml:subf><ppxml:subf id="d">14</ppxml:subf><ppxml:subf id="m">900</ppxml:subf><ppxml:subf id="m">940</ppxml:subf><ppxml:subf id="m">943</ppxml:subf><ppxml:subf id="m">950</ppxml:subf><ppxml:subf id="m">960</ppxml:subf><ppxml:subf id="m">970</ppxml:subf><ppxml:subf id="m">980</ppxml:subf><ppxml:subf id="m">990</ppxml:subf></ppxml:tag>
+    <ppxml:tag id="047A" occ=""><ppxml:subf id="a">Sch</ppxml:subf></ppxml:tag>
+  </ppxml:global>
+  <ppxml:owner iln="1">
+    <ppxml:local>
+      <ppxml:tag id="101@" occ=""><ppxml:subf id="a">1</ppxml:subf></ppxml:tag>
+    </ppxml:local>
+    <ppxml:copy occ="1" opacflag="" status="" epn="522043194">
+      <ppxml:tag id="201B" occ="1"><ppxml:subf id="0">12-10-08</ppxml:subf><ppxml:subf id="t">03:11:47.000</ppxml:subf></ppxml:tag>
+      <ppxml:tag id="201U" occ="1"><ppxml:subf id="0">utf8</ppxml:subf></ppxml:tag>
+      <ppxml:tag id="203@" occ="1"><ppxml:subf id="0">522043194</ppxml:subf></ppxml:tag>
+      <ppxml:tag id="208@" occ="1"><ppxml:subf id="a">02-01-03</ppxml:subf><ppxml:subf id="b">x</ppxml:subf></ppxml:tag>
+      <ppxml:tag id="209A" occ="1"><ppxml:subf id="a">2002 A 77563</ppxml:subf><ppxml:subf id="x">00</ppxml:subf></ppxml:tag>
+      <ppxml:tag id="209C" occ="1"><ppxml:subf id="a">L-2003-522043194</ppxml:subf></ppxml:tag>
+    </ppxml:copy>
+  </ppxml:owner>
+  <ppxml:owner iln="2">
+    <ppxml:local>
+      <ppxml:tag id="101@" occ=""><ppxml:subf id="a">2</ppxml:subf></ppxml:tag>
+    </ppxml:local>
+    <ppxml:copy occ="1" opacflag="" status="" epn="522043208">
+      <ppxml:tag id="201B" occ="1"><ppxml:subf id="0">12-10-08</ppxml:subf><ppxml:subf id="t">03:11:47.000</ppxml:subf></ppxml:tag>
+      <ppxml:tag id="201U" occ="1"><ppxml:subf id="0">utf8</ppxml:subf></ppxml:tag>
+      <ppxml:tag id="203@" occ="1"><ppxml:subf id="0">522043208</ppxml:subf></ppxml:tag>
+      <ppxml:tag id="208@" occ="1"><ppxml:subf id="a">03-01-03</ppxml:subf><ppxml:subf id="b">x</ppxml:subf></ppxml:tag>
+      <ppxml:tag id="209A" occ="1"><ppxml:subf id="a">2002 A 77563</ppxml:subf><ppxml:subf id="x">00</ppxml:subf></ppxml:tag>
+      <ppxml:tag id="209C" occ="1"><ppxml:subf id="a">F-2003-522043208</ppxml:subf></ppxml:tag>
+    </ppxml:copy>
+  </ppxml:owner>
+</ppxml:record>

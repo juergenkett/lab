@@ -1,0 +1,1 @@
+001@ a4001A 01340:11-10-06001B 01340:11-10-06t13:48:05.000001D 01340:11-10-06001X 00002@ 0Gs003@ 0359258999011@ a2006022A 9300006667aJohannespassionhAusw.028A 9310008891011850553XaBachdJohann Sebastian038A 935925893XABachDJohann SebastianXAusw.YPassionsarien - OsterarienhJohann Sebastian Bach
