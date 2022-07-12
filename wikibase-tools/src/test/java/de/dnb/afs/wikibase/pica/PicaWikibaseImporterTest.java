@@ -67,8 +67,6 @@ public class PicaWikibaseImporterTest extends TestCase {
 
 	private static final Log logger = LogFactory.getLog(PicaWikibaseImporterTest.class);
 
-	private Map<String, String> picaFieldToEntityId = new HashMap<String, String>();
-
 	private final static String LOCALHOST_WIKIBASE_URL = "http://localhost:8080/w/api.php";
 
 	private final static String LOCALHOST_WIKIBASE_IRI = "gnd.network";
