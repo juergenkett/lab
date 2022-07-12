@@ -10,6 +10,10 @@
 		<Logger name="de.dnb.afs" level="debug">
 			
 		</Logger>
+		<Logger name="org.wikidata.wdtk" level="debug">
+			
+		</Logger>
+		
 		<Root level="error">
 			<AppenderRef ref="Console" />
 		</Root>
