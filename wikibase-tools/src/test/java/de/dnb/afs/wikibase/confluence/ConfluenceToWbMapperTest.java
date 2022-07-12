@@ -1,37 +1,14 @@
 package de.dnb.afs.wikibase.confluence;
 
 import java.io.IOException;
-import java.util.Collections;
-import java.util.List;
-import java.util.concurrent.ExecutionException;
-
-import javax.xml.parsers.ParserConfigurationException;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.jsoup.nodes.Document;
-import org.wikidata.wdtk.datamodel.helpers.PropertyDocumentBuilder;
-import org.wikidata.wdtk.datamodel.helpers.PropertyUpdateBuilder;
-import org.wikidata.wdtk.datamodel.helpers.TermUpdateBuilder;
-import org.wikidata.wdtk.datamodel.implementation.MonolingualTextValueImpl;
-import org.wikidata.wdtk.datamodel.interfaces.DatatypeIdValue;
-import org.wikidata.wdtk.datamodel.interfaces.EntityDocument;
-import org.wikidata.wdtk.datamodel.interfaces.PropertyDocument;
-import org.wikidata.wdtk.datamodel.interfaces.PropertyIdValue;
 import org.wikidata.wdtk.wikibaseapi.ApiConnection;
 import org.wikidata.wdtk.wikibaseapi.BasicApiConnection;
 import org.wikidata.wdtk.wikibaseapi.LoginFailedException;
-import org.wikidata.wdtk.wikibaseapi.OAuthApiConnection;
-import org.wikidata.wdtk.wikibaseapi.WikibaseDataEditor;
-import org.wikidata.wdtk.wikibaseapi.WikibaseDataFetcher;
 import org.wikidata.wdtk.wikibaseapi.apierrors.MediaWikiApiErrorException;
-import org.xml.sax.SAXException;
 
-import de.dnb.afs.wikibase.WbEntityEditor;
-import de.dnb.afs.wikibase.WbEntityEditorImpl;
-import de.dnb.afs.wikibase.WbEntityLoader;
-import de.dnb.afs.wikibase.WbEntityLoaderImpl;
-import de.dnb.afs.wikibase.confluence.factories.ConfluenceToWbMapperFactory;
 import de.dnb.afs.wikibase.confluence.factories.ConfluenceWbConfigFactory;
 import junit.framework.TestCase;
 
