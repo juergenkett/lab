@@ -18,7 +18,7 @@ public class ConfluenceToWbMapperTest extends TestCase {
 
 	private ConfluenceWbConfig config = ConfluenceWbConfigFactory.newStandardConfig();
 
-	private ApiConnection localApi = new BasicApiConnection(ConfluenceWbConfigFactory.LOCALHOST_WIKIBASE_URL);
+	private ApiConnection localApi = new BasicApiConnection(ConfluenceWbConfig.LOCALHOST_WIKIBASE_URL);
 
 	public void test() throws IOException, MediaWikiApiErrorException, LoginFailedException {
 

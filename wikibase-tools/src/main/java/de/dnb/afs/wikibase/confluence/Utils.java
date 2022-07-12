@@ -1,15 +1,20 @@
 package de.dnb.afs.wikibase.confluence;
 
+import java.io.IOException;
 import java.util.List;
 
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import org.wikidata.wdtk.datamodel.helpers.StatementBuilder;
 import org.wikidata.wdtk.datamodel.implementation.StringValueImpl;
+import org.wikidata.wdtk.datamodel.interfaces.EntityDocument;
 import org.wikidata.wdtk.datamodel.interfaces.EntityIdValue;
 import org.wikidata.wdtk.datamodel.interfaces.PropertyIdValue;
 import org.wikidata.wdtk.datamodel.interfaces.Statement;
 import org.wikidata.wdtk.datamodel.interfaces.StringValue;
+import org.wikidata.wdtk.wikibaseapi.apierrors.MediaWikiApiErrorException;
+
+import de.dnb.afs.wikibase.WbEntityLoader;
 
 public class Utils {
 
@@ -26,14 +31,14 @@ public class Utils {
 			ConfluenceWbConfig config) {
 		StringValue value = new StringValueImpl(panelParagraph.text());
 		statements.add(StatementBuilder.forSubjectAndProperty(wbEntityId, propertyId)
-				.withValue(value).withQualifierValue(config.getWbLayoutTyp(), config.getWbH4()).build());
+				.withValue(value).withQualifierValue(config.wbLayoutTyp, config.wbH4).build());
 	}
 
 	public static void addPanelH5(List<Statement> statements,EntityIdValue wbEntityId, Element panelParagraph, PropertyIdValue propertyId,
 			ConfluenceWbConfig config) {
 		StringValue value = new StringValueImpl(panelParagraph.text());
 		statements.add(StatementBuilder.forSubjectAndProperty(wbEntityId, propertyId)
-				.withValue(value).withQualifierValue(config.getWbLayoutTyp(), config.getWbH5()).build());
+				.withValue(value).withQualifierValue(config.wbLayoutTyp, config.wbH5).build());
 	}
 
 	public static void addPanelUlLi(List<Statement> statements,EntityIdValue wbEntityId,  Element panelParagraph, PropertyIdValue propertyId,
@@ -41,7 +46,7 @@ public class Utils {
 		StringValue value = new StringValueImpl(panelParagraph.html());
 
 		statements.add(StatementBuilder.forSubjectAndProperty(wbEntityId, propertyId)
-				.withValue(value).withQualifierValue(config.getWbLayoutTyp(), config.getWbUlLi()).build());
+				.withValue(value).withQualifierValue(config.wbLayoutTyp, config.wbUlLi).build());
 	}
 
 	public static void addPanelOlLi(List<Statement> statements,EntityIdValue wbEntityId,  Element panelParagraph, PropertyIdValue propertyId,
@@ -49,7 +54,7 @@ public class Utils {
 		StringValue value = new StringValueImpl(panelParagraph.html());
 
 		statements.add(StatementBuilder.forSubjectAndProperty(wbEntityId, propertyId)
-				.withValue(value).withQualifierValue(config.getWbLayoutTyp(), config.getWbOlLi()).build());
+				.withValue(value).withQualifierValue(config.wbLayoutTyp, config.wbOlLi).build());
 	}
 
 	public static void onPanelExample(Elements exampleParagraphs) {
@@ -76,6 +81,20 @@ public class Utils {
 		} else if (tagName.equals("ol")) {
 			for (Element li : panelElement.children()) {
 				addPanelOlLi(statements, wbEntityId, li, propertyIdValue, config);
+			}
+		}
+	}
+	
+	public static void addWbIdsToRefs(Elements elements, WbEntityLoader wbLoader) throws MediaWikiApiErrorException, IOException {
+		for (Element e : elements) {
+			for (Element ref : e.getElementsByClass("ref")) {
+				String query = e.text();
+				if (query!=null && !query.isEmpty()) {
+					EntityDocument refDoc = wbLoader.lookupEntity(e.text());
+					if (refDoc!=null) {
+						ref.attr("href", refDoc.getEntityId().getId());
+					}	
+				}
 			}
 		}
 	}
