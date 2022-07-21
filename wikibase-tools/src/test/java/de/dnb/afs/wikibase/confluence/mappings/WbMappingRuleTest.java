@@ -14,5 +14,7 @@ public class WbMappingRuleTest extends TestCase  {
 		shortLabel = WbMappingRule.getShortLabel("Spezialregel Verschiedene Regeln desselben Namens");
 		assertEquals(shortLabel, "Verschiedene Regeln desselben Namens");
 	}
+	
+
 
 }

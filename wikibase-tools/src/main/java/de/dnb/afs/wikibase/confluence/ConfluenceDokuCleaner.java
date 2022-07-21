@@ -2,27 +2,52 @@ package de.dnb.afs.wikibase.confluence;
 
 import org.apache.commons.codec.CharEncoding;
 import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.nodes.Entities.EscapeMode;
+import org.jsoup.nodes.Node;
 import org.jsoup.safety.Cleaner;
 import org.jsoup.safety.Safelist;
+import org.jsoup.select.Elements;
 
 public class ConfluenceDokuCleaner {
 
+	private static final Log logger = LogFactory.getLog(ConfluenceDokuCleaner.class);
+
 	public Document clean(Document document) {
+		Element head = document.head();
 		Cleaner cleaner = new Cleaner(Safelist.basic().addAttributes("div", "data-macro-name").addAttributes("h1", "id")
-				.addTags("title").addTags("h2", "h3", "h4").addAttributes("span", "style"));
+				.addTags("head", "h2", "h3", "h4").addAttributes("span", "style"));
 		document = cleaner.clean(document);
+
 		Document newDocument = Document.createShell(document.baseUri());
-		newDocument.outputSettings().escapeMode(EscapeMode.xhtml);
+		newDocument.outputSettings().escapeMode(EscapeMode.extended);
 		newDocument.outputSettings().charset(CharEncoding.UTF_8);
 		newDocument.title(getLabel(document));
+		newDocument.head().appendChildren(cleanHead(head));
 		for (Element panel : document.body().getElementsByAttributeValue("data-macro-name", "panel")) {
 			cleanPanel(panel);
 			newDocument.body().appendChild(panel);
 		}
+		logger.debug(newDocument);
 		return newDocument;
+	}
+
+	public Elements cleanHead(Element head) {
+		logger.debug(head);
+		Elements ret = new Elements();
+		for (Node child : head.childNodes()) {
+			if (child instanceof Element) {
+				Element e = (Element) child;
+				if (e.attr("name").equals("ajs-page-id")) {
+					e.attr("id", "confluence-page-id");
+					ret.add(e);
+				} 
+			}
+		}
+		return ret;
 	}
 
 	public String getLabel(Document document) {
@@ -35,7 +60,9 @@ public class ConfluenceDokuCleaner {
 		return null;
 	}
 
+
 	public void cleanPanel(Element panel) {
+
 //		panel.tagName("panel");
 //		panel.removeAttr("data-macro-name");
 		for (Element e : panel.getAllElements()) {
@@ -46,11 +73,11 @@ public class ConfluenceDokuCleaner {
 			} else if (e.attr("data-macro-name").equals("expand")) {
 				e.remove();
 			} else if (e.tag().getName().equals("span")) {
-				if (StringUtils.deleteWhitespace(e.attr("style")).equals("color:rgb(255,0,255);")) {
+				if (isRef(e)) {
 					e.tagName("a");
 					e.attr("class", "ref");
 					e.removeAttr("style");
-				} else if (StringUtils.deleteWhitespace(e.attr("style")).equals("color:rgb(255,0,0);")) {
+				} else if (isLocalRef(e)) {
 					e.tagName("a");
 					e.attr("class", "localRef");
 					e.removeAttr("style");
@@ -71,5 +98,13 @@ public class ConfluenceDokuCleaner {
 				e.unwrap();
 			}
 		}
+	}
+
+	public boolean isRef(Node e) {
+		return StringUtils.deleteWhitespace(e.attr("style")).equals("color:rgb(255,0,255);");
+	}
+
+	public boolean isLocalRef(Node e) {
+		return StringUtils.deleteWhitespace(e.attr("style")).equals("color:rgb(255,0,0);");
 	}
 }

@@ -19,11 +19,11 @@ public class ConfluenceCleanerApp {
 	public static void main(String[] args) throws MediaWikiApiErrorException, IOException {
 		final WbProps wbProps = PropsHelper.getProps();
 		ConfluenceWbConfig config = ConfluenceWbConfigFactory.newStandardConfig();
-		Document document = new ConfluenceDokuCleaner().clean(
-				new ConfluencePageLoader(config.confluenceUrl, wbProps.confluenceUser, wbProps.confluencePass)
-						.loadDocument("217541956"));
-		
-		logger.debug(document);
+		Document document = new ConfluencePageLoader(config.confluenceUrl, wbProps.confluenceUser, wbProps.confluencePass)
+		.loadDocument("217541956");
+
+		document = new ConfluenceDokuCleaner().clean(document);
+//		logger.debug(document);
 	}
 	
 }

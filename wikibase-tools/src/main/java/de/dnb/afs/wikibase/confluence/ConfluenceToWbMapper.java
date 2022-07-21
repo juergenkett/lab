@@ -1,25 +1,21 @@
 package de.dnb.afs.wikibase.confluence;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+import org.wikidata.wdtk.datamodel.helpers.StatementBuilder;
 import org.wikidata.wdtk.datamodel.implementation.MonolingualTextValueImpl;
 import org.wikidata.wdtk.datamodel.interfaces.EntityDocument;
-import org.wikidata.wdtk.datamodel.interfaces.EntityIdValue;
-import org.wikidata.wdtk.datamodel.interfaces.MonolingualTextValue;
-import org.wikidata.wdtk.datamodel.interfaces.Statement;
 import org.wikidata.wdtk.datamodel.interfaces.TermedStatementDocument;
 import org.wikidata.wdtk.wikibaseapi.apierrors.MediaWikiApiErrorException;
 
 import de.dnb.afs.wikibase.WbEntityEditor;
+import de.dnb.afs.wikibase.WbEntityProperties;
 
 /**
  * @author kett
@@ -31,16 +27,22 @@ public class ConfluenceToWbMapper {
 
 	private List<WbMapping> wbMappings;
 
-	private List<Statement> initialStatements;
-
 	private WbEntityEditor wbEditor;
 
-	public ConfluenceToWbMapper(WbEntityEditor wbEditor, List<WbMapping> wbMappings, List<Statement> initialStatements)
+	private ConfluenceWbConfig config;
+
+	public ConfluenceToWbMapper(WbEntityEditor wbEditor, List<WbMapping> wbMappings, ConfluenceWbConfig config)
 			throws MediaWikiApiErrorException, IOException {
 		this.wbMappings = wbMappings;
 		this.wbEditor = wbEditor;
+		this.config = config;
+	}
 
-		this.initialStatements = initialStatements;
+	private void addInitialStatements(WbEntityProperties entity) {
+		entity.getStatements().add(StatementBuilder.forSubjectAndProperty(entity.getEntityId(), config.schema)
+				.withValue(config.rdaDocumentation).build());
+		entity.getStatements().add(StatementBuilder.forSubjectAndProperty(entity.getEntityId(), config.elementOf)
+				.withValue(config.rdaProperty).build());
 	}
 
 	private WbMapping lookupMapping(String panelText) {
@@ -54,53 +56,47 @@ public class ConfluenceToWbMapper {
 		return null;
 	}
 
-//	private ItemDocument newItem() {
-//		ItemDocumentBuilder itemBuilder = ItemDocumentBuilder.forItemId(ItemIdValue.NULL);
-//		for (Statement statement : initialStatements) {
-//			itemBuilder.withStatement(statement);
-//		}
-//		return itemBuilder.build();
-//	}
-//
-//	private PropertyDocument newProperty() {
-//		PropertyDocumentBuilder propertyBuilder = PropertyDocumentBuilder.forPropertyIdAndDatatype(PropertyIdValue.NULL,
-//				DatatypeIdValue.DT_PROPERTY);
-//		for (Statement statement : initialStatements) {
-//			propertyBuilder.withStatement(statement);
-//		}
-//		return propertyBuilder.build();
-//	}
-
 	private TermedStatementDocument getEntity(String wbEntityId) throws MediaWikiApiErrorException, IOException {
 		return (TermedStatementDocument) wbEditor.getEntity(wbEntityId);
 	}
 
 	public EntityDocument map(Document document, String wbEntityId) {
 		try {
-			TermedStatementDocument entity = getEntity(wbEntityId);
+			TermedStatementDocument oldVersion = getEntity(wbEntityId);
 
-			if (entity == null) {
+			if (oldVersion == null) {
 				logger.warn("entity mit Id " + wbEntityId + " nicht gefunden. Überspringe Mapping.");
 				return null;
 			}
-			logger.debug("entity mit Id " + wbEntityId + " gefunden. Revision Id: " + entity.getRevisionId());
-			Map<String, MonolingualTextValue> labels = getLabels(document);
-			List<Statement> statements = new ArrayList<Statement>();
+			logger.debug("entity mit Id " + wbEntityId + " gefunden. Revision Id: " + oldVersion.getRevisionId());
+
+			WbEntityProperties entity = new WbEntityProperties();
+			entity.setEntityId(oldVersion.getEntityId());
+			entity.setRevisionId(oldVersion.getRevisionId());
+			addLabels(document, entity);
+			addAliases(document, entity);
+			addInitialStatements(entity);
 			Elements panels = document.getElementsByAttributeValue("data-macro-name", "panel");
 			for (Element panel : panels) {
-				mapPanel(labels, panel, entity.getEntityId(), statements);
+				addPanelStatements(panel, entity);
 			}
 			logger.debug("Item wird aktualisiert ...");
-			wbEditor.updateEntity(entity, labels, statements);
-			return entity;
+			wbEditor.updateEntity(entity, true);
+			return null;
 		} catch (IOException | MediaWikiApiErrorException e) {
 			logger.error(e);
 			return null;
 		}
 	}
 
-	public void mapPanel(Map<String, MonolingualTextValue> entityLabels, Element panel, EntityIdValue wbEntityId,
-			List<Statement> statements) {
+	private void addAliases(Document document, WbEntityProperties entity) {
+		String confluencePageId = document.getElementById("confluence-page-id").attr("content");
+		if (confluencePageId != null) {
+			entity.getAliases().add(new MonolingualTextValueImpl("confluence:" + confluencePageId, "de"));
+		}
+	}
+
+	public void addPanelStatements(Element panel, WbEntityProperties entity) {
 		String panelAsText = panel.text();
 //		logger.debug("PANEL-TEXT: " + panelAsText);
 
@@ -137,11 +133,10 @@ public class ConfluenceToWbMapper {
 		}
 
 		logger.debug("Starte Mapping für panel : " + label + " mit " + wbMapping);
-		wbMapping.doMap(entityLabels, label, panelElements, wbEntityId, statements);
+		wbMapping.doMap(label, panelElements, entity);
 	}
 
-	public Map<String, MonolingualTextValue> getLabels(Document document) {
-		Map<String, MonolingualTextValue> ret = new HashMap<String, MonolingualTextValue>();
+	public void addLabels(Document document, WbEntityProperties entity) {
 		String label = document.title();
 		String labelDe = null;
 		String labelEn = null;
@@ -151,9 +146,8 @@ public class ConfluenceToWbMapper {
 			if (labels.length > 1) {
 				labelEn = labels[1];
 			}
-			ret.put("de", new MonolingualTextValueImpl(labelDe, "de"));
-			ret.put("en", new MonolingualTextValueImpl(labelEn, "en"));
+			entity.getLabels().put("de", new MonolingualTextValueImpl(labelDe, "de"));
+			entity.getLabels().put("en", new MonolingualTextValueImpl(labelEn, "en"));
 		}
-		return ret;
 	}
 }

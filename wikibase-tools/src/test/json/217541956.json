@@ -1,1 +1,22 @@
-{"type":"item","id":"Q0","labels":{"de":{"language":"de","value":"Bevorzugter Name einer Person"},"en":{"language":"en","value":"preferred name of person"}},"descriptions":{},"aliases":{},"claims":{},"sitelinks":{}}
+{
+	"type": "item",
+	"id": "Q0",
+	"labels": {
+		"de": {
+			"language": "de",
+			"value": "Bevorzugter Name einer Person"
+		},
+		"en": {
+			"language": "en",
+			"value": "preferred name of person"
+		}
+	},
+	"descriptions": {
+	},
+	"aliases": {
+	},
+	"claims": {
+	},
+	"sitelinks": {
+	}
+}

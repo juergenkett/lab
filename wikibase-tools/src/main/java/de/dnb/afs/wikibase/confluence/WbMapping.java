@@ -1,12 +1,8 @@
 package de.dnb.afs.wikibase.confluence;
 
-import java.util.List;
-import java.util.Map;
-
 import org.jsoup.select.Elements;
-import org.wikidata.wdtk.datamodel.interfaces.EntityIdValue;
-import org.wikidata.wdtk.datamodel.interfaces.MonolingualTextValue;
-import org.wikidata.wdtk.datamodel.interfaces.Statement;
+
+import de.dnb.afs.wikibase.WbEntityProperties;
 
 public abstract class WbMapping {
 
@@ -20,6 +16,5 @@ public abstract class WbMapping {
 		this.labelPattern = labelPattern;
 	}
 
-	public abstract void doMap(Map<String, MonolingualTextValue> entityLabels, String panelLabelDe, Elements paragraphs, EntityIdValue wbEntityId,
-			List<Statement> wbStatements);
+	public abstract void doMap(String panelLabelDe, Elements paragraphs, WbEntityProperties entity);
 }

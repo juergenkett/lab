@@ -2,23 +2,18 @@ package de.dnb.afs.wikibase.confluence;
 
 import java.io.IOException;
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
-import org.wikidata.wdtk.wikibaseapi.ApiConnection;
-import org.wikidata.wdtk.wikibaseapi.BasicApiConnection;
 import org.wikidata.wdtk.wikibaseapi.LoginFailedException;
 import org.wikidata.wdtk.wikibaseapi.apierrors.MediaWikiApiErrorException;
 
-import de.dnb.afs.wikibase.confluence.factories.ConfluenceWbConfigFactory;
 import junit.framework.TestCase;
 
 public class ConfluenceToWbMapperTest extends TestCase {
 
-	private static final Log logger = LogFactory.getLog(ConfluenceToWbMapperTest.class);
-
-	private ConfluenceWbConfig config = ConfluenceWbConfigFactory.newStandardConfig();
-
-	private ApiConnection localApi = new BasicApiConnection(ConfluenceWbConfig.LOCALHOST_WIKIBASE_URL);
+//	private static final Log logger = LogFactory.getLog(ConfluenceToWbMapperTest.class);
+//
+//	private ConfluenceWbConfig config = ConfluenceWbConfigFactory.newStandardConfig();
+//
+//	private ApiConnection localApi = new BasicApiConnection(ConfluenceWbConfig.LOCALHOST_WIKIBASE_URL);
 
 	public void test() throws IOException, MediaWikiApiErrorException, LoginFailedException {
 

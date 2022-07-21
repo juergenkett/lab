@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.util.List;
 
 import org.jsoup.nodes.Element;
+import org.jsoup.nodes.Node;
 import org.jsoup.select.Elements;
 import org.wikidata.wdtk.datamodel.helpers.StatementBuilder;
 import org.wikidata.wdtk.datamodel.implementation.StringValueImpl;
@@ -20,6 +21,7 @@ public class Utils {
 
 	public static void addPanelParagraph(List<Statement> statements, EntityIdValue wbEntityId,  Element panelParagraph,
 			PropertyIdValue propertyId) {
+
 		StringValue value = new StringValueImpl(panelParagraph.html());
 		if (value != null) {
 			statements.add(StatementBuilder.forSubjectAndProperty(wbEntityId, propertyId)
@@ -66,7 +68,7 @@ public class Utils {
 			PropertyIdValue propertyIdValue, ConfluenceWbConfig config) {
 		if (panelElement.text().trim().length() == 0)
 			return;
-
+		Utils.removeLeadingAndTrailingBr(panelElement);
 		String tagName = panelElement.tagName();
 		if (tagName.equals("p")) {
 			addPanelParagraph(statements, wbEntityId, panelElement, propertyIdValue);
@@ -96,6 +98,20 @@ public class Utils {
 					}	
 				}
 			}
+		}
+	}
+	
+	public static void removeLeadingAndTrailingBr(Element e) {
+		for (Node child : e.childNodes()) {
+			if (child instanceof Element && ((Element)child).tagName().equals("br")) {
+				child.remove();
+			} else break;
+		}
+		for (int i = e.childNodes().size(); i-- > 0;) {
+			Node child = e.childNode(i);
+			if (child instanceof Element && ((Element)child).tagName().equals("br")) {
+				child.remove();
+			} else break;
 		}
 	}
 
