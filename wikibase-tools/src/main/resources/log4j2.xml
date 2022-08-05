@@ -7,10 +7,17 @@
 		</Console>
 	</Appenders>
 	<Loggers>
-		<Logger name="de.dnb.afs" level="debug">
+	<!-- 
+		<Logger name="de.dnb.afs.wikibase.confluence.Utils" level="debug">
 			
 		</Logger>
-		<Logger name="org.wikidata.wdtk" level="debug">
+		-->
+		
+				<Logger name="de.dnb.afs.wikibase" level="debug">
+			
+		</Logger>
+		
+		<Logger name="org.wikidata.wdtk" level="error">
 			
 		</Logger>
 		

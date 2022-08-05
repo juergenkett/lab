@@ -15,6 +15,15 @@ public class WbMappingRuleTest extends TestCase  {
 		assertEquals(shortLabel, "Verschiedene Regeln desselben Namens");
 	}
 	
+	public void testIsHierarchicalRule() {
+		assertTrue(WbMappingRule.isHierachicalRule("Basisregeln Verschiedene Formen desselben Namens"));
+		assertFalse(WbMappingRule.isHierachicalRule("Verschiedene Regeln desselben Namens"));
+		assertTrue(WbMappingRule.isHierachicalRule("Spezialregel Verschiedene Regeln desselben Namens"));
+		assertFalse(WbMappingRule.isHierachicalRule("Spezialregeln"));
+	
+		
+	}
+	
 
 
 }

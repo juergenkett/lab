@@ -8,6 +8,7 @@ import org.wikidata.wdtk.datamodel.implementation.PropertyIdValueImpl;
 import org.wikidata.wdtk.datamodel.interfaces.PropertyIdValue;
 import org.wikidata.wdtk.wikibaseapi.apierrors.MediaWikiApiErrorException;
 
+import de.dnb.afs.wikibase.STAiDGeneratorImpl;
 import de.dnb.afs.wikibase.WbEntityEditor;
 import de.dnb.afs.wikibase.confluence.ConfluenceToWbMapper;
 import de.dnb.afs.wikibase.confluence.ConfluenceWbConfig;
@@ -29,23 +30,23 @@ public class ConfluenceToWbMapperFactory {
 //		wbMappings.add(new WbMappingTextValue("Status.*", newPropertyId("P485"), config));
 		wbMappings.add(new WbMappingLookupValue("Erfassungsmethode.*", newPropertyId("P126"),
 				WbMappingLookupValue.VALUE_PLACEHOLDER, wbEditor));
-		wbMappings.add(new WbMappingTextValue("Link zum Toolkit.*", newPropertyId("P638"), config));
-		wbMappings.add(new WbMappingTextValue("Format.*", newPropertyId("P4"), config));
-		wbMappings.add(new WbMappingTextValue("Definition.*", newPropertyId("P1"), config));
-		wbMappings.add(new WbMappingTextValue("Geltungsbereich/Erklärung.*", newPropertyId("P631"), config));
+		wbMappings.add(new WbMappingTextValue("Link zum Toolkit.*", newPropertyId("P638"), config, wbEditor));
+		wbMappings.add(new WbMappingTextValue("Format.*", newPropertyId("P4"), config, wbEditor));
+		wbMappings.add(new WbMappingTextValue("Definition.*", newPropertyId("P1"), config, wbEditor));
+		wbMappings.add(new WbMappingTextValue("Geltungsbereich/Erklärung.*", newPropertyId("P631"), config, wbEditor));
 		wbMappings.add(new WbMappingLookupValue("Beziehungen zu anderen Elementen Über.*", newPropertyId("P401"),
 				WbMappingLookupValue.VALUE_PLACEHOLDER, wbEditor));
 		wbMappings.add(new WbMappingLookupValue("Beziehungen zu anderen Elementen Unter.*", newPropertyId("P113"),
 				WbMappingLookupValue.VALUE_PLACEHOLDER, wbEditor));
-		wbMappings.add(new WbMappingTextValue("Informationsquellen.*", newPropertyId("P402"), config));
-		wbMappings.add(new WbMappingRule("Basisregeln.*", newPropertyId("P388"), config, wbEditor));
-//		wbMappings.add(new WbMappingRule("Spezialregeln.*", newPropertyId("P386"), config, wbEditor));
-//		wbMappings.add(new WbMappingRule("Spezifische Regeln.*", newPropertyId("P410"), config, wbEditor));
-		wbMappings.add(new WbMappingTextValue("Geltungsbereich/Erklärung.*", newPropertyId("P631"), config));
+		wbMappings.add(new WbMappingTextValue("Informationsquellen.*", newPropertyId("P402"), config, wbEditor));
+		wbMappings.add(new WbMappingRule("Basisregeln .*", config.pBasicRules, config, wbEditor));
+		wbMappings.add(new WbMappingRule("Spezialregeln.*", newPropertyId("P386"), config, wbEditor));
+		wbMappings.add(new WbMappingRule("Spezifische Regeln.*", newPropertyId("P410"), config, wbEditor));
+		wbMappings.add(new WbMappingTextValue("Geltungsbereich/Erklärung.*", newPropertyId("P631"), config, wbEditor));
 
-
-
-		ConfluenceToWbMapper ret = new ConfluenceToWbMapper(wbEditor, wbMappings, config);
+		ConfluenceToWbMapper ret = new ConfluenceToWbMapper(wbEditor, new STAiDGeneratorImpl(config, wbEditor),
+				wbMappings, config);
+		
 		return ret;
 	}
 

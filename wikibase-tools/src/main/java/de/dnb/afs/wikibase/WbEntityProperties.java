@@ -11,17 +11,27 @@ import org.wikidata.wdtk.datamodel.interfaces.Statement;
 
 public class WbEntityProperties {
 
-	Map<String, MonolingualTextValue> descriptions = new HashMap<String, MonolingualTextValue>() ;
+	private Map<String, MonolingualTextValue> descriptions = new HashMap<String, MonolingualTextValue>() ;
 
-	List<MonolingualTextValue> aliases = new ArrayList<MonolingualTextValue>();
+	private List<MonolingualTextValue> aliases = new ArrayList<MonolingualTextValue>();
 
-	Map<String, MonolingualTextValue> labels = new HashMap<String, MonolingualTextValue>();
+	private Map<String, MonolingualTextValue> labels = new HashMap<String, MonolingualTextValue>();
 	
-	List<Statement> statements = new ArrayList<Statement>();
+	private List<Statement> statements = new ArrayList<Statement>();
 
-	EntityIdValue entityId;
-
+	private EntityIdValue entityId;
+	
+	private String staCode;
+	
 	long revisionId;
+	
+	public String getStaCode() {
+		return staCode;
+	}
+
+	public void setStaCode(String staCode) {
+		this.staCode = staCode;
+	}
 
 	public Map<String, MonolingualTextValue> getDescriptions() {
 		return descriptions;
@@ -70,6 +80,4 @@ public class WbEntityProperties {
 	public void setRevisionId(long revisionId) {
 		this.revisionId = revisionId;
 	}
-
-	
 }

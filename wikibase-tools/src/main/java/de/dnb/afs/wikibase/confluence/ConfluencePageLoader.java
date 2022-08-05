@@ -1,6 +1,7 @@
 package de.dnb.afs.wikibase.confluence;
 
 import java.io.IOException;
+import java.net.URL;
 import java.util.Map;
 
 import org.jsoup.Connection.Method;
@@ -36,6 +37,16 @@ public class ConfluencePageLoader {
 		Document document = Jsoup.connect(confluenceBaseUrl + PAGE_PATH + pageId).cookies(cookies) 
 				.method(Method.GET).userAgent(USER_AGENT).get();
 
+		return document;
+	}
+	
+	public Document loadDocument(URL url) throws IOException {
+		if (loginResponse == null) {
+			loginResponse = doLoginPost();
+		}
+		Map<String, String> cookies = loginResponse.cookies();
+		Document document = Jsoup.connect(url.toExternalForm()).cookies(cookies) 
+				.method(Method.GET).userAgent(USER_AGENT).get();
 		return document;
 	}
 

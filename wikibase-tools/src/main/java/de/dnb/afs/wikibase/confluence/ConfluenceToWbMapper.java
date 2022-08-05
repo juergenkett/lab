@@ -8,12 +8,14 @@ import org.apache.commons.logging.LogFactory;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+import org.wikidata.wdtk.datamodel.helpers.Datamodel;
 import org.wikidata.wdtk.datamodel.helpers.StatementBuilder;
-import org.wikidata.wdtk.datamodel.implementation.MonolingualTextValueImpl;
 import org.wikidata.wdtk.datamodel.interfaces.EntityDocument;
+import org.wikidata.wdtk.datamodel.interfaces.StringValue;
 import org.wikidata.wdtk.datamodel.interfaces.TermedStatementDocument;
 import org.wikidata.wdtk.wikibaseapi.apierrors.MediaWikiApiErrorException;
 
+import de.dnb.afs.wikibase.STAIdGenerator;
 import de.dnb.afs.wikibase.WbEntityEditor;
 import de.dnb.afs.wikibase.WbEntityProperties;
 
@@ -31,18 +33,24 @@ public class ConfluenceToWbMapper {
 
 	private ConfluenceWbConfig config;
 
-	public ConfluenceToWbMapper(WbEntityEditor wbEditor, List<WbMapping> wbMappings, ConfluenceWbConfig config)
-			throws MediaWikiApiErrorException, IOException {
+	private STAIdGenerator staIdGenerator;
+
+	public ConfluenceToWbMapper(WbEntityEditor wbEditor, STAIdGenerator staIdGenerator, List<WbMapping> wbMappings,
+			ConfluenceWbConfig config) throws MediaWikiApiErrorException, IOException {
 		this.wbMappings = wbMappings;
 		this.wbEditor = wbEditor;
 		this.config = config;
+		this.staIdGenerator = staIdGenerator;
+
 	}
 
-	private void addInitialStatements(WbEntityProperties entity) {
-		entity.getStatements().add(StatementBuilder.forSubjectAndProperty(entity.getEntityId(), config.schema)
-				.withValue(config.rdaDocumentation).build());
-		entity.getStatements().add(StatementBuilder.forSubjectAndProperty(entity.getEntityId(), config.elementOf)
-				.withValue(config.rdaProperty).build());
+	private void addInitialStatements(WbEntityProperties entityProperties) {
+		entityProperties.getStatements()
+				.add(StatementBuilder.forSubjectAndProperty(entityProperties.getEntityId(), config.pSchema)
+						.withValue(config.iRdaDocumentation).build());
+		entityProperties.getStatements()
+				.add(StatementBuilder.forSubjectAndProperty(entityProperties.getEntityId(), config.pElementOf)
+						.withValue(config.iRdaProperty).build());
 	}
 
 	private WbMapping lookupMapping(String panelText) {
@@ -60,45 +68,59 @@ public class ConfluenceToWbMapper {
 		return (TermedStatementDocument) wbEditor.getEntity(wbEntityId);
 	}
 
-	public EntityDocument map(Document document, String wbEntityId) {
-		try {
-			TermedStatementDocument oldVersion = getEntity(wbEntityId);
+	public EntityDocument map(Document document, String wbEntityId) throws MediaWikiApiErrorException, IOException {
 
-			if (oldVersion == null) {
-				logger.warn("entity mit Id " + wbEntityId + " nicht gefunden. Überspringe Mapping.");
-				return null;
-			}
-			logger.debug("entity mit Id " + wbEntityId + " gefunden. Revision Id: " + oldVersion.getRevisionId());
+		TermedStatementDocument oldVersion = getEntity(wbEntityId);
 
-			WbEntityProperties entity = new WbEntityProperties();
-			entity.setEntityId(oldVersion.getEntityId());
-			entity.setRevisionId(oldVersion.getRevisionId());
-			addLabels(document, entity);
-			addAliases(document, entity);
-			addInitialStatements(entity);
-			Elements panels = document.getElementsByAttributeValue("data-macro-name", "panel");
-			for (Element panel : panels) {
-				addPanelStatements(panel, entity);
-			}
-			logger.debug("Item wird aktualisiert ...");
-			wbEditor.updateEntity(entity, true);
-			return null;
-		} catch (IOException | MediaWikiApiErrorException e) {
-			logger.error(e);
+		if (oldVersion == null) {
+			logger.warn("entity mit Id " + wbEntityId + " nicht gefunden. Überspringe Mapping.");
 			return null;
 		}
+		logger.debug("entity mit Id " + wbEntityId + " gefunden. Revision Id: " + oldVersion.getRevisionId());
+
+		WbEntityProperties entity = new WbEntityProperties();
+		entity.setEntityId(oldVersion.getEntityId());
+		entity.setRevisionId(oldVersion.getRevisionId());
+		addLabels(document, entity);
+		addAliases(document, entity);
+		addInitialStatements(entity);
+		addStaCode(oldVersion, entity);
+
+		Elements panels = document.getElementsByAttributeValue("data-macro-name", "panel");
+		for (Element panel : panels) {
+			addPanelStatements(panel, entity);
+		}
+		logger.debug("Item wird aktualisiert ...");
+		wbEditor.updateEntity(entity, true);
+		return null;
+
+	}
+
+	private void addStaCode(TermedStatementDocument oldVersion, WbEntityProperties entity)
+			throws MediaWikiApiErrorException, IOException {
+		StringValue staCode = oldVersion.findStatementStringValue(config.pStaCode);
+		if (staCode == null) {
+			entity.setStaCode(staIdGenerator.generateId(entity));
+		} else {
+			entity.setStaCode(staCode.getString());
+		}
+		entity.getStatements().add(StatementBuilder.forSubjectAndProperty(entity.getEntityId(), config.pStaCode)
+				.withValue(Datamodel.makeStringValue(entity.getStaCode())).build());
 	}
 
 	private void addAliases(Document document, WbEntityProperties entity) {
 		String confluencePageId = document.getElementById("confluence-page-id").attr("content");
 		if (confluencePageId != null) {
-			entity.getAliases().add(new MonolingualTextValueImpl("confluence:" + confluencePageId, "de"));
+			entity.getAliases().add(Datamodel.makeMonolingualTextValue("confluence:" + confluencePageId, "de"));
+		
+
 		}
+//		Utils.addNormalizedLabel(entity);
 	}
 
-	public void addPanelStatements(Element panel, WbEntityProperties entity) {
+	public void addPanelStatements(Element panel, WbEntityProperties entity)
+			throws MediaWikiApiErrorException, IOException {
 		String panelAsText = panel.text();
-//		logger.debug("PANEL-TEXT: " + panelAsText);
 
 		if (panel.children().size() < 1) {
 			logger.debug("Überspringe panel, da es kein label hat");
@@ -121,7 +143,6 @@ public class ConfluenceToWbMapper {
 		 */
 		Element contentPanel = panel.child(1);
 		Elements panelElements = contentPanel.children();
-//		logger.debug("PANEL-CONTENT: " + panelElements);
 
 		/*
 		 * Mapping suchen
@@ -146,8 +167,8 @@ public class ConfluenceToWbMapper {
 			if (labels.length > 1) {
 				labelEn = labels[1];
 			}
-			entity.getLabels().put("de", new MonolingualTextValueImpl(labelDe, "de"));
-			entity.getLabels().put("en", new MonolingualTextValueImpl(labelEn, "en"));
+			entity.getLabels().put("de", Datamodel.makeMonolingualTextValue(labelDe, "de"));
+			entity.getLabels().put("en", Datamodel.makeMonolingualTextValue(labelEn, "en"));
 		}
 	}
 }

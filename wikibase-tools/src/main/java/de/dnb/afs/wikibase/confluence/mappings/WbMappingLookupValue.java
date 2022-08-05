@@ -50,7 +50,7 @@ public class WbMappingLookupValue extends WbMapping {
 		String query = lookupPattern.replace(VALUE_PLACEHOLDER, value);
 		logger.debug("Suche Entität mit Query: '" + query + "'");
 		try {
-			EntityDocument refEntity = wbEntityLoader.lookupEntity(query);
+			EntityDocument refEntity = wbEntityLoader.lookupItem(query);
 			if (refEntity != null) {
 				Statement statement = StatementBuilder.forSubjectAndProperty(newEntity.getEntityId(), wbId)
 						.withValue(refEntity.getEntityId()).build();

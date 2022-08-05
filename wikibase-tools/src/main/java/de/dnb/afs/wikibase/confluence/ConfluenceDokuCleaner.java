@@ -12,6 +12,8 @@ import org.jsoup.safety.Cleaner;
 import org.jsoup.safety.Safelist;
 import org.jsoup.select.Elements;
 
+import de.dnb.afs.wikibase.confluence.mappings.WbMappingRule;
+
 public class ConfluenceDokuCleaner {
 
 	private static final Log logger = LogFactory.getLog(ConfluenceDokuCleaner.class);
@@ -28,15 +30,40 @@ public class ConfluenceDokuCleaner {
 		newDocument.title(getLabel(document));
 		newDocument.head().appendChildren(cleanHead(head));
 		for (Element panel : document.body().getElementsByAttributeValue("data-macro-name", "panel")) {
+			if (isRemovePanel(panel)) {
+				logger.debug("# remove panel " + panel.text());
+				panel.remove();
+				continue;
+			}
 			cleanPanel(panel);
 			newDocument.body().appendChild(panel);
 		}
-		logger.debug(newDocument);
 		return newDocument;
 	}
 
+	public boolean isRemovePanel(Element panel) {
+		return panel.text().replaceAll("&nbsp;", " ").trim().startsWith("Kommentare") || isEmptyPanel(panel);
+	}
+
+	public static boolean isEmptyPanel(Element panel) {
+		if (panel.children().size() < 2)
+			return true;
+		if (panel.child(1).hasAttr("data-macro-name"))
+			return true;
+		String content = panel.child(1).text().replaceAll("nbsp;", "").trim().toLowerCase();
+
+		if (content.isBlank())
+			return true;
+		if (content.startsWith("nicht zutreffend")) {
+			return true;
+		}
+		if (content.startsWith("kommentare"))
+			return true;
+
+		return false;
+	}
+
 	public Elements cleanHead(Element head) {
-		logger.debug(head);
 		Elements ret = new Elements();
 		for (Node child : head.childNodes()) {
 			if (child instanceof Element) {
@@ -44,22 +71,23 @@ public class ConfluenceDokuCleaner {
 				if (e.attr("name").equals("ajs-page-id")) {
 					e.attr("id", "confluence-page-id");
 					ret.add(e);
-				} 
+				}
 			}
 		}
 		return ret;
 	}
 
-	public String getLabel(Document document) {
+	public static String getLabel(Document document) {
 		Element titleElement = document.getElementById("title-text");
 		if (titleElement != null) {
-			String label = titleElement.text().replaceFirst("AP .* \\| .* - .* - ", "");
-
-			return label;
+			return getLabel(titleElement.text());
 		}
 		return null;
 	}
 
+	public static String getLabel(String label) {
+		return label.replaceFirst("AP .* \\| ", "").replaceFirst(".* - .* - ", "");
+	}
 
 	public void cleanPanel(Element panel) {
 
@@ -72,16 +100,34 @@ public class ConfluenceDokuCleaner {
 				// remove sections that are not needed
 			} else if (e.attr("data-macro-name").equals("expand")) {
 				e.remove();
-			} else if (e.tag().getName().equals("span")) {
+			} else if (e.tag().normalName().equals("span")) {
 				if (isRef(e)) {
-					e.tagName("a");
-					e.attr("class", "ref");
-					e.removeAttr("style");
+					if (isContainingWords(e)) {
+//						logger.debug("Füge Referenz hinzu: '" + e + "'");
+						e.tagName("a");
+						e.attr("class", "ref");
+						e.removeAttr("style");
+					} else {
+//						logger.debug("Entferne Referenz: '" + e + "'");
+						e.unwrap();
+
+					}
 				} else if (isLocalRef(e)) {
-					e.tagName("a");
-					e.attr("class", "localRef");
-					e.removeAttr("style");
+					if (isContainingWords(e)) {
+//						logger.debug("Füge lokale Referenz hinzu: '" + e + "'");
+						String anchorId = getLocalRef(e.text());
+						e.tagName("a");
+						e.attr("class", "localRef");
+						e.removeAttr("style");
+						e.attr("href", anchorId);
+
+					} else {
+//						logger.debug("Entferne lokale Referenz: '" + e + "'");
+						e.unwrap();
+
+					}
 				} else {
+//					logger.debug("Entferne span: '" + e + "'");
 					e.unwrap();
 				}
 			} else if (e.attr("data-macro-name").equals("info")) {
@@ -97,14 +143,39 @@ public class ConfluenceDokuCleaner {
 					&& (!e.hasText() || e.parent().tagName().equals(e.tagName()))) {
 				e.unwrap();
 			}
+
+//			/*
+//			 * bette Listen-Elemente in <p> Tags ein
+//			 */
+//			if ((e.normalName().equals("ul") || e.normalName().equals("ol")) && !e.parent().normalName().equals("p")) {
+//				Element p = new Element("p");
+//				e.replaceWith(p);
+//				p.appendChild(e);
+//			}
+
 		}
 	}
 
-	public boolean isRef(Node e) {
-		return StringUtils.deleteWhitespace(e.attr("style")).equals("color:rgb(255,0,255);");
+	public static String getLocalRef(String text) {
+		return "#" + WbMappingRule.getShortLabel(StringUtils.removeEnd(text.trim(), "."));
 	}
 
-	public boolean isLocalRef(Node e) {
-		return StringUtils.deleteWhitespace(e.attr("style")).equals("color:rgb(255,0,0);");
+	public boolean isContainingWords(Element e) {
+		String text = e.text().trim();
+		return text.length() > 3 && text.matches("\\w.*");
+	}
+
+	public boolean isRef(Element e) {
+		boolean isMarkedAsRef = StringUtils.deleteWhitespace(e.attr("style")).equals("color:rgb(255,0,255);");
+		boolean isNotContaingOvewritingMark = e.getElementsByAttribute("style").size() < 2;
+
+		return isMarkedAsRef && isNotContaingOvewritingMark;
+	}
+
+	public boolean isLocalRef(Element e) {
+		boolean isMarkedAsLocalRef = StringUtils.deleteWhitespace(e.attr("style")).equals("color:rgb(255,0,0);");
+		boolean isNotContaingOverwritingMark = e.getElementsByAttribute("style").size() < 2;
+		return isMarkedAsLocalRef && isNotContaingOverwritingMark;
+
 	}
 }

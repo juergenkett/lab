@@ -3,21 +3,27 @@ package de.dnb.afs.wikibase;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 import org.apache.commons.lang3.Validate;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.wikidata.wdtk.datamodel.helpers.Datamodel;
 import org.wikidata.wdtk.datamodel.helpers.ItemDocumentBuilder;
 import org.wikidata.wdtk.datamodel.helpers.TermedDocumentUpdateBuilder;
 import org.wikidata.wdtk.datamodel.implementation.AliasUpdateImpl;
+import org.wikidata.wdtk.datamodel.implementation.ItemDocumentImpl;
 import org.wikidata.wdtk.datamodel.implementation.StatementUpdateImpl;
 import org.wikidata.wdtk.datamodel.implementation.TermUpdateImpl;
+import org.wikidata.wdtk.datamodel.interfaces.EntityIdValue;
+import org.wikidata.wdtk.datamodel.interfaces.ItemDocument;
 import org.wikidata.wdtk.datamodel.interfaces.ItemIdValue;
 import org.wikidata.wdtk.datamodel.interfaces.MonolingualTextValue;
 import org.wikidata.wdtk.datamodel.interfaces.Statement;
 import org.wikidata.wdtk.datamodel.interfaces.StatementDocumentUpdate;
+import org.wikidata.wdtk.datamodel.interfaces.StatementGroup;
 import org.wikidata.wdtk.datamodel.interfaces.StatementUpdate;
 import org.wikidata.wdtk.datamodel.interfaces.TermUpdate;
 import org.wikidata.wdtk.datamodel.interfaces.TermedStatementDocument;
@@ -116,22 +122,51 @@ public class WbEntityEditorImpl extends WbEntityLoaderImpl implements WbEntityEd
 
 	}
 
+	public static List<StatementGroup> makeStatementGroups(List<Statement> statements) {
+		Map<String, List<Statement>> sortedStatements = new HashMap<String, List<Statement>>();
+		for (Statement s : statements) {
+			List<Statement> list = sortedStatements.get(s.getMainSnak().getPropertyId().getId());
+			if (list == null) {
+				list = new ArrayList<Statement>();
+				sortedStatements.put(s.getMainSnak().getPropertyId().getId(), list);
+			}
+			list.add(s);
+		}
+		ArrayList<StatementGroup> ret = new ArrayList<StatementGroup>();
+		for (List<Statement> statementList : sortedStatements.values()) {
+			ret.add(Datamodel.makeStatementGroup(statementList));
+		}
+		
+	
+		
+		return ret;
+	}
+
 	@Override
 	public void createItem(WbEntityProperties props) throws IOException, MediaWikiApiErrorException {
-		ItemDocumentBuilder builder = ItemDocumentBuilder.forItemId(ItemIdValue.NULL);
-		for (MonolingualTextValue label : props.getLabels().values()) {
-			builder.withLabel(label);
-		}
-		for (MonolingualTextValue alias : props.getAliases()) {
-			builder.withLabel(alias);
-		}
-		for (MonolingualTextValue desc : props.getDescriptions().values()) {
-			builder.withDescription(desc);
-		}
-		for (Statement statement : props.getStatements()) {
-			builder.withStatement(statement);
-		}
-		TermedStatementDocument result = (TermedStatementDocument) wbde.createEntityDocument(builder.build(), null, null);
+
+		ItemDocument document = Datamodel.makeItemDocument(ItemIdValue.NULL,
+				new ArrayList<MonolingualTextValue>(props.getLabels().values()),
+				new ArrayList<MonolingualTextValue>(props.getDescriptions().values()), props.getAliases(),
+				makeStatementGroups(props.getStatements()), Collections.emptyMap() , 0);
+
+		
+//		ItemDocumentBuilder builder = ItemDocumentBuilder.forItemId(ItemIdValue.NULL);
+//		for (String language : props.getLabels().keySet()) {
+//			builder.withLabel(props.getLabels().get(language));
+//		}
+//		for (MonolingualTextValue alias : props.getAliases()) {
+//			builder.withLabel(alias);
+//		}
+//		for (MonolingualTextValue desc : props.getDescriptions().values()) {
+//			logger.debug(desc.getLanguageCode() + " " + desc.getText());
+//			builder.withDescription(desc);
+//		}
+//		for (Statement statement : props.getStatements()) {
+//			builder.withStatement(statement);
+//		}
+//		ItemDocument document = builder.build();
+		TermedStatementDocument result = (TermedStatementDocument) wbde.createEntityDocument(document, null, null);
 		props.setRevisionId(result.getRevisionId());
 		props.setEntityId(result.getEntityId());
 	}
