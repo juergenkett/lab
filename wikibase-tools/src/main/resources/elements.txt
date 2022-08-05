@@ -1,0 +1,185 @@
+P439	Abspielgeschwindigkeit	https://wiki.dnb.de/pages/viewpage.action?pageId=206396771
+P441	Abweichender Titel einer Manifestation	https://wiki.dnb.de/pages/viewpage.action?pageId=206373188
+P443	Abweichender Titel eines Werks	https://wiki.dnb.de/pages/viewpage.action?pageId=198096618
+P442	Akteur, der mit einer Manifestation in Verbindung steht	https://wiki.dnb.de/pages/viewpage.action?pageId=212767358
+P444	Alphanumerische Bezeichnung der ersten Ausgabe oder des ersten Teils einer Folge	https://wiki.dnb.de/pages/viewpage.action?pageId=198096549
+P445	Alphanumerische Bezeichnung der letzten Ausgabe oder des letzten Teils einer Folge	https://wiki.dnb.de/pages/viewpage.action?pageId=198096576
+P446	Alternative alphanumerische Bezeichnung der ersten Ausgabe oder des ersten Teils einer Folge	https://wiki.dnb.de/pages/viewpage.action?pageId=198096543
+P447	Alternative alphanumerische Bezeichnung der letzten Ausgabe oder des letzten Teils einer Folge	https://wiki.dnb.de/pages/viewpage.action?pageId=198096569
+P448	Alternative chronologische Bezeichnung der ersten Ausgabe oder des ersten Teils einer Folge	https://wiki.dnb.de/pages/viewpage.action?pageId=198096556
+P449	Alternative chronologische Bezeichnung der letzten Ausgabe oder des letzten Teils einer Folge	https://wiki.dnb.de/pages/viewpage.action?pageId=198096580
+P450	Anmerkung zu �nderungen der Inhaltseigenschaften	https://wiki.dnb.de/pages/viewpage.action?pageId=206396966
+P451	Anmerkung zur Aufzeichnung	https://wiki.dnb.de/pages/viewpage.action?pageId=206396951
+P452	Anmerkung zur Expression	https://wiki.dnb.de/pages/viewpage.action?pageId=206396970
+P453	Anmerkung zur Manifestation	https://wiki.dnb.de/pages/viewpage.action?pageId=235320573
+P454	�quinoktium	https://wiki.dnb.de/pages/viewpage.action?pageId=206397722
+P455	Art der Aufnahme	https://wiki.dnb.de/pages/viewpage.action?pageId=206382769
+P409	Art des Inhalts	https://wiki.dnb.de/pages/viewpage.action?pageId=198096596
+P456	Aufgebrachtes Material	https://wiki.dnb.de/pages/viewpage.action?pageId=206396746
+P457	Aufl�sung	https://wiki.dnb.de/pages/viewpage.action?pageId=206382759
+P458	Aufzeichnungsdatum	https://wiki.dnb.de/pages/viewpage.action?pageId=206396927
+P459	Aufzeichnungsmedium	https://wiki.dnb.de/pages/viewpage.action?pageId=206382779
+P460	Aufzeichnungsort	https://wiki.dnb.de/pages/viewpage.action?pageId=206396977
+P461	Ausgabebezeichnung	https://wiki.dnb.de/pages/viewpage.action?pageId=198096523
+P462	Ausgabebezeichnung einer n�her erl�uterten �berarbeitung	https://wiki.dnb.de/pages/viewpage.action?pageId=198096527
+P463	Ausgabevermerk	https://wiki.dnb.de/pages/viewpage.action?pageId=198096536
+P464	Auszeichnung	https://wiki.dnb.de/pages/viewpage.action?pageId=206385168
+P465	Bandkonfiguration	https://wiki.dnb.de/pages/viewpage.action?pageId=206382795
+P466	Barrierefreier Inhalt	https://wiki.dnb.de/pages/viewpage.action?pageId=206398169
+P466	Benutzungsbeschr�nkung einer Manifestation	https://wiki.dnb.de/pages/viewpage.action?pageId=206377421
+P468	Besetzung f�r musikalischen Inhalt	https://wiki.dnb.de/pages/viewpage.action?pageId=206397775
+P469	Besondere Wiedergabeeigenschaft	https://wiki.dnb.de/pages/viewpage.action?pageId=206382812
+P470	Bevorzugter Titel eines Werks	https://wiki.dnb.de/pages/viewpage.action?pageId=198097574
+P474	Bezeichnung des Bildformats	https://wiki.dnb.de/pages/viewpage.action?pageId=206396900
+P475	Bezeichnung des Verkleinerungsfaktors	https://wiki.dnb.de/pages/viewpage.action?pageId=206391160
+P476	Bezugsbedingung	https://wiki.dnb.de/pages/viewpage.action?pageId=206379795
+P477	Bibliografisches Format	https://wiki.dnb.de/pages/viewpage.action?pageId=206397685
+P471	Bildformat	https://wiki.dnb.de/pages/viewpage.action?pageId=206396788
+P472	Bitrate	https://wiki.dnb.de/pages/viewpage.action?pageId=206379784
+P473	Charakter einer Hochschulschrift	https://wiki.dnb.de/pages/viewpage.action?pageId=198096517
+P478	Chronologische Bezeichnung der ersten Ausgabe oder des ersten Teils einer Folge	https://wiki.dnb.de/pages/viewpage.action?pageId=198096560
+P479	Chronologische Bezeichnung der letzten Ausgabe oder des letzten Teils einer Folge	https://wiki.dnb.de/pages/viewpage.action?pageId=198096586
+P480	Copyright-Datum	https://wiki.dnb.de/pages/viewpage.action?pageId=198096505
+P481	Dateigr��e	https://wiki.dnb.de/pages/viewpage.action?pageId=206377386
+P482	Dateityp	https://wiki.dnb.de/pages/viewpage.action?pageId=206377390
+P483	Datentr�gertyp	https://wiki.dnb.de/pages/viewpage.action?pageId=198096116
+P484	Datum eines Werks	https://wiki.dnb.de/pages/viewpage.action?pageId=198096281
+P485	Dauer	https://wiki.dnb.de/pages/viewpage.action?pageId=206391062
+P486	Details zu kartografischem Inhalt	https://wiki.dnb.de/pages/viewpage.action?pageId=206399698
+P487	Digitale Darstellung von kartografischem Inhalt	https://wiki.dnb.de/pages/viewpage.action?pageId=206397700
+P488	Druckplattennummer f�r Noten	https://wiki.dnb.de/pages/viewpage.action?pageId=206397794
+P489	Eigenschaft einer digitalen Datei	https://wiki.dnb.de/pages/viewpage.action?pageId=206377551&src=contextnavpagetreemode
+P490	Emulsionsschicht auf Mikrofilm und Mikrofiche	https://wiki.dnb.de/pages/viewpage.action?pageId=206396721
+P491	Entstehungsangabe	https://wiki.dnb.de/pages/viewpage.action?pageId=202452560
+P492	Entstehungsdatum	https://wiki.dnb.de/pages/viewpage.action?pageId=198097752
+P493	Entstehungsmethode	https://wiki.dnb.de/pages/viewpage.action?pageId=206396779
+P494	Entstehungsort	https://wiki.dnb.de/pages/viewpage.action?pageId=202452569
+P495	Epoche	https://wiki.dnb.de/pages/viewpage.action?pageId=206397719&src=contextnavpagetreemode
+P496	Erg�nzender Inhalt	https://wiki.dnb.de/pages/viewpage.action?pageId=198097046
+P502	Erscheinungsdatum	https://wiki.dnb.de/pages/viewpage.action?pageId=198096311
+P503	Erscheinungsfrequenz	https://wiki.dnb.de/pages/viewpage.action?pageId=198097537
+P504	Erscheinungsort	https://wiki.dnb.de/pages/viewpage.action?pageId=198097124
+P505	Erscheinungsweise	https://wiki.dnb.de/pages/viewpage.action?pageId=198097552
+P506	Erzeugername	https://wiki.dnb.de/pages/viewpage.action?pageId=202452581
+P507	Farbinhalt	https://wiki.dnb.de/pages/viewpage.action?pageId=198096268
+P508	Fingerprint	https://wiki.dnb.de/pages/viewpage.action?pageId=206397725
+P509	Form einer Musiknotation	https://wiki.dnb.de/pages/viewpage.action?pageId=206397734
+P510	Form einer Notation	https://wiki.dnb.de/pages/viewpage.action?pageId=206396931
+P511	Form einer taktilen Notation	https://wiki.dnb.de/pages/viewpage.action?pageId=206396938
+P512	Fr�herer Haupttitel	https://wiki.dnb.de/pages/viewpage.action?pageId=198097439
+P513	Geistiger Sch�pfer	https://wiki.dnb.de/pages/viewpage.action?pageId=198097101
+P514	Ger�te- oder Systemanforderung	https://wiki.dnb.de/pages/viewpage.action?pageId=206377372
+P515	Gesamttitelangabe	https://wiki.dnb.de/pages/viewpage.action?pageId=206379835
+P516	Grad-verleihende Institution	https://wiki.dnb.de/pages/viewpage.action?pageId=198097588
+P517	Halterung	https://wiki.dnb.de/pages/viewpage.action?pageId=206397780
+P518	Haupttitel	https://wiki.dnb.de/pages/viewpage.action?pageId=206377295
+P519	Herstellername	https://wiki.dnb.de/pages/viewpage.action?pageId=202452553
+P520	Herstellungsangabe	https://wiki.dnb.de/pages/viewpage.action?pageId=202452514
+P521	Herstellungsdatum	https://wiki.dnb.de/pages/viewpage.action?pageId=198096306
+P522	Herstellungsort	https://wiki.dnb.de/pages/viewpage.action?pageId=202452541
+P523	Hochschulschriftenvermerk	https://wiki.dnb.de/pages/viewpage.action?pageId=198097584
+P524	Horizontaler Ma�stab bei kartografischem Inhalt	https://wiki.dnb.de/pages/viewpage.action?pageId=206397749
+P526	Identifikator f�r ein Werk	https://wiki.dnb.de/pages/viewpage.action?pageId=198096610
+P525	Identifikator f�r eine Manifestation	https://wiki.dnb.de/pages/viewpage.action?pageId=198096564
+P527	Illustrierender Inhalt	https://wiki.dnb.de/pages/viewpage.action?pageId=198097204
+P528	In der Manifestation verk�rpertes Werk	https://wiki.dnb.de/pages/viewpage.action?pageId=206377367
+P529	Informationen zur Aufzeichnung	https://wiki.dnb.de/pages/viewpage.action?pageId=206396905
+P530	Inhaltlicher Bezugsrahmen	https://wiki.dnb.de/pages/viewpage.action?pageId=206396919
+P531	Inhaltstyp	https://wiki.dnb.de/pages/viewpage.action?pageId=198096483
+P532	ISSN einer Reihe	https://wiki.dnb.de/display/STANDARDISIERUNGSAUSSCHUSS/AP+2.1+%7C+ISSN+einer+Reihe
+P533	Jahr, in dem ein akademischer Grad verliehen wurde	https://wiki.dnb.de/pages/viewpage.action?pageId=202446366&src=contextnavpagetreemode
+P534	Kartografischer Datentyp	https://wiki.dnb.de/pages/viewpage.action?pageId=206397689&src=contextnavpagetreemode
+P535	Kategorie eines Werks	https://wiki.dnb.de/pages/viewpage.action?pageId=198096289&src=contextnavpagetreemode
+P536	Key Title	https://wiki.dnb.de/pages/viewpage.action?pageId=206396948&src=contextnavpagetreemode
+P537	Kodierungsformat	https://wiki.dnb.de/pages/viewpage.action?pageId=198097560&src=contextnavpagetreemode
+P538	Konfiguration der Wiedergabekan�le	https://wiki.dnb.de/pages/viewpage.action?pageId=206382755&src=contextnavpagetreemode
+P539	Koordinaten von kartografischem Inhalt	https://wiki.dnb.de/pages/viewpage.action?pageId=206397694&src=contextnavpagetreemode
+P540	Kopiengeneration	https://wiki.dnb.de/pages/viewpage.action?pageId=206396733&src=contextnavpagetreemode
+P541	Kurztitel	https://wiki.dnb.de/pages/viewpage.action?pageId=206377002&src=contextnavpagetreemode
+P542	L�ngengrad und Breitengrad	https://wiki.dnb.de/pages/viewpage.action?pageId=206397764&src=contextnavpagetreemode
+P543	Laufende Nummer eines Musikwerks	https://wiki.dnb.de/pages/viewpage.action?pageId=206398387&src=contextnavpagetreemode
+P544	Layout	https://wiki.dnb.de/pages/viewpage.action?pageId=198096276&src=contextnavpagetreemode
+P545	Ma�e	https://wiki.dnb.de/pages/viewpage.action?pageId=198096532&src=contextnavpagetreemode
+P546	Ma�e eines kartografischen Bilds	https://wiki.dnb.de/pages/viewpage.action?pageId=206397705&src=contextnavpagetreemode
+P547	Ma�e eines unbewegten Bilds	https://wiki.dnb.de/pages/viewpage.action?pageId=206397715&src=contextnavpagetreemode
+P548	Ma�stab	https://wiki.dnb.de/pages/viewpage.action?pageId=206397816&src=contextnavpagetreemode
+P549	Ma�stab eines unbewegten Bilds oder einer dreidimensionalen Form	https://wiki.dnb.de/pages/viewpage.action?pageId=206398374&src=contextnavpagetreemode
+P550	Ma�stabsbezeichnung	https://wiki.dnb.de/pages/viewpage.action?pageId=206397819&src=contextnavpagetreemode
+P551	Material	https://wiki.dnb.de/pages/viewpage.action?pageId=206397771&src=contextnavpagetreemode
+P552	Medientyp	https://wiki.dnb.de/pages/viewpage.action?pageId=198096591&src=contextnavpagetreemode
+P553	Mit Expression in Beziehung stehende Expression	https://wiki.dnb.de/pages/viewpage.action?pageId=217523871&src=contextnavpagetreemode
+P554	Mit Manifestation in Beziehung stehende Manifestation	https://wiki.dnb.de/pages/viewpage.action?pageId=217523867&src=contextnavpagetreemode
+P555	Mit Werk in Beziehung stehendes Werk	https://wiki.dnb.de/pages/viewpage.action?pageId=217523864&src=contextnavpagetreemode
+P556	Mitwirkende/Mitwirkender	https://wiki.dnb.de/pages/viewpage.action?pageId=198097418&src=contextnavpagetreemode
+P557	Musikalische Ausgabeform	https://wiki.dnb.de/pages/viewpage.action?pageId=206397738&src=contextnavpagetreemode
+P558	Musik-Bestellnummer	https://wiki.dnb.de/pages/viewpage.action?pageId=206397808&src=contextnavpagetreemode
+P559	Numerische Bezeichnung eines Musikwerks	https://wiki.dnb.de/pages/viewpage.action?pageId=206397783&src=contextnavpagetreemode
+P560	Opus-Nummer	https://wiki.dnb.de/pages/viewpage.action?pageId=206397789&src=contextnavpagetreemode
+P561	Parallele Ausgabebezeichnung	https://wiki.dnb.de/pages/viewpage.action?pageId=206382452&src=contextnavpagetreemode
+P562	Parallele Ausgabebezeichnung einer n�her erl�uterten �berarbeitung	https://wiki.dnb.de/pages/viewpage.action?pageId=206396974&src=contextnavpagetreemode
+P563	Paralleler Entstehungsort	https://wiki.dnb.de/pages/viewpage.action?pageId=198097080&src=contextnavpagetreemode
+P564	Paralleler Erscheinungsort	https://wiki.dnb.de/pages/viewpage.action?pageId=198096942&src=contextnavpagetreemode
+P565	Paralleler Erzeugername	https://wiki.dnb.de/pages/viewpage.action?pageId=198097064&src=contextnavpagetreemode
+P566	Paralleler Herstellername	https://wiki.dnb.de/pages/viewpage.action?pageId=198097062&src=contextnavpagetreemode
+P567	Paralleler Herstellungsort	https://wiki.dnb.de/pages/viewpage.action?pageId=198097077&src=contextnavpagetreemode
+P568	Paralleler Titelzusatz	https://wiki.dnb.de/pages/viewpage.action?pageId=206377405&src=contextnavpagetreemode
+P569	Paralleler Titelzusatz einer Reihe	https://wiki.dnb.de/pages/viewpage.action?pageId=223714508&src=contextnavpagetreemode
+P570	Paralleler Verlagsname	https://wiki.dnb.de/pages/viewpage.action?pageId=198097067&src=contextnavpagetreemode
+P571	Paralleler Vertriebsname	https://wiki.dnb.de/pages/viewpage.action?pageId=198097058&src=contextnavpagetreemode
+P572	Paralleler Vertriebsort	https://wiki.dnb.de/pages/viewpage.action?pageId=198097073&src=contextnavpagetreemode
+P573	Parallele Verantwortlichkeitsangabe, die sich auf eine Ausgabe bezieht	https://wiki.dnb.de/pages/viewpage.action?pageId=198096599&src=contextnavpagetreemode
+P574	Parallele Verantwortlichkeitsangabe, die sich auf eine n�her erl�uterte �berarbeitung einer Ausgabe bezieht	https://wiki.dnb.de/pages/viewpage.action?pageId=198096602&src=contextnavpagetreemode
+P575	Parallele Verantwortlichkeitsangabe, die sich auf einen Haupttitel bezieht	https://wiki.dnb.de/pages/viewpage.action?pageId=206377263&src=contextnavpagetreemode
+P576	Parallele Verantwortlichkeitsangabe, die sich auf eine Reihe bezieht	https://wiki.dnb.de/pages/viewpage.action?pageId=223714519&src=contextnavpagetreemode
+P577	Paralleltitel	https://wiki.dnb.de/pages/viewpage.action?pageId=206377277&src=contextnavpagetreemode
+P578	Paralleltitel einer Reihe	https://wiki.dnb.de/pages/viewpage.action?pageId=223714530&src=contextnavpagetreemode
+P579	Polarit�t	https://wiki.dnb.de/pages/viewpage.action?pageId=206391109&src=contextnavpagetreemode
+P580	Projektionseigenschaft von Filmen	https://wiki.dnb.de/pages/viewpage.action?pageId=206391163&src=contextnavpagetreemode
+P581	Projektionsgeschwindigkeit	https://wiki.dnb.de/pages/viewpage.action?pageId=206391177&src=contextnavpagetreemode
+P582	Projektion von kartografischem Inhalt	https://wiki.dnb.de/pages/viewpage.action?pageId=206397805&src=contextnavpagetreemode
+p583	Regionalcode	https://wiki.dnb.de/pages/viewpage.action?pageId=198097597&src=contextnavpagetreemode
+P584	Reihen von Koordinatenpaaren	https://wiki.dnb.de/pages/viewpage.action?pageId=206398392&src=contextnavpagetreemode
+P585	Rektaszension und Deklination	https://wiki.dnb.de/pages/viewpage.action?pageId=206398429&src=contextnavpagetreemode
+P586	Rilleneigenschaft	https://wiki.dnb.de/pages/viewpage.action?pageId=206396761&src=contextnavpagetreemode
+P587	Schrift	https://wiki.dnb.de/pages/viewpage.action?pageId=198096614&src=contextnavpagetreemode
+P588	Schriftgr��e	https://wiki.dnb.de/pages/viewpage.action?pageId=206397731&src=contextnavpagetreemode
+P589	Sendestandard	https://wiki.dnb.de/pages/viewpage.action?pageId=206384249&src=contextnavpagetreemode
+P590	Sonstiger Akteur, der mit einem Werk in Verbindung steht	https://wiki.dnb.de/pages/viewpage.action?pageId=206377445&src=contextnavpagetreemode
+P591	Sonstige unterscheidende Eigenschaft eines Werks	https://wiki.dnb.de/pages/viewpage.action?pageId=206388936&src=contextnavpagetreemode
+P592	Sprache einer Expression	https://wiki.dnb.de/pages/viewpage.action?pageId=198097540&src=contextnavpagetreemode
+P593	Titel einer Manifestation	https://wiki.dnb.de/pages/viewpage.action?pageId=206377283&src=contextnavpagetreemode
+P594	Titel einer Reihe	https://wiki.dnb.de/pages/viewpage.action?pageId=206377288&src=contextnavpagetreemode
+P595	Titel eines Werks	https://wiki.dnb.de/pages/viewpage.action?pageId=198097607&src=contextnavpagetreemode
+P596	Titelzusatz	https://wiki.dnb.de/pages/viewpage.action?pageId=198097428&src=contextnavpagetreemode
+P597	Titelzusatz einer Reihe	https://wiki.dnb.de/pages/viewpage.action?pageId=217543373&src=contextnavpagetreemode
+P598	Tonart einer Expression	https://wiki.dnb.de/pages/viewpage.action?pageId=206397753&src=contextnavpagetreemode
+P599	Toneigenschaft	https://wiki.dnb.de/pages/viewpage.action?pageId=206382765&src=contextnavpagetreemode
+P600	Toninhalt	https://wiki.dnb.de/pages/viewpage.action?pageId=206398355&src=contextnavpagetreemode
+P601	Tonspurlage (Film)	https://wiki.dnb.de/pages/viewpage.action?pageId=206382786&src=contextnavpagetreemode
+P062	Tr�germaterial	https://wiki.dnb.de/pages/viewpage.action?pageId=206396752&src=contextnavpagetreemode
+P603	Umfang einer Manifestation	https://wiki.dnb.de/pages/viewpage.action?pageId=198098925&src=contextnavpagetreemode
+P604	Uniform Resource Locator	https://wiki.dnb.de/pages/viewpage.action?pageId=206377300&src=contextnavpagetreemode
+P605	Ursprungsort eines Werks	https://wiki.dnb.de/pages/viewpage.action?pageId=198096308&src=contextnavpagetreemode
+P606	Verantwortlichkeitsangabe, die sich auf eine Ausgabe bezieht	https://wiki.dnb.de/pages/viewpage.action?pageId=206381332&src=contextnavpagetreemode
+P607	Verantwortlichkeitsangabe, die sich auf eine n�her erl�uterte �berarbeitung einer Ausgabe bezieht	https://wiki.dnb.de/pages/viewpage.action?pageId=206381337&src=contextnavpagetreemode
+P608	Verantwortlichkeitsangabe, die sich auf einen Haupttitel bezieht	https://wiki.dnb.de/pages/viewpage.action?pageId=198097106&src=contextnavpagetreemode
+P609	Verantwortlichkeitsangabe, die sich auf eine Reihe bezieht	https://wiki.dnb.de/pages/viewpage.action?pageId=198096278&src=contextnavpagetreemode
+P610	Verantwortlichkeitsangabe	https://wiki.dnb.de/pages/viewpage.action?pageId=198096318&src=contextnavpagetreemode
+P611	Verkleinerungsfaktor	https://wiki.dnb.de/pages/viewpage.action?pageId=206391152&src=contextnavpagetreemode
+P612	Verlagsname	https://wiki.dnb.de/pages/viewpage.action?pageId=198097089&src=contextnavpagetreemode
+P613	Ver�ffentlichungsangabe	https://wiki.dnb.de/pages/viewpage.action?pageId=198097386&src=contextnavpagetreemode
+P614	Vertikaler Ma�stab bei kartografischem Inhalt	https://wiki.dnb.de/pages/viewpage.action?pageId=206398411&src=contextnavpagetreemode
+P615	Vertriebsangabe	https://wiki.dnb.de/pages/viewpage.action?pageId=198097052&src=contextnavpagetreemode
+P616	Vertriebsdatum	https://wiki.dnb.de/pages/viewpage.action?pageId=198096292&src=contextnavpagetreemode
+P617	Vertriebsname	https://wiki.dnb.de/pages/viewpage.action?pageId=198097054&src=contextnavpagetreemode
+P618	Vertriebsort	https://wiki.dnb.de/pages/viewpage.action?pageId=198097087&src=contextnavpagetreemode
+P619	Video-Eigenschaft	https://wiki.dnb.de/pages/viewpage.action?pageId=206384401&src=contextnavpagetreemode
+P620	Videoformat	https://wiki.dnb.de/pages/viewpage.action?pageId=206384105&src=contextnavpagetreemode
+P621	Werkverzeichnisnummer	https://wiki.dnb.de/pages/viewpage.action?pageId=206398398&src=contextnavpagetreemode
+P622	Wiedergabeformat	https://wiki.dnb.de/pages/viewpage.action?pageId=206391172&src=contextnavpagetreemode
+P623	Z�hlung einer fortlaufenden Ressource	https://wiki.dnb.de/pages/viewpage.action?pageId=202443865&src=contextnavpagetreemode
+P624	Z�hlung innerhalb einer Reihe	https://wiki.dnb.de/pages/viewpage.action?pageId=206377249&src=contextnavpagetreemode
+P625	Zielgruppe einer Manifestation	https://wiki.dnb.de/pages/viewpage.action?pageId=206377401&src=contextnavpagetreemode
+P262	Zugangsbeschr�nkung zu einer Manifestation	https://wiki.dnb.de/pages/viewpage.action?pageId=206377415&src=contextnavpagetreemode
+P627	Zusammenfassung eines Inhalts	https://wiki.dnb.de/pages/viewpage.action?pageId=212770968&src=contextnavpagetreemode
+P628	Zus�tzliche Informationen zum Ma�stab	https://wiki.dnb.de/pages/viewpage.action?pageId=206397679&src=contextnavpagetreemode
