@@ -1,0 +1,11 @@
+Q8503	AP 2.3 | Ressourcentyp: Bildbände, Ausstellungsmaterialien, Kunstbände	235318035	
+Q8504	AP 2.3 | Ressourcentyp: E-Books	235318019	
+Q8505	AP 2.3 | Ressourcentyp: Fortlaufende Ressource - einfache Titelaufnahme für die monografische Reihe	235318052		
+Q8506	AP 2.3 | Ressourcentyp: Fortlaufende Ressource - einfache Titelaufnahme für eine Zeitschrift	235318050	 	
+Q8514	AP 2.3 | Ressourcentyp: Hochschulschriften	235317993	
+Q8518	AP 2.3 | Ressourcentyp: Integrierende Ressourcen	253814313		
+Q8520	AP 2.3 | Ressourcentyp: Kartografische Ressourcen	235318026	
+Q8527	AP 2.3 | Ressourcentyp: Monografie als einzelne Einheit	235318007		
+Q8529	AP 2.3 | Ressourcentyp: Nachdrucke: Fortlaufende Ressourcen	252119269		
+Q8530	AP 2.3 | Ressourcentyp: Nachdrucke: Monografien	235318062	
+Q8537	AP 2.3 | Ressourcentyp: Zusammenstellungen	248944871	

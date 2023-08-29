@@ -12,26 +12,17 @@ import org.wikidata.wdtk.wikibaseapi.apierrors.MediaWikiApiErrorException;
 import de.dnb.afs.wikibase.WbEntityLoader;
 import de.dnb.afs.wikibase.WbEntityProperties;
 import de.dnb.afs.wikibase.confluence.ConfluenceWbConfig;
-import de.dnb.afs.wikibase.confluence.Utils;
-import de.dnb.afs.wikibase.confluence.WbMapping;
+import de.dnb.afs.wikibase.confluence.Utils4Elements;
 
-public class WbMappingTextValue extends WbMapping {
+public class WbMapping4Resources extends AbstractWbMapping {
 
-	private static final Log logger = LogFactory.getLog(WbMappingTextValue.class);
-
-	private PropertyIdValue wbId;
-
-	private ConfluenceWbConfig config;
-
-	private WbEntityLoader entityLoader;
-
-	public WbMappingTextValue(String labelPattern, PropertyIdValue wbId, ConfluenceWbConfig config,
+	private static final Log logger = LogFactory.getLog(WbMapping4Resources.class);
+	
+	public WbMapping4Resources(String labelPattern, PropertyIdValue wbId, ConfluenceWbConfig config,
 			WbEntityLoader entityLoader) {
-		super(labelPattern);
-		this.wbId = wbId;
-		this.config = config;
-		this.entityLoader = entityLoader;
+		super(labelPattern, wbId, config, entityLoader);
 	}
+
 
 	@Override
 	public void doMap(String panelLabelDe, Elements panelElements, WbEntityProperties entity) throws MediaWikiApiErrorException, IOException {
@@ -44,7 +35,7 @@ public class WbMappingTextValue extends WbMapping {
 		}
 		logger.debug("füge neues statement hinzu für panel '" + panelLabelDe + "'");
 		for (Element panelElement : panelElements) {
-			Utils.addPanelElement(entity, panelLabelDe , entity.getEntityId(), panelElement, wbId, entityLoader, config);
+			Utils4Elements.addPanelElement(entity, panelLabelDe , entity.getEntityId(), panelElement, wbId, entityLoader, config);
 		}
 	}
 

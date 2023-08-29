@@ -9,17 +9,14 @@ import org.wikidata.wdtk.datamodel.interfaces.PropertyIdValue;
 import de.dnb.afs.wikibase.WbEntityProperties;
 import de.dnb.afs.wikibase.confluence.WbMapping;
 
-public class WbMappingConstantValue extends WbMapping {
+public class WbMapping4ConstantValue extends WbMapping {
 
-	private static final Log logger = LogFactory.getLog(WbMappingConstantValue.class);
-
-	private PropertyIdValue wbId;
+	private static final Log logger = LogFactory.getLog(WbMapping4ConstantValue.class);
 
 	private PropertyIdValue wbValueId;
 
-	public WbMappingConstantValue(String labelPattern, PropertyIdValue wbId, PropertyIdValue wbValueId) {
-		super(labelPattern);
-		this.wbId = wbId;
+	public WbMapping4ConstantValue(String labelPattern, PropertyIdValue wbId, PropertyIdValue wbValueId) {
+		super(labelPattern, wbId);
 		this.wbValueId = wbValueId;
 	}
 
@@ -35,7 +32,6 @@ public class WbMappingConstantValue extends WbMapping {
 		logger.debug("füge neues statement hinzu für panel '" + panelLabelDe + "'");
 		entity.getStatements()
 				.add(StatementBuilder.forSubjectAndProperty(entity.getEntityId(), wbId).withValue(wbValueId).build());
-
 	}
 
 }

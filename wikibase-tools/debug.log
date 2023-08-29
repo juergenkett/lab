@@ -1,0 +1,4 @@
+2023-02-11 19:29:55.572 [main] INFO  de.dnb.afs.wikibase.apps.Importer4ResourcesApp - start test
+2023-02-11 19:30:06.989 [main] WARN  de.dnb.afs.wikibase.confluence.mappings.WbMapping4ResourceWEMI - RDA-Regel 'STA-Regel: Zählung einer fortlaufenden Ressource | RDA-Eigenschaft - Fortlaufende Ressource - einfache Titelaufnahme für die monografische Reihe' konnte nicht gefunden werden. Sie wird nur als Text eingefügt.
+2023-02-11 19:30:07.238 [main] WARN  de.dnb.afs.wikibase.confluence.mappings.WbMapping4ResourceWEMI - RDA-Regel 'STA-Regel: Veröffentlichungsangabe | RDA-Eigenschaft - Fortlaufende Ressource - einfache Titelaufnahme für die monografische Reihe' konnte nicht gefunden werden. Sie wird nur als Text eingefügt.
+2023-02-11 19:30:10.136 [main] INFO  de.dnb.afs.wikibase.WbEntityEditorImpl - Update ... #add: 53, #update: 0, #delete: 53
