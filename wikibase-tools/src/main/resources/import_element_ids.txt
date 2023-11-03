@@ -1,0 +1,223 @@
+P439	AP 2.1 | Abspielgeschwindigkeit/playing speed	206396771	E
+P441	AP 2.1 | Abweichender Titel einer Manifestation/variant title of manifestation	206373188	E
+P443	AP 2.1 | Abweichender Titel eines Werks/variant title of work	198096618	E
+P442	AP 2.1 | Akteur, der mit einer Manifestation in Verbindung steht/related agent of manifestation	212767358	E
+P444	AP 2.1 | Alphanumerische Bezeichnung der ersten Ausgabe einer fortlaufenden Ressource/first alphanumeric designation of sequence	198096549	E
+P445	AP 2.1 | Alphanumerische Bezeichnung der letzten Ausgabe einer fortlaufenden Ressource/last alphanumeric designation of sequence	198096576	E
+P446	AP 2.1 | Alternative alphanumerische Bezeichnung der ersten Ausgabe einer fortlaufenden Ressource/first alphanumeric designation of alternative sequence	198096543	E
+P447	AP 2.1 | Alternative alphanumerische Bezeichnung der letzten Ausgabe einer fortlaufenden Ressource/last alphanumeric designation of alternative sequence	198096569	E
+P448	AP 2.1 | Alternative chronologische Bezeichnung der ersten Ausgabe einer fortlaufenden Ressource/first chronological designation of alternative sequence	198096556	E
+P449	AP 2.1 | Alternative chronologische Bezeichnung der letzten Ausgabe einer fortlaufenden Ressource/last chronological designation of alternative sequence	198096580	E
+P450	AP 2.1 | Anmerkung zu �nderungen von Inhaltseigenschaften/note on changes in content characteristics	206396966	E
+P451	AP 2.1 | Anmerkung zur Aufzeichnung/note on capture	206396951	E
+P452	AP 2.1 | Anmerkung zur Expression/note on expression	206396970	E
+P453	AP 2.1 | Anmerkung zur Manifestation/note on manifestation	235320573	E
+P454	AP 2.1 | �quinoktium/equinox	206397722	E
+P409	AP 2.1 | Art des Inhalts/nature of content	198096596	E
+P455	AP 2.1 | Art einer Aufnahme/type of recording	206382769	E
+P456	AP 2.1 | Aufgebrachtes Material/applied material	206396746	E
+P457	AP 2.1 | Aufl�sung/resolution	206382759	E
+P458	AP 2.1 | Aufzeichnungsdatum/date of capture	206396927	E
+P459	AP 2.1 | Aufzeichnungsmedium/recording medium	206382779	E
+P460	AP 2.1 | Aufzeichnungsort/place of capture	206396977	E
+P462	AP 2.1 | Ausgabebezeichnung einer n�her erl�uterten �berarbeitung/designation of named revision of edition	198096527	E
+P461	AP 2.1 | Ausgabebezeichnung/designation of edition	198096523	E
+P463	AP 2.1 | Ausgabevermerk/edition statement	198096536	E
+P464	AP 2.1 | Auszeichnung/award	206385168	E
+P465	AP 2.1 | Bandkonfiguration/tape configuration	206382795	E
+P466	AP 2.1 | Barrierefreier Inhalt/accessibility content	206398169	E
+P466	AP 2.1 | Benutzungsbeschr�nkung einer Manifestation/restriction on use of manifestation	206377421	E
+P662	AP 2.1 | Besetzung f�r musikalischen Inhalt einer repr�sentativen Expression/medium of performance of musical content of representative expression	253813589	E
+P468	AP 2.1 | Besetzung f�r musikalischen Inhalt/medium of performance of musical content	206397775	E
+P469	AP 2.1 | Besondere Wiedergabeeigenschaft/special playback characteristic	206382812	E
+P470	AP 2.1 | Bevorzugter Titel eines Werks/preferred title of work	198097574	E
+P475	AP 2.1 | Bezeichnung des Verkleinerungsfaktors/reduction ratio designation	206391160	E
+P474	AP 2.1 | Bezeichnung eines Bildformats/aspect ratio designation	206396900	E
+P476	AP 2.1 | Bezugsbedingung/term of availability	206379795	E
+P477	AP 2.1 | Bibliografisches Format/bibliographic format	206397685	E
+P471	AP 2.1 | Bildformat/aspect ratio	206396788	E
+P472	AP 2.1 | Bitrate/encoded bitrate	206379784	E
+P473	AP 2.1 | Charakter einer Hochschulschrift	198096517	E
+P478	AP 2.1 | Chronologische Bezeichnung der ersten Ausgabe einer fortlaufenden Ressource/first chronological designation of sequence	198096560	E
+P479	AP 2.1 | Chronologische Bezeichnung der letzten Ausgabe einer fortlaufenden Ressource/last chronological designation of sequence	198096586	E
+P480	AP 2.1 | Copyright-Datum/copyright date	198096505	E
+P481	AP 2.1 | Dateigr��e/file size	206377386	E
+P482	AP 2.1 | Dateityp/file type	206377390	E
+P483	AP 2.1 | Datentr�gertyp/carrier type	198096116	E
+P484	AP 2.1 | Datum eines Werks/date of work	198096281	E
+P485	AP 2.1 | Dauer/duration	206391062	E
+P486	AP 2.1 | Details zu kartografischem Inhalt/details of cartographic content	206399698	E
+P487	AP 2.1 | Digitale Darstellung von kartografischem Inhalt/digital representation of cartographic content	206397700	E
+P488	AP 2.1 | Druckplattennummer f�r Noten/plate number for notated music	206397794	E
+P489	AP 2.1 | Eigenschaft einer digitalen Datei/digital file characteristic	206377551	E
+P490	AP 2.1 | Emulsionsschicht auf Mikrofilm und Mikrofiche/emulsion on microfilm and microfiche	206396721	E
+P491	AP 2.1 | Entstehungsangabe/production statement	202452560	E
+P492	AP 2.1 | Entstehungsdatum/date of production	198097752	E
+P493	AP 2.1 | Entstehungsmethode/production method	206396779	E
+P494	AP 2.1 | Entstehungsort/place of production	202452569	E
+P495	AP 2.1 | Epoche/epoch	206397719	E
+P496	AP 2.1 | Erg�nzender Inhalt/supplementary content	198097046	E
+P502	AP 2.1 | Erscheinungsdatum/date of publication	198096311	E
+P503	AP 2.1 | Erscheinungsfrequenz/frequency	198097537	E
+P504	AP 2.1 | Erscheinungsort/place of publication	198097124	E
+P505	AP 2.1 | Erscheinungsweise/mode of issuance	198097552	E
+P506	AP 2.1 | Erzeugername/name of producer	202452581	E
+P507	AP 2.1 | Farbinhalt/colour content	198096268	E
+P508	AP 2.1 | Fingerprint/fingerprint	206397725	E
+P509	AP 2.1 | Form einer Musiknotation/form of musical notation	206397734	E
+P510	AP 2.1 | Form einer Notation/form of notation	206396931	E
+P511	AP 2.1 | Form einer taktilen Notation/form of tactile notation	206396938	E
+P512	AP 2.1 | Fr�herer Haupttitel/earlier title proper	198097439	E
+P513	AP 2.1 | Geistiger Sch�pfer/creator agent of work	198097101	E
+P514	AP 2.1 | Ger�te- oder Systemanforderung/equipment or system requirement	206377372	E
+P515	AP 2.1 | Gesamttitelangabe/series statement	206379835	E
+P516	AP 2.1 | Grad-verleihende Institution/degree granting institution	198097588	E
+P517	AP 2.1 | Halterung/mount	206397780	E
+P518	AP 2.1 | Haupttitel/title proper	206377295	E
+P519	AP 2.1 | Herstellername/name of manufacturer	202452553	E
+P520	AP 2.1 | Herstellungsangabe/manufacture statement	202452514	E
+P521	AP 2.1 | Herstellungsdatum/date of manufacture	198096306	E
+P522	AP 2.1 | Herstellungsort/place of manufacture	202452541	E
+P523	AP 2.1 | Hochschulschriftenvermerk/dissertation or thesis information	198097584	E
+P524	AP 2.1 | Horizontaler Ma�stab bei kartografischem Inhalt/horizontal scale of cartographic content	206397749	E
+P526	AP 2.1 | Identifikator f�r ein Werk/identifier for work	198096610	E
+P525	AP 2.1 | Identifikator f�r eine Manifestation/identifier for manifestation	198096564	E
+P527	AP 2.1 | Illustrierender Inhalt/illustrative content	198097204	E
+P653	AP 2.1 | In einer Manifestation verk�rperte Expression/expression manifested	253819381	E
+P528	AP 2.1 | In einer Manifestation verk�rpertes Werk/work manifested	206377367	E
+P529	AP 2.1 | Informationen zur Aufzeichnung/capture information	206396905	E
+P530	AP 2.1 | Inhaltlicher Bezugsrahmen/coverage of content	206396919	E
+P531	AP 2.1 | Inhaltstyp/content type	198096483	E
+P532	AP 2.1 | ISSN einer Reihe	198097103	E
+P533	AP 2.1 | Jahr, in dem ein akademischer Grad verliehen wurde/year degree granted	202446366	E
+P534	AP 2.1 | Kartografischer Datentyp/cartographic data type	206397689	E
+P535	AP 2.1 | Kategorie eines Werks/category of work	198096289	E
+P536	AP 2.1 | Key Title/key title	206396948	E
+P537	AP 2.1 | Kodierungsformat/encoding format	198097560	E
+P538	AP 2.1 | Konfiguration von Wiedergabekan�len/configuration of playback channels	206382755	E
+P539	AP 2.1 | Koordinaten von kartografischem Inhalt/coordinates of cartographic content	206397694	E
+P540	AP 2.1 | Kopiengeneration/generation	206396733	E
+P541	AP 2.1 | Kurztitel/abbreviated Title	206377002	E
+P542	AP 2.1 | L�ngengrad und Breitengrad/longitude and latitude	206397764	E
+P543	AP 2.1 | Laufende Nummer eines Musikwerks/serial number of musical work	206398387	E
+P544	AP 2.1 | Layout/layout	198096276	E
+P546	AP 2.1 | Ma�e eines kartografischen Bilds/dimensions of cartographic image	206397705	E
+P547	AP 2.1 | Ma�e eines unbewegten Bilds/dimensions of still image	206397715	E
+P545	AP 2.1 | Ma�e/dimensions	198096532	E
+P549	AP 2.1 | Ma�stab eines unbewegten Bilds oder einer dreidimensionalen Form/scale of still image or three-dimensional form	206398374	E
+P548	AP 2.1 | Ma�stab/scale	206397816	E
+P550	AP 2.1 | Ma�stabsbezeichnung/scale designation	206397819	E
+P551	AP 2.1 | Material/material	206397771	E
+P552	AP 2.1 | Medientyp/media type	198096591	E
+P553	AP 2.1 | Mit Expression in Beziehung stehende Expression/related expression of expression	217523871	E
+P554	AP 2.1 | Mit Manifestation in Beziehung stehende Manifestation/related manifestation of manifestation	217523867	E
+P555	AP 2.1 | Mit Werk in Beziehung stehendes Werk/related work of work	217523864	E
+P556	AP 2.1 | Mitwirkende/Mitwirkender/creator agent of expression	198097418	E
+P557	AP 2.1 | Musikalische Ausgabeform/format of notated music	206397738	E
+P558	AP 2.1 | Noten-Bestellnummer/publisher number for notated music	206397808	E
+P559	AP 2.1 | Numerische Bezeichnung eines Musikwerks/numeric designation of musical work	206397783	E
+P560	AP 2.1 | Opus-Nummer/opus number	206397789	E
+P562	AP 2.1 | Parallele Ausgabebezeichnung einer n�her erl�uterten �berarbeitung/parallel designation of named revision of edition	206396974	E
+P561	AP 2.1 | Parallele Ausgabebezeichnung/parallel designation of edition	206382452	E
+P573	AP 2.1 | Parallele Verantwortlichkeitsangabe, die sich auf eine Ausgabe bezieht/parallel statement of responsibility relating to edition	198096599	E
+P574	AP 2.1 | Parallele Verantwortlichkeitsangabe, die sich auf eine n�her erl�uterte �berarbeitung einer Ausgabe bezieht/parallel statement of responsibility relating to named revision of edition	198096602	E
+P576	AP 2.1 | Parallele Verantwortlichkeitsangabe, die sich auf eine Reihe bezieht/parallel statement of responsibility relating to series	223714519	E
+P575	AP 2.1 | Parallele Verantwortlichkeitsangabe, die sich auf einen Haupttitel bezieht/parallel statement of responsibility relating to title proper	206377263	E
+P563	AP 2.1 | Paralleler Entstehungsort/parallel place of production	198097080	E
+P564	AP 2.1 | Paralleler Erscheinungsort/parallel place of publication	198096942	E
+P565	AP 2.1 | Paralleler Erzeugername/parallel name of producer	198097064	E
+P566	AP 2.1 | Paralleler Herstellername/parallel name of manufacturer	198097062	E
+P567	AP 2.1 | Paralleler Herstellungsort/parallel place of manufacture	198097077	E
+P569	AP 2.1 | Paralleler Titelzusatz einer Reihe/parallel other title information of series	223714508	E
+P568	AP 2.1 | Paralleler Titelzusatz/parallel other title information	206377405	E
+P570	AP 2.1 | Paralleler Verlagsname/parallel name of publisher	198097067	E
+P571	AP 2.1 | Paralleler Vertriebsname/parallel name of distributor	198097058	E
+P572	AP 2.1 | Paralleler Vertriebsort/parallel place of distribution	198097073	E
+P578	AP 2.1 | Paralleltitel einer Reihe/parallel title of series	223714530	E
+P577	AP 2.1 | Paralleltitel/parallel title proper	206377277	E
+P418	AP 2.1 | PFKG - F - Abweichender Name einer Familie/variant name of family	231151086	E
+P416	AP 2.1 | PFKG - F - Bedeutendes Familienmitglied/prominent member of family	223730325	E
+P417	AP 2.1 | PFKG - F - Bevorzugter Name einer Familie/preferred name of family	223730302	E
+P646	AP 2.1 | PFKG - F - Erbtitel/hereditary term of honour	248941062	E
+P418	AP 2.1 | PFKG - F - Kategorie einer Familie/category of family	223730316	E
+P419	AP 2.1 | PFKG - F - Mit Familie in Beziehung stehender Zeitraum/related timespan of family	223730319	E
+P420	AP 2.1 | PFKG - F - Mit Familie in Beziehung stehendes Geografikum/related place of family	223730323	E
+P421	AP 2.1 | PFKG - F - Name einer Familie/name of family	223730265	E
+P647	AP 2.1 | PFKG - G - Abweichender Name eines Geografikums/variant name of place	212777693	E
+P648	AP 2.1 | PFKG - G - Bevorzugter Name eines Geografikums/preferred name of place	212777686	E
+P649	AP 2.1 | PFKG - G - Name eines Geografikums/name of place	212777661	E
+P412	AP 2.1 | PFKG - K - Abweichender Name einer K�rperschaft/variant name of corporate body	223722899	E
+P422	AP 2.1 | PFKG - K - Aufl�sungsdatum/date of termination	223723102	E
+P423	AP 2.1 | PFKG - K - Bevorzugter Name einer K�rperschaft/preferred name of corporate body	223722887	E
+P424	AP 2.1 | PFKG - K - Datum einer Konferenz/date of conference	217541948	E
+P426	AP 2.1 | PFKG - K - Gr�ndungsdatum/date of establishment	217534594	E
+P498	AP 2.1 | PFKG - K - Kategorie einer Gebietsk�rperschaft/category of government	238292655	E
+P499	AP 2.1 | PFKG - K - Kategorie einer K�rperschaft/category of corporate body	238292648	E
+P427	AP 2.1 | PFKG - K - Mit K�rperschaft in Beziehung stehende K�rperschaft/related corporate body of corporate body	223710727	E
+P428	AP 2.1 | PFKG - K - Mit K�rperschaft in Beziehung stehender Zeitraum/related timespan of corporate body	217534586	E
+P429	AP 2.1 | PFKG - K - Mit K�rperschaft in Beziehung stehendes Geografikum/related place of corporate body	223723083	E
+P430	AP 2.1 | PFKG - K - Name einer K�rperschaft/name of corporate body	223722871	E
+P431	AP 2.1 | PFKG - K - Ort einer Konferenz/place of conference	223723094	E
+P432	AP 2.1 | PFKG - K - Wirkungszeitraum einer K�rperschaft/period of activity of corporate body	223723195	E
+P433	AP 2.1 | PFKG - K - Z�hlung einer Konferenz/number of conference	223723069	E
+P400	AP 2.1 | PFKG - P - Abweichender Name einer Person/variant name of person	231151093	E
+P650	AP 2.1 | PFKG - P - Beruf oder T�tigkeit/profession or occupation	242313034	E
+P395	AP 2.1 | PFKG - P - Bevorzugter Name einer Person/preferred name of person	217541956	E
+P434	AP 2.1 | PFKG - P - Geburtsdatum/date of birth	217534591	E
+P435	AP 2.1 | PFKG - P - Mit Person in Beziehung stehender Zeitraum/related timespan of person	217534571	E
+P399	AP 2.1 | PFKG - P - Name einer Person/name of person	223729333	E
+P436	AP 2.1 | PFKG - P - Rang-, Ehren- oder Amtsbezeichnung/term of rank, honour, or office	223729364	E
+P651	AP 2.1 | PFKG - P - Sonstige zur Person geh�rende Kennzeichnung	231154123	E
+P437	AP 2.1 | PFKG - P - Sterbedatum/date of death	223729352	E
+P500	AP 2.1 | PFKG - P - Wirkungszeitraum einer Person/period of activity of person	238307986	E
+P579	AP 2.1 | Polarit�t/polarity	206391109	E
+P582	AP 2.1 | Projektion von kartografischem Inhalt/projection of cartographic content	206397805	E
+P580	AP 2.1 | Projektionseigenschaft von Filmen/projection characteristic of motion picture film	206391163	E
+P581	AP 2.1 | Projektionsgeschwindigkeit/projection speed	206391177	E
+P583	AP 2.1 | Regionalcode/regional encoding	198097597	E
+P584	AP 2.1 | Reihen von Koordinatenpaaren/strings of coordinate pairs	206398392	E
+P585	AP 2.1 | Rektaszension und Deklination/right ascension and declination	206398429	E
+P586	AP 2.1 | Rilleneigenschaft/groove characteristic	206396761	E
+P587	AP 2.1 | Schrift/script	198096614	E
+P588	AP 2.1 | Schriftgr��e/font size	206397731	E
+P589	AP 2.1 | Sendestandard/broadcast standard	206384249	E
+P591	AP 2.1 | Sonstige unterscheidende Eigenschaft eines Werks/other distinguishing characteristic of work	206388936	E
+P590	AP 2.1 | Sonstiger Akteur, der mit einem Werk in Verbindung steht/other agent associated with work	206377445	E
+P592	AP 2.1 | Sprache einer Expression/language of expression	198097540	E
+P593	AP 2.1 | Titel einer Manifestation/title of manifestation	206377283	E
+P594	AP 2.1 | Titel einer Reihe/title of series	206377288	E
+P595	AP 2.1 | Titel eines Werks/title of work	198097607	E
+P597	AP 2.1 | Titelzusatz einer Reihe/other title information of series	217543373	E
+P596	AP 2.1 | Titelzusatz/other title information	198097428	E
+P598	AP 2.1 | Tonart einer Expression/key of expression	206397753	E
+P654	AP 2.1 | Tonart einer repr�sentativen Expression/key of representative expression	259628871	E
+P599	AP 2.1 | Toneigenschaft/sound characteristic	206382765	E
+P600	AP 2.1 | Toninhalt/sound content	206398355	E
+P601	AP 2.1 | Tonspurlage (Film)/track configuration	206382786	E
+P602	AP 2.1 | Tr�germaterial/base material	206396752	E
+P603	AP 2.1 | Umfang einer Manifestation/extent of manifestation	198098925	E
+P604	AP 2.1 | Uniform Resource Locator/Uniform Resource Locator (URL)	206377300	E
+P605	AP 2.1 | Ursprungsort eines Werks/place of origin of work	198096308	E
+P606	AP 2.1 | Verantwortlichkeitsangabe, die sich auf eine Ausgabe bezieht/statement of responsibility relating to edition	206381332	E
+P607	AP 2.1 | Verantwortlichkeitsangabe, die sich auf eine n�her erl�uterte �berarbeitung einer Ausgabe bezieht/statement of responsibility relating to named revision of edition	206381337	E
+P609	AP 2.1 | Verantwortlichkeitsangabe, die sich auf eine Reihe bezieht/statement of responsibility relating to series	198096278	E
+P608	AP 2.1 | Verantwortlichkeitsangabe, die sich auf einen Haupttitel bezieht/statement of responsibility relating to title proper	198097106	E
+P610	AP 2.1 | Verantwortlichkeitsangabe/statement of responsibility	198096318	E
+P611	AP 2.1 | Verkleinerungsfaktor/reduction ratio	206391152	E
+P612	AP 2.1 | Verlagsname/name of publisher	198097089	E
+P613	AP 2.1 | Ver�ffentlichungsangabe/publication statement	198097386	E
+P614	AP 2.1 | Vertikaler Ma�stab bei kartografischem Inhalt/vertical scale of cartographic content	206398411	E
+P615	AP 2.1 | Vertriebsangabe/distribution statement	198097052	E
+P616	AP 2.1 | Vertriebsdatum/date of distribution	198096292	E
+P617	AP 2.1 | Vertriebsname/name of distributor	198097054	E
+P618	AP 2.1 | Vertriebsort/place of distribution	198097087	E
+P619	AP 2.1 | Video-Eigenschaft/video characteristic	206384401	E
+P620	AP 2.1 | Videoformat/video format	206384105	E
+P621	AP 2.1 | Werkverzeichnisnummer/thematic index number	206398398	E
+P622	AP 2.1 | Wiedergabeformat/presentation format	206391172	E
+P623	AP 2.1 | Z�hlung einer fortlaufenden Ressource/numbering of sequence	202443865	E
+P624	AP 2.1 | Z�hlung innerhalb einer Reihe/numbering within sequence	206377249	E
+P625	AP 2.1 | Zielgruppe einer Manifestation/intended audience of manifestation	206377401	E
+P626	AP 2.1 | Zugangsbeschr�nkung zu einer Manifestation/restriction on access to manifestation	206377415	E
+P627	AP 2.1 | Zusammenfassung eines Inhalts/summarization of content	212770968	E
+P628	AP 2.1 | Zus�tzliche Informationen zum Ma�stab/additional scale information	206397679	E

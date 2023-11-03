@@ -11,27 +11,19 @@ import org.wikidata.wdtk.datamodel.interfaces.Statement;
 
 public class WbEntityProperties {
 
-	private Map<String, MonolingualTextValue> descriptions = new HashMap<String, MonolingualTextValue>() ;
+	private Map<String, MonolingualTextValue> descriptions = new HashMap<String, MonolingualTextValue>();
 
 	private List<MonolingualTextValue> aliases = new ArrayList<MonolingualTextValue>();
 
 	private Map<String, MonolingualTextValue> labels = new HashMap<String, MonolingualTextValue>();
-	
-	private List<Statement> statements = new ArrayList<Statement>();
+
+	private Map<String, List<Statement>> statements = new HashMap<String, List<Statement>>();
 
 	private EntityIdValue entityId;
 	
-	private String staCode;
-	
-	long revisionId;
-	
-	public String getStaCode() {
-		return staCode;
-	}
 
-	public void setStaCode(String staCode) {
-		this.staCode = staCode;
-	}
+
+	long revisionId;
 
 	public Map<String, MonolingualTextValue> getDescriptions() {
 		return descriptions;
@@ -53,15 +45,28 @@ public class WbEntityProperties {
 		return labels;
 	}
 
+	public String getLabel_DE() {
+		String ret = null;
+		MonolingualTextValue label = labels.get("de");
+		if (label != null) {
+			ret = label.getText();
+		}
+		return ret;
+	}
+
 	public void setLabels(Map<String, MonolingualTextValue> labels) {
 		this.labels = labels;
 	}
 
-	public List<Statement> getStatements() {
+	public boolean hasStatementAbout(String propertyId) {
+		return statements.containsKey(propertyId);
+	}
+	
+	public Map<String, List<Statement>> getStatements() {
 		return statements;
 	}
 
-	public void setStatements(List<Statement> statements) {
+	public void setStatements(Map<String, List<Statement>> statements) {
 		this.statements = statements;
 	}
 
@@ -79,5 +84,15 @@ public class WbEntityProperties {
 
 	public void setRevisionId(long revisionId) {
 		this.revisionId = revisionId;
+	}
+	
+	public void addStatement(Statement statement) {
+		String propId = statement.getMainSnak().getPropertyId().getId();
+		List<Statement> propStatements = this.statements.get(propId);
+		if (propStatements == null) {
+			propStatements = new ArrayList<Statement>();
+			this.statements.put(propId, propStatements);
+		}
+		propStatements.add(statement);
 	}
 }

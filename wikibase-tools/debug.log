@@ -1,0 +1,526 @@
+2023-10-18 12:09:06.263 [main] INFO  de.dnb.afs.sta.confluence.StaStorageConfluence - {"id":"297245251","type":"page","status":"current","title":"Inhaltstyp | RDA-Eigenschaft","version":{"by":{"type":"known","username":"kett","userKey":"8ac5be9a4d704718014d704e7a390469","profilePicture":{"path":"/download/attachments/460/user-avatar","width":48,"height":48,"isDefault":false},"displayName":"Kett, Jürgen","_links":{"self":"https://wiki.dnb.de/rest/api/user?key=8ac5be9a4d704718014d704e7a390469"},"_expandable":{"status":""}},"when":"2023-10-18T12:08:41.000+02:00","message":"","number":197,"minorEdit":false,"hidden":false,"_links":{"self":"https://wiki.dnb.de/rest/experimental/content/297245251/version/197"},"_expandable":{"content":"/rest/api/content/297245251"}},"body":{"storage":{"value":"<table><tbody><tr><th>Quelle</th><th>Id</th><th>Version</th></tr><tr><th>wikibase</th><td class=\"wikibase-id\">P531</td><td class=\"wikibase-version\">117829</td></tr></tbody></table><table><tbody><tr><th colspan=\"3\" class=\"highlight-#00a3bf\" title=\"P643\">STA-Notation</th></tr><tr class=\"statement\"><td><ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:macro-id=\"435baba4-7dab-41fa-bcf2-4e7525f15d98\"><ac:parameter ac:name=\"property-key\">P643</ac:parameter><ac:parameter ac:name=\"wikibase-entity-id\">P531$37F7F634-2D0F-4029-82E4-8AFE41F3BF3C</ac:parameter><ac:parameter ac:name=\"is-embedded\">false</ac:parameter><ac:parameter ac:name=\"statement-id\">P531$37F7F634-2D0F-4029-82E4-8AFE41F3BF3C</ac:parameter><ac:parameter ac:name=\"borderStyle\">none</ac:parameter><ac:parameter ac:name=\"showIcon\">false</ac:parameter><ac:rich-text-body><p>RDA-E-E005</p></ac:rich-text-body></ac:structured-macro></td><td><table /></td><td><table><tbody><tr><td title=\"update\"><ac:task-list><ac:task><ac:task-id>0</ac:task-id><ac:task-status class=\"update\">incomplete</ac:task-status><ac:task-body>⟳</ac:task-body></ac:task></ac:task-list></td><td title=\"remove\"><ac:task-list><ac:task><ac:task-id>2</ac:task-id><ac:task-status class=\"remove\">incomplete</ac:task-status><ac:task-body>x</ac:task-body></ac:task></ac:task-list></td></tr></tbody></table></td></tr><tr><th colspan=\"3\" class=\"highlight-#00a3bf\" title=\"P1\">Definition</th></tr><tr class=\"statement\"><td><ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:macro-id=\"bf342d87-3177-4eb1-b708-dc9e473b4863\"><ac:parameter ac:name=\"property-key\">P1</ac:parameter><ac:parameter ac:name=\"wikibase-entity-id\">P531$29E001C5-E900-4280-8491-ACC22A12C6E7</ac:parameter><ac:parameter ac:name=\"is-embedded\">false</ac:parameter><ac:parameter ac:name=\"statement-id\">P531$29E001C5-E900-4280-8491-ACC22A12C6E7</ac:parameter><ac:parameter ac:name=\"borderStyle\">none</ac:parameter><ac:parameter ac:name=\"showIcon\">false</ac:parameter><ac:rich-text-body><p>Eine Kategorisierung, die zum einen die grundlegende Form der Kommunikation widerspiegelt, in der der Inhalt ausgedr&uuml;ckt wird, und zum andern die menschliche Wahrnehmung wiedergibt, durch die diese wahrgenommen werden soll.</p></ac:rich-text-body></ac:structured-macro></td><td><table /></td><td><table><tbody><tr><td title=\"update\"><ac:task-list><ac:task><ac:task-id>0</ac:task-id><ac:task-status class=\"update\">incomplete</ac:task-status><ac:task-body>⟳</ac:task-body></ac:task></ac:task-list></td><td title=\"remove\"><ac:task-list><ac:task><ac:task-id>2</ac:task-id><ac:task-status class=\"remove\">incomplete</ac:task-status><ac:task-body>x</ac:task-body></ac:task></ac:task-list></td></tr></tbody></table></td></tr><tr class=\"statement\"><td><ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:macro-id=\"d0114ef5-064d-4277-8073-065fc338ddf9\"><ac:parameter ac:name=\"property-key\">P1</ac:parameter><ac:parameter ac:name=\"wikibase-entity-id\">P531$9A0C767D-F1EF-40F1-8881-F83CB787119C</ac:parameter><ac:parameter ac:name=\"is-embedded\">false</ac:parameter><ac:parameter ac:name=\"statement-id\">P531$9A0C767D-F1EF-40F1-8881-F83CB787119C</ac:parameter><ac:parameter ac:name=\"borderStyle\">none</ac:parameter><ac:parameter ac:name=\"showIcon\">false</ac:parameter><ac:rich-text-body><p>F&uuml;r Inhalt, der in Form eines Bilds oder mehrerer Bilder ausgedr&uuml;ckt wird, spiegelt der Inhaltstyp auch die Anzahl r&auml;umlicher Dimensionen wider, in denen der Inhalt wahrgenommen werden soll, sowie die Wahrnehmung von vorhandener oder nicht vorhandener Bewegung.</p></ac:rich-text-body></ac:structured-macro></td><td><table /></td><td><table><tbody><tr><td title=\"update\"><ac:task-list><ac:task><ac:task-id>1</ac:task-id><ac:task-status class=\"update\">incomplete</ac:task-status><ac:task-body>⟳</ac:task-body></ac:task></ac:task-list></td><td title=\"remove\"><ac:task-list><ac:task><ac:task-id>3</ac:task-id><ac:task-status class=\"remove\">incomplete</ac:task-status><ac:task-body>x</ac:task-body></ac:task></ac:task-list></td></tr></tbody></table></td></tr><tr class=\"statement\"><td><ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:macro-id=\"66f87da5-7c0b-4d2a-a66c-e4568dedb727\"><ac:parameter ac:name=\"property-key\">P1</ac:parameter><ac:parameter ac:name=\"wikibase-entity-id\">P531$F5A1746C-05F5-4D48-AF96-F5A8E56C41CD</ac:parameter><ac:parameter ac:name=\"is-embedded\">false</ac:parameter><ac:parameter ac:name=\"statement-id\">P531$F5A1746C-05F5-4D48-AF96-F5A8E56C41CD</ac:parameter><ac:parameter ac:name=\"borderStyle\">none</ac:parameter><ac:parameter ac:name=\"showIcon\">false</ac:parameter><ac:rich-text-body><p>A categorization that reflects the fundamental form of communication in which the content is expressed and the human sense through which it is intended to be perceived.</p></ac:rich-text-body></ac:structured-macro></td><td><table><tbody><tr class=\"qualifier\"><td title=\"P132\" class=\"qualifier-label\">Sprache der Aussage</td><td class=\"qualifier-value\"><p><a href=\"https://sta.dnb.de/entity/Q318\" title=\"Englisch\">Q318</a></p></td></tr></tbody></table></td><td><table><tbody><tr><td title=\"update\"><ac:task-list><ac:task><ac:task-id>2</ac:task-id><ac:task-status class=\"update\">incomplete</ac:task-status><ac:task-body>⟳</ac:task-body></ac:task></ac:task-list></td><td title=\"remove\"><ac:task-list><ac:task><ac:task-id>4</ac:task-id><ac:task-status class=\"remove\">incomplete</ac:task-status><ac:task-body>x</ac:task-body></ac:task></ac:task-list></td></tr></tbody></table></td></tr><tr class=\"statement\"><td><ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:macro-id=\"1575bd82-42bd-433b-bb6b-e7428264a818\"><ac:parameter ac:name=\"property-key\">P1</ac:parameter><ac:parameter ac:name=\"wikibase-entity-id\">P531$C99680BA-3853-4DF2-9F54-665C813D6327</ac:parameter><ac:parameter ac:name=\"is-embedded\">false</ac:parameter><ac:parameter ac:name=\"statement-id\">P531$C99680BA-3853-4DF2-9F54-665C813D6327</ac:parameter><ac:parameter ac:name=\"borderStyle\">none</ac:parameter><ac:parameter ac:name=\"showIcon\">false</ac:parameter><ac:rich-text-body><p>Content type also reflects the number of spatial dimensions and the presence or absence of movement in which content expressed in the form of an image or images is intended to be perceived.</p></ac:rich-text-body></ac:structured-macro></td><td><table><tbody><tr class=\"qualifier\"><td title=\"P132\" class=\"qualifier-label\">Sprache der Aussage</td><td class=\"qualifier-value\"><p><a href=\"https://sta.dnb.de/entity/Q318\" title=\"Englisch\">Q318</a></p></td></tr></tbody></table></td><td><table><tbody><tr><td title=\"update\"><ac:task-list><ac:task><ac:task-id>3</ac:task-id><ac:task-status class=\"update\">incomplete</ac:task-status><ac:task-body>⟳</ac:task-body></ac:task></ac:task-list></td><td title=\"remove\"><ac:task-list><ac:task><ac:task-id>5</ac:task-id><ac:task-status class=\"remove\">incomplete</ac:task-status><ac:task-body>x</ac:task-body></ac:task></ac:task-list></td></tr></tbody></table></td></tr><tr><th colspan=\"3\" class=\"highlight-#00a3bf\" title=\"P2\">Element von</th></tr><tr class=\"statement\"><td><ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:macro-id=\"f0bc3e15-5393-49ee-bdd5-631d8a7435e5\"><ac:parameter ac:name=\"property-key\">P2</ac:parameter><ac:parameter ac:name=\"wikibase-entity-id\">P531$33751246-6AB6-445B-9016-5F3E04567F12</ac:parameter><ac:parameter ac:name=\"is-embedded\">false</ac:parameter><ac:parameter ac:name=\"statement-id\">P531$33751246-6AB6-445B-9016-5F3E04567F12</ac:parameter><ac:parameter ac:name=\"borderStyle\">none</ac:parameter><ac:parameter ac:name=\"showIcon\">false</ac:parameter><ac:rich-text-body><p><a href=\"https://sta.dnb.de/entity/Q264\" title=\"Element\">Q264</a></p></ac:rich-text-body></ac:structured-macro></td><td><table /></td><td><table><tbody><tr><td title=\"update\"><ac:task-list><ac:task><ac:task-id>0</ac:task-id><ac:task-status class=\"update\">incomplete</ac:task-status><ac:task-body>⟳</ac:task-body></ac:task></ac:task-list></td><td title=\"remove\"><ac:task-list><ac:task><ac:task-id>2</ac:task-id><ac:task-status class=\"remove\">incomplete</ac:task-status><ac:task-body>x</ac:task-body></ac:task></ac:task-list></td></tr></tbody></table></td></tr><tr><th colspan=\"3\" class=\"highlight-#00a3bf\" title=\"P656\">Erfassungsmethode</th></tr><tr class=\"statement\"><td><ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:macro-id=\"c0455c60-03bd-4569-bdc4-0e490e6126a9\"><ac:parameter ac:name=\"property-key\">P656</ac:parameter><ac:parameter ac:name=\"wikibase-entity-id\">P531$6D2EF674-3596-4922-A1E4-D17CCC620F18</ac:parameter><ac:parameter ac:name=\"is-embedded\">false</ac:parameter><ac:parameter ac:name=\"statement-id\">P531$6D2EF674-3596-4922-A1E4-D17CCC620F18</ac:parameter><ac:parameter ac:name=\"borderStyle\">none</ac:parameter><ac:parameter ac:name=\"showIcon\">false</ac:parameter><ac:rich-text-body><p>Strukturierte Beschreibung: normiertes Vokabular</p></ac:rich-text-body></ac:structured-macro></td><td><table><tbody><tr class=\"qualifier\"><td title=\"P126\" class=\"qualifier-label\">Erfassungsmethode</td><td class=\"qualifier-value\"><p><a href=\"https://sta.dnb.de/entity/Q2039\" title=\"Strukturierte Beschreibung\">Q2039</a></p></td></tr></tbody></table></td><td><table><tbody><tr><td title=\"update\"><ac:task-list><ac:task><ac:task-id>0</ac:task-id><ac:task-status class=\"update\">incomplete</ac:task-status><ac:task-body>⟳</ac:task-body></ac:task></ac:task-list></td><td title=\"remove\"><ac:task-list><ac:task><ac:task-id>2</ac:task-id><ac:task-status class=\"remove\">incomplete</ac:task-status><ac:task-body>x</ac:task-body></ac:task></ac:task-list></td></tr></tbody></table></td></tr><tr><th colspan=\"3\" class=\"highlight-#00a3bf\" title=\"P667\">Versionsnummer</th></tr><tr class=\"statement\"><td><ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:macro-id=\"a6b4ea81-9000-4b66-804f-249dc61fbacc\"><ac:parameter ac:name=\"property-key\">P667</ac:parameter><ac:parameter ac:name=\"wikibase-entity-id\">P531$86BBC3B7-30FA-4D45-8659-2B6DD7EC69D4</ac:parameter><ac:parameter ac:name=\"is-embedded\">false</ac:parameter><ac:parameter ac:name=\"statement-id\">P531$86BBC3B7-30FA-4D45-8659-2B6DD7EC69D4</ac:parameter><ac:parameter ac:name=\"borderStyle\">none</ac:parameter><ac:parameter ac:name=\"showIcon\">false</ac:parameter><ac:rich-text-body><p><a href=\"https://sta.dnb.de/entity/Q9727\" title=\"Version 2023/1\">Q9727</a></p></ac:rich-text-body></ac:structured-macro></td><td><table /></td><td><table><tbody><tr><td title=\"update\"><ac:task-list><ac:task><ac:task-id>0</ac:task-id><ac:task-status class=\"update\">incomplete</ac:task-status><ac:task-body>⟳</ac:task-body></ac:task></ac:task-list></td><td title=\"remove\"><ac:task-list><ac:task><ac:task-id>2</ac:task-id><ac:task-status class=\"remove\">incomplete</ac:task-status><ac:task-body>x</ac:task-body></ac:task></ac:task-list></td></tr></tbody></table></td></tr><tr><th colspan=\"3\" class=\"highlight-#00a3bf\" title=\"P402\">Informationsquellen</th></tr><tr class=\"statement\"><td><ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:macro-id=\"d6df9704-4b66-41d2-bc5d-352c22de7d8d\"><ac:parameter ac:name=\"property-key\">P402</ac:parameter><ac:parameter ac:name=\"wikibase-entity-id\">P531$66733154-D328-4A58-A115-57D4B05361B8</ac:parameter><ac:parameter ac:name=\"is-embedded\">false</ac:parameter><ac:parameter ac:name=\"statement-id\">P531$66733154-D328-4A58-A115-57D4B05361B8</ac:parameter><ac:parameter ac:name=\"borderStyle\">none</ac:parameter><ac:parameter ac:name=\"showIcon\">false</ac:parameter><ac:rich-text-body><p>Nehmen Sie Informationen &uuml;ber einen Inhaltstyp aus einer beliebigen Quelle.</p></ac:rich-text-body></ac:structured-macro></td><td><table /></td><td><table><tbody><tr><td title=\"update\"><ac:task-list><ac:task><ac:task-id>0</ac:task-id><ac:task-status class=\"update\">incomplete</ac:task-status><ac:task-body>⟳</ac:task-body></ac:task></ac:task-list></td><td title=\"remove\"><ac:task-list><ac:task><ac:task-id>2</ac:task-id><ac:task-status class=\"remove\">incomplete</ac:task-status><ac:task-body>x</ac:task-body></ac:task></ac:task-list></td></tr></tbody></table></td></tr><tr><th colspan=\"3\" class=\"highlight-#00a3bf\" title=\"P4\">Format</th></tr><tr class=\"statement\"><td><ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:macro-id=\"db4e24ac-1a64-4fdd-8866-d197783eb7a4\"><ac:parameter ac:name=\"property-key\">P4</ac:parameter><ac:parameter ac:name=\"wikibase-entity-id\">P531$51CF81B4-4A74-43AB-86E4-1B4EC9934157</ac:parameter><ac:parameter ac:name=\"is-embedded\">false</ac:parameter><ac:parameter ac:name=\"statement-id\">P531$51CF81B4-4A74-43AB-86E4-1B4EC9934157</ac:parameter><ac:parameter ac:name=\"borderStyle\">none</ac:parameter><ac:parameter ac:name=\"showIcon\">false</ac:parameter><ac:rich-text-body><p><strong>MARC 21 Bibliographic:&nbsp;</strong>336 ## $a $b $2rdacontent</p></ac:rich-text-body></ac:structured-macro></td><td><table /></td><td><table><tbody><tr><td title=\"update\"><ac:task-list><ac:task><ac:task-id>0</ac:task-id><ac:task-status class=\"update\">incomplete</ac:task-status><ac:task-body>⟳</ac:task-body></ac:task></ac:task-list></td><td title=\"remove\"><ac:task-list><ac:task><ac:task-id>2</ac:task-id><ac:task-status class=\"remove\">incomplete</ac:task-status><ac:task-body>x</ac:task-body></ac:task></ac:task-list></td></tr></tbody></table></td></tr><tr class=\"statement\"><td><ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:macro-id=\"7b9af0d3-36cf-45e9-8f4c-86e2ec0e0e16\"><ac:parameter ac:name=\"property-key\">P4</ac:parameter><ac:parameter ac:name=\"wikibase-entity-id\">P531$7D3DDD44-4FEE-4B8F-88BC-BD0342D6BCF7</ac:parameter><ac:parameter ac:name=\"is-embedded\">false</ac:parameter><ac:parameter ac:name=\"statement-id\">P531$7D3DDD44-4FEE-4B8F-88BC-BD0342D6BCF7</ac:parameter><ac:parameter ac:name=\"borderStyle\">none</ac:parameter><ac:parameter ac:name=\"showIcon\">false</ac:parameter><ac:rich-text-body><p><strong>Standard:&nbsp;</strong><a href=\"https://www.loc.gov/marc/authority/ad336.html\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.loc.gov/marc/bibliographic/bd336.html</a></p></ac:rich-text-body></ac:structured-macro></td><td><table /></td><td><table><tbody><tr><td title=\"update\"><ac:task-list><ac:task><ac:task-id>1</ac:task-id><ac:task-status class=\"update\">incomplete</ac:task-status><ac:task-body>⟳</ac:task-body></ac:task></ac:task-list></td><td title=\"remove\"><ac:task-list><ac:task><ac:task-id>3</ac:task-id><ac:task-status class=\"remove\">incomplete</ac:task-status><ac:task-body>x</ac:task-body></ac:task></ac:task-list></td></tr></tbody></table></td></tr><tr class=\"statement\"><td><ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:macro-id=\"18b0123a-e92a-4eb8-8495-95d904fee5a1\"><ac:parameter ac:name=\"property-key\">P4</ac:parameter><ac:parameter ac:name=\"wikibase-entity-id\">P531$55A7065B-5A09-4A7F-8956-35F624FCCE78</ac:parameter><ac:parameter ac:name=\"is-embedded\">false</ac:parameter><ac:parameter ac:name=\"statement-id\">P531$55A7065B-5A09-4A7F-8956-35F624FCCE78</ac:parameter><ac:parameter ac:name=\"borderStyle\">none</ac:parameter><ac:parameter ac:name=\"showIcon\">false</ac:parameter><ac:rich-text-body><p><a href=\"https://www.loc.gov/marc/authority/ad336.html\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>OBV:&nbsp;</strong></a><a href=\"https://wiki.obvsg.at/Katalogisierungshandbuch/Kategorienuebersicht336FE\" target=\"_blank\" rel=\"noopener noreferrer\">https://wiki.obvsg.at/Katalogisierungshandbuch/Kategorienuebersicht336FE</a></p></ac:rich-text-body></ac:structured-macro></td><td><table /></td><td><table><tbody><tr><td title=\"update\"><ac:task-list><ac:task><ac:task-id>2</ac:task-id><ac:task-status class=\"update\">incomplete</ac:task-status><ac:task-body>⟳</ac:task-body></ac:task></ac:task-list></td><td title=\"remove\"><ac:task-list><ac:task><ac:task-id>4</ac:task-id><ac:task-status class=\"remove\">incomplete</ac:task-status><ac:task-body>x</ac:task-body></ac:task></ac:task-list></td></tr></tbody></table></td></tr><tr class=\"statement\"><td><ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:macro-id=\"a532f9e5-14d5-44e6-a630-5066c684ad56\"><ac:parameter ac:name=\"property-key\">P4</ac:parameter><ac:parameter ac:name=\"wikibase-entity-id\">P531$BA218666-4315-44BE-B6E9-AD8BAF81749D</ac:parameter><ac:parameter ac:name=\"is-embedded\">false</ac:parameter><ac:parameter ac:name=\"statement-id\">P531$BA218666-4315-44BE-B6E9-AD8BAF81749D</ac:parameter><ac:parameter ac:name=\"borderStyle\">none</ac:parameter><ac:parameter ac:name=\"showIcon\">false</ac:parameter><ac:rich-text-body><p><strong>SLSP:&nbsp;</strong>LINK</p></ac:rich-text-body></ac:structured-macro></td><td><table /></td><td><table><tbody><tr><td title=\"update\"><ac:task-list><ac:task><ac:task-id>3</ac:task-id><ac:task-status class=\"update\">incomplete</ac:task-status><ac:task-body>⟳</ac:task-body></ac:task></ac:task-list></td><td title=\"remove\"><ac:task-list><ac:task><ac:task-id>5</ac:task-id><ac:task-status class=\"remove\">incomplete</ac:task-status><ac:task-body>x</ac:task-body></ac:task></ac:task-list></td></tr></tbody></table></td></tr><tr class=\"statement\"><td><ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:macro-id=\"b69c0d04-9fef-47fb-ace2-10c3de350c77\"><ac:parameter ac:name=\"property-key\">P4</ac:parameter><ac:parameter ac:name=\"wikibase-entity-id\">P531$61105675-BD5B-4093-9C65-708EC1D2F0F8</ac:parameter><ac:parameter ac:name=\"is-embedded\">false</ac:parameter><ac:parameter ac:name=\"statement-id\">P531$61105675-BD5B-4093-9C65-708EC1D2F0F8</ac:parameter><ac:parameter ac:name=\"borderStyle\">none</ac:parameter><ac:parameter ac:name=\"showIcon\">false</ac:parameter><ac:rich-text-body><p><strong>ASEQ/MAB:&nbsp;</strong>060_ $b</p></ac:rich-text-body></ac:structured-macro></td><td><table /></td><td><table><tbody><tr><td title=\"update\"><ac:task-list><ac:task><ac:task-id>4</ac:task-id><ac:task-status class=\"update\">incomplete</ac:task-status><ac:task-body>⟳</ac:task-body></ac:task></ac:task-list></td><td title=\"remove\"><ac:task-list><ac:task><ac:task-id>6</ac:task-id><ac:task-status class=\"remove\">incomplete</ac:task-status><ac:task-body>x</ac:task-body></ac:task></ac:task-list></td></tr></tbody></table></td></tr><tr class=\"statement\"><td><ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:macro-id=\"55a3ccf2-8023-4d57-a720-3117aaa9af2c\"><ac:parameter ac:name=\"property-key\">P4</ac:parameter><ac:parameter ac:name=\"wikibase-entity-id\">P531$B4FEF65C-1AD8-4073-85CD-369884D33DA1</ac:parameter><ac:parameter ac:name=\"is-embedded\">false</ac:parameter><ac:parameter ac:name=\"statement-id\">P531$B4FEF65C-1AD8-4073-85CD-369884D33DA1</ac:parameter><ac:parameter ac:name=\"borderStyle\">none</ac:parameter><ac:parameter ac:name=\"showIcon\">false</ac:parameter><ac:rich-text-body><p><a href=\"https://www.bib-bvb.de/web/kkb-online/rda-felder-001-088\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.bib-bvb.de/web/kkb-online/rda-felder-001-088</a></p></ac:rich-text-body></ac:structured-macro></td><td><table /></td><td><table><tbody><tr><td title=\"update\"><ac:task-list><ac:task><ac:task-id>5</ac:task-id><ac:task-status class=\"update\">incomplete</ac:task-status><ac:task-body>⟳</ac:task-body></ac:task></ac:task-list></td><td title=\"remove\"><ac:task-list><ac:task><ac:task-id>7</ac:task-id><ac:task-status class=\"remove\">incomplete</ac:task-status><ac:task-body>x</ac:task-body></ac:task></ac:task-list></td></tr></tbody></table></td></tr><tr class=\"statement\"><td><ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:macro-id=\"04f6d669-70ea-47dd-81d4-d8897560a13c\"><ac:parameter ac:name=\"property-key\">P4</ac:parameter><ac:parameter ac:name=\"wikibase-entity-id\">P531$C0CB2280-142B-47E9-B63C-1BF5721857AD</ac:parameter><ac:parameter ac:name=\"is-embedded\">false</ac:parameter><ac:parameter ac:name=\"statement-id\">P531$C0CB2280-142B-47E9-B63C-1BF5721857AD</ac:parameter><ac:parameter ac:name=\"borderStyle\">none</ac:parameter><ac:parameter ac:name=\"showIcon\">false</ac:parameter><ac:rich-text-body><p><strong>Pica DNB:</strong>&nbsp;0501</p></ac:rich-text-body></ac:structured-macro></td><td><table /></td><td><table><tbody><tr><td title=\"update\"><ac:task-list><ac:task><ac:task-id>6</ac:task-id><ac:task-status class=\"update\">incomplete</ac:task-status><ac:task-body>⟳</ac:task-body></ac:task></ac:task-list></td><td title=\"remove\"><ac:task-list><ac:task><ac:task-id>8</ac:task-id><ac:task-status class=\"remove\">incomplete</ac:task-status><ac:task-body>x</ac:task-body></ac:task></ac:task-list></td></tr></tbody></table></td></tr><tr class=\"statement\"><td><ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:macro-id=\"98403788-4699-473e-b0eb-aa9ca2a976e0\"><ac:parameter ac:name=\"property-key\">P4</ac:parameter><ac:parameter ac:name=\"wikibase-entity-id\">P531$ECE05CA5-1519-45B8-81C1-6F63584BD9BC</ac:parameter><ac:parameter ac:name=\"is-embedded\">false</ac:parameter><ac:parameter ac:name=\"statement-id\">P531$ECE05CA5-1519-45B8-81C1-6F63584BD9BC</ac:parameter><ac:parameter ac:name=\"borderStyle\">none</ac:parameter><ac:parameter ac:name=\"showIcon\">false</ac:parameter><ac:rich-text-body><p><a href=\"https://wiki.dnb.de/display/ILTIS/0501\" target=\"_blank\" rel=\"noopener noreferrer\">https://wiki.dnb.de/display/ILTIS/0501</a></p></ac:rich-text-body></ac:structured-macro></td><td><table /></td><td><table><tbody><tr><td title=\"update\"><ac:task-list><ac:task><ac:task-id>7</ac:task-id><ac:task-status class=\"update\">incomplete</ac:task-status><ac:task-body>⟳</ac:task-body></ac:task></ac:task-list></td><td title=\"remove\"><ac:task-list><ac:task><ac:task-id>9</ac:task-id><ac:task-status class=\"remove\">incomplete</ac:task-status><ac:task-body>x</ac:task-body></ac:task></ac:task-list></td></tr></tbody></table></td></tr><tr class=\"statement\"><td><ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:macro-id=\"d7f5de6a-a231-4027-b40d-67c122169168\"><ac:parameter ac:name=\"property-key\">P4</ac:parameter><ac:parameter ac:name=\"wikibase-entity-id\">P531$9FC6F905-E55A-4B16-9208-1F47B8B39CCE</ac:parameter><ac:parameter ac:name=\"is-embedded\">false</ac:parameter><ac:parameter ac:name=\"statement-id\">P531$9FC6F905-E55A-4B16-9208-1F47B8B39CCE</ac:parameter><ac:parameter ac:name=\"borderStyle\">none</ac:parameter><ac:parameter ac:name=\"showIcon\">false</ac:parameter><ac:rich-text-body><p><strong>Pica hebis:</strong> 0501</p></ac:rich-text-body></ac:structured-macro></td><td><table /></td><td><table><tbody><tr><td title=\"update\"><ac:task-list><ac:task><ac:task-id>8</ac:task-id><ac:task-status class=\"update\">incomplete</ac:task-status><ac:task-body>⟳</ac:task-body></ac:task></ac:task-list></td><td title=\"remove\"><ac:task-list><ac:task><ac:task-id>10</ac:task-id><ac:task-status class=\"remove\">incomplete</ac:task-status><ac:task-body>x</ac:task-body></ac:task></ac:task-list></td></tr></tbody></table></td></tr><tr class=\"statement\"><td><ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:macro-id=\"e9c59166-1e63-4143-9139-47f6f0689688\"><ac:parameter ac:name=\"property-key\">P4</ac:parameter><ac:parameter ac:name=\"wikibase-entity-id\">P531$DF859AA1-4253-40A2-B07B-3C6870A23CC4</ac:parameter><ac:parameter ac:name=\"is-embedded\">false</ac:parameter><ac:parameter ac:name=\"statement-id\">P531$DF859AA1-4253-40A2-B07B-3C6870A23CC4</ac:parameter><ac:parameter ac:name=\"borderStyle\">none</ac:parameter><ac:parameter ac:name=\"showIcon\">false</ac:parameter><ac:rich-text-body><p><a href=\"https://www.hebis.de/pica-kategorie/0501\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.hebis.de/pica-kategorie/0501</a></p></ac:rich-text-body></ac:structured-macro></td><td><table /></td><td><table><tbody><tr><td title=\"update\"><ac:task-list><ac:task><ac:task-id>9</ac:task-id><ac:task-status class=\"update\">incomplete</ac:task-status><ac:task-body>⟳</ac:task-body></ac:task></ac:task-list></td><td title=\"remove\"><ac:task-list><ac:task><ac:task-id>11</ac:task-id><ac:task-status class=\"remove\">incomplete</ac:task-status><ac:task-body>x</ac:task-body></ac:task></ac:task-list></td></tr></tbody></table></td></tr><tr class=\"statement\"><td><ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:macro-id=\"d828da2d-3d0e-4bfd-97b0-347a9dbcd94f\"><ac:parameter ac:name=\"property-key\">P4</ac:parameter><ac:parameter ac:name=\"wikibase-entity-id\">P531$90F9DB16-8E49-4229-8FB3-19C7D058692A</ac:parameter><ac:parameter ac:name=\"is-embedded\">false</ac:parameter><ac:parameter ac:name=\"statement-id\">P531$90F9DB16-8E49-4229-8FB3-19C7D058692A</ac:parameter><ac:parameter ac:name=\"borderStyle\">none</ac:parameter><ac:parameter ac:name=\"showIcon\">false</ac:parameter><ac:rich-text-body><p><strong>Pica K10plus: </strong>0501</p></ac:rich-text-body></ac:structured-macro></td><td><table /></td><td><table><tbody><tr><td title=\"update\"><ac:task-list><ac:task><ac:task-id>10</ac:task-id><ac:task-status class=\"update\">incomplete</ac:task-status><ac:task-body>⟳</ac:task-body></ac:task></ac:task-list></td><td title=\"remove\"><ac:task-list><ac:task><ac:task-id>12</ac:task-id><ac:task-status class=\"remove\">incomplete</ac:task-status><ac:task-body>x</ac:task-body></ac:task></ac:task-list></td></tr></tbody></table></td></tr><tr class=\"statement\"><td><ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:macro-id=\"018802e1-0c00-458a-b868-94add9b51999\"><ac:parameter ac:name=\"property-key\">P4</ac:parameter><ac:parameter ac:name=\"wikibase-entity-id\">P531$366F3FF1-9D9E-4F8D-A6BC-99F76DA6819F</ac:parameter><ac:parameter ac:name=\"is-embedded\">false</ac:parameter><ac:parameter ac:name=\"statement-id\">P531$366F3FF1-9D9E-4F8D-A6BC-99F76DA6819F</ac:parameter><ac:parameter ac:name=\"borderStyle\">none</ac:parameter><ac:parameter ac:name=\"showIcon\">false</ac:parameter><ac:rich-text-body><p><a href=\"https://swbtools.bsz-bw.de/cgi-bin/k10plushelp.pl?cmd=kat&amp;val=4026&amp;katalog=Standard\" target=\"_blank\" rel=\"noopener noreferrer\">https://</a><a href=\"https://format.k10plus.de/k10plushelp.pl?cmd=kat&amp;val=4201&amp;katalog=Standard\" target=\"_blank\" rel=\"noopener noreferrer\">format.k10plus.de/k10plushelp.pl?cmd=kat&amp;val</a><a href=\"https://swbtools.bsz-bw.de/cgi-bin/k10plushelp.pl?cmd=kat&amp;val=4026&amp;katalog=Standard\" target=\"_blank\" rel=\"noopener noreferrer\">=0501&amp;katalog=Standard</a></p></ac:rich-text-body></ac:structured-macro></td><td><table /></td><td><table><tbody><tr><td title=\"update\"><ac:task-list><ac:task><ac:task-id>11</ac:task-id><ac:task-status class=\"update\">incomplete</ac:task-status><ac:task-body>⟳</ac:task-body></ac:task></ac:task-list></td><td title=\"remove\"><ac:task-list><ac:task><ac:task-id>13</ac:task-id><ac:task-status class=\"remove\">incomplete</ac:task-status><ac:task-body>x</ac:task-body></ac:task></ac:task-list></td></tr></tbody></table></td></tr><tr class=\"statement\"><td><ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:macro-id=\"0bdef64e-e2d0-4bb8-aa14-29705eb7404f\"><ac:parameter ac:name=\"property-key\">P4</ac:parameter><ac:parameter ac:name=\"wikibase-entity-id\">P531$268E9017-68FE-4F72-8119-52D29298EAB4</ac:parameter><ac:parameter ac:name=\"is-embedded\">false</ac:parameter><ac:parameter ac:name=\"statement-id\">P531$268E9017-68FE-4F72-8119-52D29298EAB4</ac:parameter><ac:parameter ac:name=\"borderStyle\">none</ac:parameter><ac:parameter ac:name=\"showIcon\">false</ac:parameter><ac:rich-text-body><p><strong>Pica ZDB:&nbsp;</strong>0501</p></ac:rich-text-body></ac:structured-macro></td><td><table /></td><td><table><tbody><tr><td title=\"update\"><ac:task-list><ac:task><ac:task-id>12</ac:task-id><ac:task-status class=\"update\">incomplete</ac:task-status><ac:task-body>⟳</ac:task-body></ac:task></ac:task-list></td><td title=\"remove\"><ac:task-list><ac:task><ac:task-id>14</ac:task-id><ac:task-status class=\"remove\">incomplete</ac:task-status><ac:task-body>x</ac:task-body></ac:task></ac:task-list></td></tr></tbody></table></td></tr><tr class=\"statement\"><td><ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:macro-id=\"e15ad11e-4681-4359-8477-d37f6dbbe614\"><ac:parameter ac:name=\"property-key\">P4</ac:parameter><ac:parameter ac:name=\"wikibase-entity-id\">P531$3B4A0379-336A-4FD7-9549-169513517CA6</ac:parameter><ac:parameter ac:name=\"is-embedded\">false</ac:parameter><ac:parameter ac:name=\"statement-id\">P531$3B4A0379-336A-4FD7-9549-169513517CA6</ac:parameter><ac:parameter ac:name=\"borderStyle\">none</ac:parameter><ac:parameter ac:name=\"showIcon\">false</ac:parameter><ac:rich-text-body><p><a href=\"https://zeitschriftendatenbank.de/fileadmin/user_upload/ZDB/pdf/zdbformat/0501.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">https://zeitschriftendatenbank.de/fileadmin/user_upload/ZDB/pdf/zdbformat/0501.pdf</a></p></ac:rich-text-body></ac:structured-macro></td><td><table /></td><td><table><tbody><tr><td title=\"update\"><ac:task-list><ac:task><ac:task-id>13</ac:task-id><ac:task-status class=\"update\">incomplete</ac:task-status><ac:task-body>⟳</ac:task-body></ac:task></ac:task-list></td><td title=\"remove\"><ac:task-list><ac:task><ac:task-id>15</ac:task-id><ac:task-status class=\"remove\">incomplete</ac:task-status><ac:task-body>x</ac:task-body></ac:task></ac:task-list></td></tr></tbody></table></td></tr><tr><th colspan=\"3\" class=\"highlight-#00a3bf\" title=\"P110\">Schema</th></tr><tr class=\"statement\"><td><ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:macro-id=\"c19fa60e-592b-4f51-860f-9aba3d4bc777\"><ac:parameter ac:name=\"property-key\">P110</ac:parameter><ac:parameter ac:name=\"wikibase-entity-id\">P531$C81FCEE4-AAD9-455F-B06F-DEB6AE7D018B</ac:parameter><ac:parameter ac:name=\"is-embedded\">false</ac:parameter><ac:parameter ac:name=\"statement-id\">P531$C81FCEE4-AAD9-455F-B06F-DEB6AE7D018B</ac:parameter><ac:parameter ac:name=\"borderStyle\">none</ac:parameter><ac:parameter ac:name=\"showIcon\">false</ac:parameter><ac:rich-text-body><p><a href=\"https://sta.dnb.de/entity/Q263\" title=\"RDA-Dokumentation\">Q263</a></p></ac:rich-text-body></ac:structured-macro></td><td><table /></td><td><table><tbody><tr><td title=\"update\"><ac:task-list><ac:task><ac:task-id>0</ac:task-id><ac:task-status class=\"update\">incomplete</ac:task-status><ac:task-body>⟳</ac:task-body></ac:task></ac:task-list></td><td title=\"remove\"><ac:task-list><ac:task><ac:task-id>2</ac:task-id><ac:task-status class=\"remove\">incomplete</ac:task-status><ac:task-body>x</ac:task-body></ac:task></ac:task-list></td></tr></tbody></table></td></tr><tr><th colspan=\"3\" class=\"highlight-#00a3bf\" title=\"P660\">normiertes Vokabular</th></tr><tr class=\"statement\"><td><ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:macro-id=\"7b830593-94f8-4e1e-8e32-e7da5b82ae6d\"><ac:parameter ac:name=\"property-key\">P660</ac:parameter><ac:parameter ac:name=\"wikibase-entity-id\">P531$A640C562-F9FC-4521-BDE2-64CF61AC3078</ac:parameter><ac:parameter ac:name=\"is-embedded\">false</ac:parameter><ac:parameter ac:name=\"statement-id\">P531$A640C562-F9FC-4521-BDE2-64CF61AC3078</ac:parameter><ac:parameter ac:name=\"borderStyle\">none</ac:parameter><ac:parameter ac:name=\"showIcon\">false</ac:parameter><ac:rich-text-body><p /><div style=\"margin-left: 5.0px;\"> aufgef&uuml;hrte Musik<br />Bewegungsnotation<br />Computerdaten<br />Computerprogramm<br />dreidimensionale Form<br />dreidimensionales bewegtes Bild<br />Ger&auml;usche<br />gesprochenes Wort<br />kartografische dreidimensionale Form<br />kartografische taktile dreidimensionale Form<br />kartografischer Datensatz<br />kartografisches bewegtes Bild<br />kartografisches Bild<br />kartografisches taktiles Bild<br />Noten<br />taktile Bewegungsnotation<br />taktile dreidimensionale Form<br />taktile Noten<br />taktiler Text<br />taktiles Bild<br />Text<br />unbewegtes Bild<br />zweidimensionales bewegtes Bild </div><p /></ac:rich-text-body></ac:structured-macro></td><td><table /></td><td><table><tbody><tr><td title=\"update\"><ac:task-list><ac:task><ac:task-id>0</ac:task-id><ac:task-status class=\"update\">incomplete</ac:task-status><ac:task-body>⟳</ac:task-body></ac:task></ac:task-list></td><td title=\"remove\"><ac:task-list><ac:task><ac:task-id>2</ac:task-id><ac:task-status class=\"remove\">incomplete</ac:task-status><ac:task-body>x</ac:task-body></ac:task></ac:task-list></td></tr></tbody></table></td></tr><tr class=\"statement\"><td><ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:macro-id=\"224ba923-3ba6-48aa-957c-a2bba9597f91\"><ac:parameter ac:name=\"property-key\">P660</ac:parameter><ac:parameter ac:name=\"wikibase-entity-id\">P531$60D306A6-3734-4E62-99E9-A4FC60D1D498</ac:parameter><ac:parameter ac:name=\"is-embedded\">false</ac:parameter><ac:parameter ac:name=\"statement-id\">P531$60D306A6-3734-4E62-99E9-A4FC60D1D498</ac:parameter><ac:parameter ac:name=\"borderStyle\">none</ac:parameter><ac:parameter ac:name=\"showIcon\">false</ac:parameter><ac:rich-text-body><p /><div style=\"margin-left: 5.0px;\"> Sonstige </div><p /></ac:rich-text-body></ac:structured-macro></td><td><table /></td><td><table><tbody><tr><td title=\"update\"><ac:task-list><ac:task><ac:task-id>1</ac:task-id><ac:task-status class=\"update\">incomplete</ac:task-status><ac:task-body>⟳</ac:task-body></ac:task></ac:task-list></td><td title=\"remove\"><ac:task-list><ac:task><ac:task-id>3</ac:task-id><ac:task-status class=\"remove\">incomplete</ac:task-status><ac:task-body>x</ac:task-body></ac:task></ac:task-list></td></tr></tbody></table></td></tr><tr><th colspan=\"3\" class=\"highlight-#00a3bf\" title=\"P388\">Basisregeln</th></tr><tr class=\"statement\"><td><ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:macro-id=\"46c1a62d-12d0-489c-a69b-beb8e01d31e1\"><ac:parameter ac:name=\"property-key\">P388</ac:parameter><ac:parameter ac:name=\"wikibase-entity-id\">P531$FB81947C-CC11-4B2D-99D3-3D59C7B47C62</ac:parameter><ac:parameter ac:name=\"is-embedded\">false</ac:parameter><ac:parameter ac:name=\"statement-id\">P531$FB81947C-CC11-4B2D-99D3-3D59C7B47C62</ac:parameter><ac:parameter ac:name=\"borderStyle\">none</ac:parameter><ac:parameter ac:name=\"showIcon\">false</ac:parameter><ac:rich-text-body><p /><h1>Erfassen des Inhaltstyps</h1><p /></ac:rich-text-body></ac:structured-macro><table><tbody><tr class=\"statement\"><td><ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:macro-id=\"e89fe235-b09e-4d0d-bcf9-a82ea01d4057\"><ac:parameter ac:name=\"property-key\">P7</ac:parameter><ac:parameter ac:name=\"wikibase-entity-id\">Q9503$CF63F806-47BB-491E-AAA1-F10A686352F7</ac:parameter><ac:parameter ac:name=\"is-embedded\">false</ac:parameter><ac:parameter ac:name=\"statement-id\">Q9503$CF63F806-47BB-491E-AAA1-F10A686352F7</ac:parameter><ac:parameter ac:name=\"borderStyle\">none</ac:parameter><ac:parameter ac:name=\"showIcon\">false</ac:parameter><ac:rich-text-body><p>Erfassen Sie den Inhaltstyp, der in der Ressource enthalten ist und verwenden Sie einen oder mehrere der Termini aus der Liste. (siehe <a class=\"ref\" href=\"P531\">normiertes Vokabular</a>).<br /> <br />Erfassen Sie so viele Termini, wie auf die zu beschreibende Ressource zutreffen.</p></ac:rich-text-body></ac:structured-macro></td><td><table /></td><td><table><tbody><tr><td title=\"update\"><ac:task-list><ac:task><ac:task-id>0</ac:task-id><ac:task-status class=\"update\">incomplete</ac:task-status><ac:task-body>⟳</ac:task-body></ac:task></ac:task-list></td><td title=\"remove\"><ac:task-list><ac:task><ac:task-id>2</ac:task-id><ac:task-status class=\"remove\">incomplete</ac:task-status><ac:task-body>x</ac:task-body></ac:task></ac:task-list></td></tr></tbody></table></td></tr><tr class=\"statement\"><td><ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:macro-id=\"8aa1a41c-b97a-4c58-9dfe-3cc95e76993a\"><ac:parameter ac:name=\"property-key\">P7</ac:parameter><ac:parameter ac:name=\"wikibase-entity-id\">Q9503$E3FDB757-E784-49DE-AD77-FCDD4ECF978C</ac:parameter><ac:parameter ac:name=\"is-embedded\">false</ac:parameter><ac:parameter ac:name=\"statement-id\">Q9503$E3FDB757-E784-49DE-AD77-FCDD4ECF978C</ac:parameter><ac:parameter ac:name=\"borderStyle\">none</ac:parameter><ac:parameter ac:name=\"showIcon\">false</ac:parameter><ac:rich-text-body><p>Erfassen Sie den Inhaltstyp nicht f&uuml;r Begleitmaterial.</p></ac:rich-text-body></ac:structured-macro></td><td><table /></td><td><table><tbody><tr><td title=\"update\"><ac:task-list><ac:task><ac:task-id>1</ac:task-id><ac:task-status class=\"update\">incomplete</ac:task-status><ac:task-body>⟳</ac:task-body></ac:task></ac:task-list></td><td title=\"remove\"><ac:task-list><ac:task><ac:task-id>3</ac:task-id><ac:task-status class=\"remove\">incomplete</ac:task-status><ac:task-body>x</ac:task-body></ac:task></ac:task-list></td></tr></tbody></table></td></tr><tr class=\"statement\"><td><ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:macro-id=\"0103ddaf-0ec9-4d44-b948-216b25212064\"><ac:parameter ac:name=\"property-key\">P7</ac:parameter><ac:parameter ac:name=\"wikibase-entity-id\">Q9503$9FDB3AB9-FBAE-4B92-83D1-AC107D5F879F</ac:parameter><ac:parameter ac:name=\"is-embedded\">false</ac:parameter><ac:parameter ac:name=\"statement-id\">Q9503$9FDB3AB9-FBAE-4B92-83D1-AC107D5F879F</ac:parameter><ac:parameter ac:name=\"borderStyle\">none</ac:parameter><ac:parameter ac:name=\"showIcon\">false</ac:parameter><ac:rich-text-body><p><strong>Beispiel</strong></p></ac:rich-text-body></ac:structured-macro></td><td><table /></td><td><table><tbody><tr><td title=\"update\"><ac:task-list><ac:task><ac:task-id>2</ac:task-id><ac:task-status class=\"update\">incomplete</ac:task-status><ac:task-body>⟳</ac:task-body></ac:task></ac:task-list></td><td title=\"remove\"><ac:task-list><ac:task><ac:task-id>4</ac:task-id><ac:task-status class=\"remove\">incomplete</ac:task-status><ac:task-body>x</ac:task-body></ac:task></ac:task-list></td></tr></tbody></table></td></tr><tr class=\"statement\"><td><ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:macro-id=\"6b90e26a-cda6-478d-9bbf-97cd05e07112\"><ac:parameter ac:name=\"property-key\">P7</ac:parameter><ac:parameter ac:name=\"wikibase-entity-id\">Q9503$6228A3BE-E821-4C8A-8402-6B886F7042DC</ac:parameter><ac:parameter ac:name=\"is-embedded\">false</ac:parameter><ac:parameter ac:name=\"statement-id\">Q9503$6228A3BE-E821-4C8A-8402-6B886F7042DC</ac:parameter><ac:parameter ac:name=\"borderStyle\">none</ac:parameter><ac:parameter ac:name=\"showIcon\">false</ac:parameter><ac:rich-text-body><p>Audio-CD plus mehrseitiges Booklet <br />Hauptkomponente: CD ; Begleitmaterial: Booklet <br />Inhaltstyp: aufgef&uuml;hrte Musik</p></ac:rich-text-body></ac:structured-macro></td><td><table><tbody><tr class=\"qualifier\"><td title=\"P389\" class=\"qualifier-label\">Layouttyp</td><td class=\"qualifier-value\"><p><a href=\"https://sta.dnb.de/entity/Q3399\" title=\"Beispiel\">Q3399</a></p></td></tr></tbody></table></td><td><table><tbody><tr><td title=\"update\"><ac:task-list><ac:task><ac:task-id>3</ac:task-id><ac:task-status class=\"update\">incomplete</ac:task-status><ac:task-body>⟳</ac:task-body></ac:task></ac:task-list></td><td title=\"remove\"><ac:task-list><ac:task><ac:task-id>5</ac:task-id><ac:task-status class=\"remove\">incomplete</ac:task-status><ac:task-body>x</ac:task-body></ac:task></ac:task-list></td></tr></tbody></table></td></tr></tbody></table></td><td><table><tbody><tr class=\"qualifier\"><td title=\"P389\" class=\"qualifier-label\">Layouttyp</td><td class=\"qualifier-value\"><p><a href=\"https://sta.dnb.de/entity/Q1343\" title=\"Zwischen&uuml;berschrift erster Ordnung\">Q1343</a></p></td></tr><tr class=\"qualifier\"><td title=\"P396\" class=\"qualifier-label\">eingebettet (Item)</td><td class=\"qualifier-value\"><p><a href=\"https://sta.dnb.de/entity/Q9503\" title=\"STA-Regel: Inhaltstyp (RDA-Elementbeschreibung)\">Q9503</a></p></td></tr></tbody></table></td><td><table><tbody><tr><td title=\"update\"><ac:task-list><ac:task><ac:task-id>0</ac:task-id><ac:task-status class=\"update\">incomplete</ac:task-status><ac:task-body>⟳</ac:task-body></ac:task></ac:task-list></td><td title=\"remove\"><ac:task-list><ac:task><ac:task-id>2</ac:task-id><ac:task-status class=\"remove\">incomplete</ac:task-status><ac:task-body>x</ac:task-body></ac:task></ac:task-list></td></tr></tbody></table></td></tr><tr class=\"statement\"><td><ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:macro-id=\"1de51917-a79d-4437-80bf-4dfaa159f5b4\"><ac:parameter ac:name=\"property-key\">P388</ac:parameter><ac:parameter ac:name=\"wikibase-entity-id\">P531$4B3D9E2F-A3F1-4CD0-A250-87955BBCEFB2</ac:parameter><ac:parameter ac:name=\"is-embedded\">false</ac:parameter><ac:parameter ac:name=\"statement-id\">P531$4B3D9E2F-A3F1-4CD0-A250-87955BBCEFB2</ac:parameter><ac:parameter ac:name=\"borderStyle\">none</ac:parameter><ac:parameter ac:name=\"showIcon\">false</ac:parameter><ac:rich-text-body><p /><h1>Termini f&uuml;r Inhaltstyp nicht zutreffend</h1><p /></ac:rich-text-body></ac:structured-macro><table><tbody><tr class=\"statement\"><td><ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:macro-id=\"9ea39a37-c62d-420e-9813-4c771952fac6\"><ac:parameter ac:name=\"property-key\">P7</ac:parameter><ac:parameter ac:name=\"wikibase-entity-id\">Q9504$4726D85E-FAB6-42EE-9B47-0CDA350405C1</ac:parameter><ac:parameter ac:name=\"is-embedded\">false</ac:parameter><ac:parameter ac:name=\"statement-id\">Q9504$4726D85E-FAB6-42EE-9B47-0CDA350405C1</ac:parameter><ac:parameter ac:name=\"borderStyle\">none</ac:parameter><ac:parameter ac:name=\"showIcon\">false</ac:parameter><ac:rich-text-body><p>Wenn keiner der Termini aus der Liste auf den Inhalt der zu beschreibenden Ressource zutrifft, erfassen Sie &quot; Sonstige&quot; .</p></ac:rich-text-body></ac:structured-macro></td><td><table /></td><td><table><tbody><tr><td title=\"update\"><ac:task-list><ac:task><ac:task-id>1</ac:task-id><ac:task-status class=\"update\">incomplete</ac:task-status><ac:task-body>⟳</ac:task-body></ac:task></ac:task-list></td><td title=\"remove\"><ac:task-list><ac:task><ac:task-id>3</ac:task-id><ac:task-status class=\"remove\">incomplete</ac:task-status><ac:task-body>x</ac:task-body></ac:task></ac:task-list></td></tr></tbody></table></td></tr></tbody></table></td><td><table><tbody><tr class=\"qualifier\"><td title=\"P389\" class=\"qualifier-label\">Layouttyp</td><td class=\"qualifier-value\"><p><a href=\"https://sta.dnb.de/entity/Q1343\" title=\"Zwischen&uuml;berschrift erster Ordnung\">Q1343</a></p></td></tr><tr class=\"qualifier\"><td title=\"P396\" class=\"qualifier-label\">eingebettet (Item)</td><td class=\"qualifier-value\"><p><a href=\"https://sta.dnb.de/entity/Q9504\" title=\"STA-Regel: Inhaltstyp (RDA-Elementbeschreibung)\">Q9504</a></p></td></tr></tbody></table></td><td><table><tbody><tr><td title=\"update\"><ac:task-list><ac:task><ac:task-id>1</ac:task-id><ac:task-status class=\"update\">incomplete</ac:task-status><ac:task-body>⟳</ac:task-body></ac:task></ac:task-list></td><td title=\"remove\"><ac:task-list><ac:task><ac:task-id>3</ac:task-id><ac:task-status class=\"remove\">incomplete</ac:task-status><ac:task-body>x</ac:task-body></ac:task></ac:task-list></td></tr></tbody></table></td></tr><tr class=\"statement\"><td><ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:macro-id=\"64a0cad9-762d-4478-8b35-578daa45daf6\"><ac:parameter ac:name=\"property-key\">P388</ac:parameter><ac:parameter ac:name=\"wikibase-entity-id\">P531$84DB3DB3-2B5C-49BA-930A-8275CE999FE7</ac:parameter><ac:parameter ac:name=\"is-embedded\">false</ac:parameter><ac:parameter ac:name=\"statement-id\">P531$84DB3DB3-2B5C-49BA-930A-8275CE999FE7</ac:parameter><ac:parameter ac:name=\"borderStyle\">none</ac:parameter><ac:parameter ac:name=\"showIcon\">false</ac:parameter><ac:rich-text-body><p /><h1>Inhaltstyp nicht ermittelbar</h1><p /></ac:rich-text-body></ac:structured-macro><table><tbody><tr class=\"statement\"><td><ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:macro-id=\"e12ff575-c2f3-4479-9b52-caadfa93cefe\"><ac:parameter ac:name=\"property-key\">P7</ac:parameter><ac:parameter ac:name=\"wikibase-entity-id\">Q9505$0956E54A-DDA1-4302-B0A0-8B28A7D1CA0F</ac:parameter><ac:parameter ac:name=\"is-embedded\">false</ac:parameter><ac:parameter ac:name=\"statement-id\">Q9505$0956E54A-DDA1-4302-B0A0-8B28A7D1CA0F</ac:parameter><ac:parameter ac:name=\"borderStyle\">none</ac:parameter><ac:parameter ac:name=\"showIcon\">false</ac:parameter><ac:rich-text-body><p>Wenn der auf die zu beschreibende Ressource zutreffende Inhaltstyp nicht einfach bestimmt werden kann, erfassen Sie &quot;nicht spezifiziert&quot;.</p></ac:rich-text-body></ac:structured-macro></td><td><table /></td><td><table><tbody><tr><td title=\"update\"><ac:task-list><ac:task><ac:task-id>2</ac:task-id><ac:task-status class=\"update\">incomplete</ac:task-status><ac:task-body>⟳</ac:task-body></ac:task></ac:task-list></td><td title=\"remove\"><ac:task-list><ac:task><ac:task-id>4</ac:task-id><ac:task-status class=\"remove\">incomplete</ac:task-status><ac:task-body>x</ac:task-body></ac:task></ac:task-list></td></tr></tbody></table></td></tr></tbody></table></td><td><table><tbody><tr class=\"qualifier\"><td title=\"P389\" class=\"qualifier-label\">Layouttyp</td><td class=\"qualifier-value\"><p><a href=\"https://sta.dnb.de/entity/Q1343\" title=\"Zwischen&uuml;berschrift erster Ordnung\">Q1343</a></p></td></tr><tr class=\"qualifier\"><td title=\"P396\" class=\"qualifier-label\">eingebettet (Item)</td><td class=\"qualifier-value\"><p><a href=\"https://sta.dnb.de/entity/Q9505\" title=\"STA-Regel: Inhaltstyp (RDA-Elementbeschreibung)\">Q9505</a></p></td></tr></tbody></table></td><td><table><tbody><tr><td title=\"update\"><ac:task-list><ac:task><ac:task-id>2</ac:task-id><ac:task-status class=\"update\">incomplete</ac:task-status><ac:task-body>⟳</ac:task-body></ac:task></ac:task-list></td><td title=\"remove\"><ac:task-list><ac:task><ac:task-id>4</ac:task-id><ac:task-status class=\"remove\">incomplete</ac:task-status><ac:task-body>x</ac:task-body></ac:task></ac:task-list></td></tr></tbody></table></td></tr><tr><th colspan=\"3\" class=\"highlight-#00a3bf\" title=\"P410\">Spezifische Regeln</th></tr><tr class=\"statement\"><td><ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:macro-id=\"39ed6d25-aa7a-41e7-a992-0ed7c070ad7a\"><ac:parameter ac:name=\"property-key\">P410</ac:parameter><ac:parameter ac:name=\"wikibase-entity-id\">P531$330E1F56-4ECC-4EAE-BA8A-39C445F636E0</ac:parameter><ac:parameter ac:name=\"is-embedded\">false</ac:parameter><ac:parameter ac:name=\"statement-id\">P531$330E1F56-4ECC-4EAE-BA8A-39C445F636E0</ac:parameter><ac:parameter ac:name=\"borderStyle\">none</ac:parameter><ac:parameter ac:name=\"showIcon\">false</ac:parameter><ac:rich-text-body><p /><h1>Mehrteilige Monografien</h1><p /></ac:rich-text-body></ac:structured-macro><table><tbody><tr class=\"statement\"><td><ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:macro-id=\"cd686f7b-3450-4a98-a55a-f07fee652824\"><ac:parameter ac:name=\"property-key\">P7</ac:parameter><ac:parameter ac:name=\"wikibase-entity-id\">Q9506$459466A8-B5A1-47AE-B17A-9223F4A5AEDA</ac:parameter><ac:parameter ac:name=\"is-embedded\">false</ac:parameter><ac:parameter ac:name=\"statement-id\">Q9506$459466A8-B5A1-47AE-B17A-9223F4A5AEDA</ac:parameter><ac:parameter ac:name=\"borderStyle\">none</ac:parameter><ac:parameter ac:name=\"showIcon\">false</ac:parameter><ac:rich-text-body><p /><h1>Erfassen des Inhaltstyps bei mehrteiligen Monografien</h1><p /></ac:rich-text-body></ac:structured-macro></td><td><table><tbody><tr class=\"qualifier\"><td title=\"P389\" class=\"qualifier-label\">Layouttyp</td><td class=\"qualifier-value\"><p><a href=\"https://sta.dnb.de/entity/Q1343\" title=\"Zwischen&uuml;berschrift erster Ordnung\">Q1343</a></p></td></tr></tbody></table></td><td><table><tbody><tr><td title=\"update\"><ac:task-list><ac:task><ac:task-id>0</ac:task-id><ac:task-status class=\"update\">incomplete</ac:task-status><ac:task-body>⟳</ac:task-body></ac:task></ac:task-list></td><td title=\"remove\"><ac:task-list><ac:task><ac:task-id>2</ac:task-id><ac:task-status class=\"remove\">incomplete</ac:task-status><ac:task-body>x</ac:task-body></ac:task></ac:task-list></td></tr></tbody></table></td></tr><tr class=\"statement\"><td><ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:macro-id=\"1e9b1d59-b7fe-47b0-8a7e-89d1999e75db\"><ac:parameter ac:name=\"property-key\">P7</ac:parameter><ac:parameter ac:name=\"wikibase-entity-id\">Q9506$148A1DDA-830F-4D2B-93DD-6342F5BDD859</ac:parameter><ac:parameter ac:name=\"is-embedded\">false</ac:parameter><ac:parameter ac:name=\"statement-id\">Q9506$148A1DDA-830F-4D2B-93DD-6342F5BDD859</ac:parameter><ac:parameter ac:name=\"borderStyle\">none</ac:parameter><ac:parameter ac:name=\"showIcon\">false</ac:parameter><ac:rich-text-body><p>Bei mehrteiligen Ressourcen bestimmen und erfassen Sie den Inhaltstyp f&uuml;r die Ressource als Ganzes und f&uuml;r die einzelnen Teile.</p></ac:rich-text-body></ac:structured-macro></td><td><table /></td><td><table><tbody><tr><td title=\"update\"><ac:task-list><ac:task><ac:task-id>1</ac:task-id><ac:task-status class=\"update\">incomplete</ac:task-status><ac:task-body>⟳</ac:task-body></ac:task></ac:task-list></td><td title=\"remove\"><ac:task-list><ac:task><ac:task-id>3</ac:task-id><ac:task-status class=\"remove\">incomplete</ac:task-status><ac:task-body>x</ac:task-body></ac:task></ac:task-list></td></tr></tbody></table></td></tr><tr class=\"statement\"><td><ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:macro-id=\"7a6bc7c2-fd82-46ce-9aae-126380f2253e\"><ac:parameter ac:name=\"property-key\">P7</ac:parameter><ac:parameter ac:name=\"wikibase-entity-id\">Q9506$DC193E36-2271-4626-AF78-06CA083DEF42</ac:parameter><ac:parameter ac:name=\"is-embedded\">false</ac:parameter><ac:parameter ac:name=\"statement-id\">Q9506$DC193E36-2271-4626-AF78-06CA083DEF42</ac:parameter><ac:parameter ac:name=\"borderStyle\">none</ac:parameter><ac:parameter ac:name=\"showIcon\">false</ac:parameter><ac:rich-text-body><p /><h1>Ressource mit Teilen aus demselben Inhaltstyp</h1><p /></ac:rich-text-body></ac:structured-macro></td><td><table><tbody><tr class=\"qualifier\"><td title=\"P389\" class=\"qualifier-label\">Layouttyp</td><td class=\"qualifier-value\"><p><a href=\"https://sta.dnb.de/entity/Q1343\" title=\"Zwischen&uuml;berschrift erster Ordnung\">Q1343</a></p></td></tr></tbody></table></td><td><table><tbody><tr><td title=\"update\"><ac:task-list><ac:task><ac:task-id>2</ac:task-id><ac:task-status class=\"update\">incomplete</ac:task-status><ac:task-body>⟳</ac:task-body></ac:task></ac:task-list></td><td title=\"remove\"><ac:task-list><ac:task><ac:task-id>4</ac:task-id><ac:task-status class=\"remove\">incomplete</ac:task-status><ac:task-body>x</ac:task-body></ac:task></ac:task-list></td></tr></tbody></table></td></tr><tr class=\"statement\"><td><ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:macro-id=\"80d2a892-08fe-400a-b96f-16709f997c86\"><ac:parameter ac:name=\"property-key\">P7</ac:parameter><ac:parameter ac:name=\"wikibase-entity-id\">Q9506$8949600D-D40B-40C4-AF09-9A5CCA37CDF2</ac:parameter><ac:parameter ac:name=\"is-embedded\">false</ac:parameter><ac:parameter ac:name=\"statement-id\">Q9506$8949600D-D40B-40C4-AF09-9A5CCA37CDF2</ac:parameter><ac:parameter ac:name=\"borderStyle\">none</ac:parameter><ac:parameter ac:name=\"showIcon\">false</ac:parameter><ac:rich-text-body><p><strong>Beispiel</strong></p></ac:rich-text-body></ac:structured-macro></td><td><table /></td><td><table><tbody><tr><td title=\"update\"><ac:task-list><ac:task><ac:task-id>3</ac:task-id><ac:task-status class=\"update\">incomplete</ac:task-status><ac:task-body>⟳</ac:task-body></ac:task></ac:task-list></td><td title=\"remove\"><ac:task-list><ac:task><ac:task-id>5</ac:task-id><ac:task-status class=\"remove\">incomplete</ac:task-status><ac:task-body>x</ac:task-body></ac:task></ac:task-list></td></tr></tbody></table></td></tr><tr class=\"statement\"><td><ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:macro-id=\"0c9bc38f-1f8d-4aab-8810-0a333ef1b857\"><ac:parameter ac:name=\"property-key\">P7</ac:parameter><ac:parameter ac:name=\"wikibase-entity-id\">Q9506$C682A32C-FEDF-4C83-BFDD-71328AE4396D</ac:parameter><ac:parameter ac:name=\"is-embedded\">false</ac:parameter><ac:parameter ac:name=\"statement-id\">Q9506$C682A32C-FEDF-4C83-BFDD-71328AE4396D</ac:parameter><ac:parameter ac:name=\"borderStyle\">none</ac:parameter><ac:parameter ac:name=\"showIcon\">false</ac:parameter><ac:rich-text-body><p><em>&Uuml;bergeordnete Aufnahme<br /> </em> Duden - die deutsche Sprache : W&ouml;rterbuch in drei B&auml;nden <br /> Inhaltstyp: Text <br /> <em>Aufnahme f&uuml;r einen Teil mit abh&auml;ngigem Titel</em> <br /> Band 1, A-Gelt <br /> Inhaltstyp: Text <br /> <em>Aufnahme f&uuml;r einen Teil mit abh&auml;ngigem Titel</em> <br /> Band 2, Gelu-Pyxi <br /> Inhaltstyp: Text <br /> <em>Aufnahme f&uuml;r einen Teil mit abh&auml;ngigem Titel</em> <br /> Band 3, Q-Zzgl <br /> Inhaltstyp: Text</p></ac:rich-text-body></ac:structured-macro></td><td><table><tbody><tr class=\"qualifier\"><td title=\"P389\" class=\"qualifier-label\">Layouttyp</td><td class=\"qualifier-value\"><p><a href=\"https://sta.dnb.de/entity/Q3399\" title=\"Beispiel\">Q3399</a></p></td></tr></tbody></table></td><td><table><tbody><tr><td title=\"update\"><ac:task-list><ac:task><ac:task-id>4</ac:task-id><ac:task-status class=\"update\">incomplete</ac:task-status><ac:task-body>⟳</ac:task-body></ac:task></ac:task-list></td><td title=\"remove\"><ac:task-list><ac:task><ac:task-id>6</ac:task-id><ac:task-status class=\"remove\">incomplete</ac:task-status><ac:task-body>x</ac:task-body></ac:task></ac:task-list></td></tr></tbody></table></td></tr><tr class=\"statement\"><td><ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:macro-id=\"988521e6-4455-440b-a0ad-5541bf5ddfcd\"><ac:parameter ac:name=\"property-key\">P7</ac:parameter><ac:parameter ac:name=\"wikibase-entity-id\">Q9506$33391E98-3B33-43E1-ADBC-EBC26E0CF2C5</ac:parameter><ac:parameter ac:name=\"is-embedded\">false</ac:parameter><ac:parameter ac:name=\"statement-id\">Q9506$33391E98-3B33-43E1-ADBC-EBC26E0CF2C5</ac:parameter><ac:parameter ac:name=\"borderStyle\">none</ac:parameter><ac:parameter ac:name=\"showIcon\">false</ac:parameter><ac:rich-text-body><p /><h1>Ressource mit Teilen aus unterschiedlichen Inhaltstypen</h1><p /></ac:rich-text-body></ac:structured-macro></td><td><table><tbody><tr class=\"qualifier\"><td title=\"P389\" class=\"qualifier-label\">Layouttyp</td><td class=\"qualifier-value\"><p><a href=\"https://sta.dnb.de/entity/Q1343\" title=\"Zwischen&uuml;berschrift erster Ordnung\">Q1343</a></p></td></tr></tbody></table></td><td><table><tbody><tr><td title=\"update\"><ac:task-list><ac:task><ac:task-id>5</ac:task-id><ac:task-status class=\"update\">incomplete</ac:task-status><ac:task-body>⟳</ac:task-body></ac:task></ac:task-list></td><td title=\"remove\"><ac:task-list><ac:task><ac:task-id>7</ac:task-id><ac:task-status class=\"remove\">incomplete</ac:task-status><ac:task-body>x</ac:task-body></ac:task></ac:task-list></td></tr></tbody></table></td></tr><tr class=\"statement\"><td><ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:macro-id=\"2a241710-46b2-404c-9ed0-6fc89b6d9461\"><ac:parameter ac:name=\"property-key\">P7</ac:parameter><ac:parameter ac:name=\"wikibase-entity-id\">Q9506$9326C1A8-A6C5-4948-8BE7-6FD72C720952</ac:parameter><ac:parameter ac:name=\"is-embedded\">false</ac:parameter><ac:parameter ac:name=\"statement-id\">Q9506$9326C1A8-A6C5-4948-8BE7-6FD72C720952</ac:parameter><ac:parameter ac:name=\"borderStyle\">none</ac:parameter><ac:parameter ac:name=\"showIcon\">false</ac:parameter><ac:rich-text-body><p>Band, Audiodisk, Computerdisk - hierarchische Beschreibung:</p></ac:rich-text-body></ac:structured-macro></td><td><table /></td><td><table><tbody><tr><td title=\"update\"><ac:task-list><ac:task><ac:task-id>6</ac:task-id><ac:task-status class=\"update\">incomplete</ac:task-status><ac:task-body>⟳</ac:task-body></ac:task></ac:task-list></td><td title=\"remove\"><ac:task-list><ac:task><ac:task-id>8</ac:task-id><ac:task-status class=\"remove\">incomplete</ac:task-status><ac:task-body>x</ac:task-body></ac:task></ac:task-list></td></tr></tbody></table></td></tr><tr class=\"statement\"><td><ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:macro-id=\"963be5fb-77ef-4b4c-8dd8-cc449dd7d081\"><ac:parameter ac:name=\"property-key\">P7</ac:parameter><ac:parameter ac:name=\"wikibase-entity-id\">Q9506$209F3BF6-66C2-4550-B2C3-A390921F7652</ac:parameter><ac:parameter ac:name=\"is-embedded\">false</ac:parameter><ac:parameter ac:name=\"statement-id\">Q9506$209F3BF6-66C2-4550-B2C3-A390921F7652</ac:parameter><ac:parameter ac:name=\"borderStyle\">none</ac:parameter><ac:parameter ac:name=\"showIcon\">false</ac:parameter><ac:rich-text-body><p /><p><br /> <em>&Uuml;bergeordnete Aufnahme</em> <br />Langenscheidt - der Italienisch-Kurs Plus<br />Inhaltstyp: Text<br />Inhaltstyp: gesprochenes Wort<br />Inhaltstyp: Computerdaten<br /> <em>Aufnahme f&uuml;r einen Teil mit abh&auml;ngigem Titel</em> <br />Lehrbuch<br />Inhaltstyp: Text<br /> <em>Aufnahme f&uuml;r einen Teil mit abh&auml;ngigem Titel</em> <br />Begleitbuch<br />Inhaltstyp: Text<br /> <em>Aufnahme f&uuml;r einen Teil mit abh&auml;ngigem Titel</em> <br />Kurs-CDs/Wortschatztrainer (Audio-CDs)<br />Inhaltstyp: gesprochenes Wort<br /> <em>Aufnahme f&uuml;r einen Teil mit abh&auml;ngigem Titel</em> <br />Vokabeltrainer (DVD-ROM)<br />Inhaltstyp: Computerdaten</p><p /></ac:rich-text-body></ac:structured-macro></td><td><table><tbody><tr class=\"qualifier\"><td title=\"P389\" class=\"qualifier-label\">Layouttyp</td><td class=\"qualifier-value\"><p><a href=\"https://sta.dnb.de/entity/Q3399\" title=\"Beispiel\">Q3399</a></p></td></tr></tbody></table></td><td><table><tbody><tr><td title=\"update\"><ac:task-list><ac:task><ac:task-id>7</ac:task-id><ac:task-status class=\"update\">incomplete</ac:task-status><ac:task-body>⟳</ac:task-body></ac:task></ac:task-list></td><td title=\"remove\"><ac:task-list><ac:task><ac:task-id>9</ac:task-id><ac:task-status class=\"remove\">incomplete</ac:task-status><ac:task-body>x</ac:task-body></ac:task></ac:task-list></td></tr></tbody></table></td></tr><tr class=\"statement\"><td><ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:macro-id=\"0f67a39a-76e9-48c4-8ac1-9a56a5e8b6d7\"><ac:parameter ac:name=\"property-key\">P7</ac:parameter><ac:parameter ac:name=\"wikibase-entity-id\">Q9506$F1FC3BB4-0E8E-43D6-A904-2C530B7BC62B</ac:parameter><ac:parameter ac:name=\"is-embedded\">false</ac:parameter><ac:parameter ac:name=\"statement-id\">Q9506$F1FC3BB4-0E8E-43D6-A904-2C530B7BC62B</ac:parameter><ac:parameter ac:name=\"borderStyle\">none</ac:parameter><ac:parameter ac:name=\"showIcon\">false</ac:parameter><ac:rich-text-body><p>Band, Audiodisk, Computerdisk - umfassende Beschreibung:</p></ac:rich-text-body></ac:structured-macro></td><td><table /></td><td><table><tbody><tr><td title=\"update\"><ac:task-list><ac:task><ac:task-id>8</ac:task-id><ac:task-status class=\"update\">incomplete</ac:task-status><ac:task-body>⟳</ac:task-body></ac:task></ac:task-list></td><td title=\"remove\"><ac:task-list><ac:task><ac:task-id>10</ac:task-id><ac:task-status class=\"remove\">incomplete</ac:task-status><ac:task-body>x</ac:task-body></ac:task></ac:task-list></td></tr></tbody></table></td></tr><tr class=\"statement\"><td><ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:macro-id=\"3535ae07-c78f-4f6a-98e7-f86cbb8bf99d\"><ac:parameter ac:name=\"property-key\">P7</ac:parameter><ac:parameter ac:name=\"wikibase-entity-id\">Q9506$B7317484-50C0-4504-AFE7-BFBF74F53A23</ac:parameter><ac:parameter ac:name=\"is-embedded\">false</ac:parameter><ac:parameter ac:name=\"statement-id\">Q9506$B7317484-50C0-4504-AFE7-BFBF74F53A23</ac:parameter><ac:parameter ac:name=\"borderStyle\">none</ac:parameter><ac:parameter ac:name=\"showIcon\">false</ac:parameter><ac:rich-text-body><p /><p><br />Don Camillo e Peppone : das H&ouml;rbuch zum Sprachen lernen (Textbuch/Audio-CD/CD-ROM)<br />Inhaltstyp: Text<br />Inhaltstyp: gesprochenes Wort<br />Inhaltstyp: Computerdaten</p><p /></ac:rich-text-body></ac:structured-macro></td><td><table><tbody><tr class=\"qualifier\"><td title=\"P389\" class=\"qualifier-label\">Layouttyp</td><td class=\"qualifier-value\"><p><a href=\"https://sta.dnb.de/entity/Q3399\" title=\"Beispiel\">Q3399</a></p></td></tr></tbody></table></td><td><table><tbody><tr><td title=\"update\"><ac:task-list><ac:task><ac:task-id>9</ac:task-id><ac:task-status class=\"update\">incomplete</ac:task-status><ac:task-body>⟳</ac:task-body></ac:task></ac:task-list></td><td title=\"remove\"><ac:task-list><ac:task><ac:task-id>11</ac:task-id><ac:task-status class=\"remove\">incomplete</ac:task-status><ac:task-body>x</ac:task-body></ac:task></ac:task-list></td></tr></tbody></table></td></tr><tr class=\"statement\"><td><ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:macro-id=\"a3d34e68-ed86-4dcc-a314-488113c3276b\"><ac:parameter ac:name=\"property-key\">P7</ac:parameter><ac:parameter ac:name=\"wikibase-entity-id\">Q9506$D83DD360-8C18-4CF5-9C01-963AB8579084</ac:parameter><ac:parameter ac:name=\"is-embedded\">false</ac:parameter><ac:parameter ac:name=\"statement-id\">Q9506$D83DD360-8C18-4CF5-9C01-963AB8579084</ac:parameter><ac:parameter ac:name=\"borderStyle\">none</ac:parameter><ac:parameter ac:name=\"showIcon\">false</ac:parameter><ac:rich-text-body><p>Weitere Beispiele finden Sie hier: <a href=\"https://wiki.dnb.de/download/attachments/106042227/AH-013.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">AH-013</a></p></ac:rich-text-body></ac:structured-macro></td><td><table /></td><td><table><tbody><tr><td title=\"update\"><ac:task-list><ac:task><ac:task-id>10</ac:task-id><ac:task-status class=\"update\">incomplete</ac:task-status><ac:task-body>⟳</ac:task-body></ac:task></ac:task-list></td><td title=\"remove\"><ac:task-list><ac:task><ac:task-id>12</ac:task-id><ac:task-status class=\"remove\">incomplete</ac:task-status><ac:task-body>x</ac:task-body></ac:task></ac:task-list></td></tr></tbody></table></td></tr></tbody></table></td><td><table><tbody><tr class=\"qualifier\"><td title=\"P389\" class=\"qualifier-label\">Layouttyp</td><td class=\"qualifier-value\"><p><a href=\"https://sta.dnb.de/entity/Q1343\" title=\"Zwischen&uuml;berschrift erster Ordnung\">Q1343</a></p></td></tr><tr class=\"qualifier\"><td title=\"P396\" class=\"qualifier-label\">eingebettet (Item)</td><td class=\"qualifier-value\"><p><a href=\"https://sta.dnb.de/entity/Q9506\" title=\"STA-Regel: Inhaltstyp (RDA-Elementbeschreibung)\">Q9506</a></p></td></tr></tbody></table></td><td><table><tbody><tr><td title=\"update\"><ac:task-list><ac:task><ac:task-id>0</ac:task-id><ac:task-status class=\"update\">incomplete</ac:task-status><ac:task-body>⟳</ac:task-body></ac:task></ac:task-list></td><td title=\"remove\"><ac:task-list><ac:task><ac:task-id>2</ac:task-id><ac:task-status class=\"remove\">incomplete</ac:task-status><ac:task-body>x</ac:task-body></ac:task></ac:task-list></td></tr></tbody></table></td></tr><tr><th colspan=\"3\" class=\"highlight-#00a3bf\" title=\"P639\">WEMI-Ebene</th></tr><tr class=\"statement\"><td><ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:macro-id=\"b0e0325b-f344-4a16-8970-cb57a1a190a2\"><ac:parameter ac:name=\"property-key\">P639</ac:parameter><ac:parameter ac:name=\"wikibase-entity-id\">P531$5EAA642C-B9F8-4BED-9A06-3CBC15AC23F3</ac:parameter><ac:parameter ac:name=\"is-embedded\">false</ac:parameter><ac:parameter ac:name=\"statement-id\">P531$5EAA642C-B9F8-4BED-9A06-3CBC15AC23F3</ac:parameter><ac:parameter ac:name=\"borderStyle\">none</ac:parameter><ac:parameter ac:name=\"showIcon\">false</ac:parameter><ac:rich-text-body><p><a href=\"https://sta.dnb.de/entity/Q1941\" title=\"Expression\">Q1941</a></p></ac:rich-text-body></ac:structured-macro></td><td><table /></td><td><table><tbody><tr><td title=\"update\"><ac:task-list><ac:task><ac:task-id>0</ac:task-id><ac:task-status class=\"update\">incomplete</ac:task-status><ac:task-body>⟳</ac:task-body></ac:task></ac:task-list></td><td title=\"remove\"><ac:task-list><ac:task><ac:task-id>2</ac:task-id><ac:task-status class=\"remove\">incomplete</ac:task-status><ac:task-body>x</ac:task-body></ac:task></ac:task-list></td></tr></tbody></table></td></tr><tr><th colspan=\"3\" class=\"highlight-#00a3bf\" title=\"P668\">Releasenummer</th></tr><tr class=\"statement\"><td><ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:macro-id=\"69e8f03a-d353-485c-b532-d1259ae9a6d4\"><ac:parameter ac:name=\"property-key\">P668</ac:parameter><ac:parameter ac:name=\"wikibase-entity-id\">P531$C9459193-0510-44E5-A56E-458B1F997371</ac:parameter><ac:parameter ac:name=\"is-embedded\">false</ac:parameter><ac:parameter ac:name=\"statement-id\">P531$C9459193-0510-44E5-A56E-458B1F997371</ac:parameter><ac:parameter ac:name=\"borderStyle\">none</ac:parameter><ac:parameter ac:name=\"showIcon\">false</ac:parameter><ac:rich-text-body><p><a href=\"https://sta.dnb.de/entity/Q9728\" title=\"Version 2023/1-1\">Q9728</a></p></ac:rich-text-body></ac:structured-macro></td><td><table /></td><td><table><tbody><tr><td title=\"update\"><ac:task-list><ac:task><ac:task-id>0</ac:task-id><ac:task-status class=\"update\">incomplete</ac:task-status><ac:task-body>⟳</ac:task-body></ac:task></ac:task-list></td><td title=\"remove\"><ac:task-list><ac:task><ac:task-id>2</ac:task-id><ac:task-status class=\"remove\">incomplete</ac:task-status><ac:task-body>x</ac:task-body></ac:task></ac:task-list></td></tr></tbody></table></td></tr><tr><th colspan=\"3\" class=\"highlight-#00a3bf\" title=\"P638\">RDA-Referenz</th></tr><tr class=\"statement\"><td><ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:macro-id=\"f3837a7a-e286-4f94-94c1-ec4cb088365d\"><ac:parameter ac:name=\"property-key\">P638</ac:parameter><ac:parameter ac:name=\"wikibase-entity-id\">P531$E8767D10-0FE4-425F-B6FE-0D7A37631371</ac:parameter><ac:parameter ac:name=\"is-embedded\">false</ac:parameter><ac:parameter ac:name=\"statement-id\">P531$E8767D10-0FE4-425F-B6FE-0D7A37631371</ac:parameter><ac:parameter ac:name=\"borderStyle\">none</ac:parameter><ac:parameter ac:name=\"showIcon\">false</ac:parameter><ac:rich-text-body><p><a href=\"https://access.rdatoolkit.org/en-US_ala-1a6a5219-2cd5-3762-87e8-6ee28e327b8b\" target=\"_blank\" rel=\"noopener noreferrer\">content type</a></p></ac:rich-text-body></ac:structured-macro></td><td><table /></td><td><table><tbody><tr><td title=\"update\"><ac:task-list><ac:task><ac:task-id>0</ac:task-id><ac:task-status class=\"update\">incomplete</ac:task-status><ac:task-body>⟳</ac:task-body></ac:task></ac:task-list></td><td title=\"remove\"><ac:task-list><ac:task><ac:task-id>2</ac:task-id><ac:task-status class=\"remove\">incomplete</ac:task-status><ac:task-body>x</ac:task-body></ac:task></ac:task-list></td></tr></tbody></table></td></tr><tr class=\"statement\"><td><ac:structured-macro ac:name=\"panel\" ac:schema-version=\"1\" ac:macro-id=\"a75b795b-ec93-4259-a19e-b92a843a173a\"><ac:parameter ac:name=\"property-key\">P638</ac:parameter><ac:parameter ac:name=\"wikibase-entity-id\">P531$267332A0-9C58-4C61-A742-38177A4071E8</ac:parameter><ac:parameter ac:name=\"is-embedded\">false</ac:parameter><ac:parameter ac:name=\"statement-id\">P531$267332A0-9C58-4C61-A742-38177A4071E8</ac:parameter><ac:parameter ac:name=\"borderStyle\">none</ac:parameter><ac:parameter ac:name=\"showIcon\">false</ac:parameter><ac:rich-text-body><p>RDA 6.9 (Original Toolkit)</p></ac:rich-text-body></ac:structured-macro></td><td><table /></td><td><table><tbody><tr><td title=\"update\"><ac:task-list><ac:task><ac:task-id>1</ac:task-id><ac:task-status class=\"update\">incomplete</ac:task-status><ac:task-body>⟳</ac:task-body></ac:task></ac:task-list></td><td title=\"remove\"><ac:task-list><ac:task><ac:task-id>3</ac:task-id><ac:task-status class=\"remove\">incomplete</ac:task-status><ac:task-body>x</ac:task-body></ac:task></ac:task-list></td></tr></tbody></table></td></tr></tbody></table>","representation":"storage","_expandable":{"content":"/rest/api/content/297245251"}},"_expandable":{"editor":"","view":"","export_view":"","styled_view":"","anonymous_export_view":""}},"extensions":{"position":"none"},"_links":{"webui":"/display/~kett/Inhaltstyp+%7C+RDA-Eigenschaft","edit":"/pages/resumedraft.action?draftId=297245251","tinyui":"/x/Q5q3EQ","collection":"/rest/api/content","base":"https://wiki.dnb.de","context":"","self":"https://wiki.dnb.de/rest/api/content/297245251"},"_expandable":{"container":"/rest/api/space/~kett","metadata":"","operations":"","children":"/rest/api/content/297245251/child","restrictions":"/rest/api/content/297245251/restriction/byOperation","history":"/rest/api/content/297245251/history","ancestors":"","descendants":"/rest/api/content/297245251/descendant","space":"/rest/api/space/~kett"}}
+2023-10-18 12:09:06.372 [main] INFO  de.dnb.afs.apps.ReadFromConfluenceApp - {
+  "ids": {
+    "confluence": "297245251",
+    "wikibase": "P531"
+  },
+  "versions": {
+    "confluence": 197,
+    "wikibase": 117829
+  },
+  "types": {},
+  "title": "Inhaltstyp | RDA-Eigenschaft",
+  "statementGroups": {
+    "statements": {
+      "P643": {
+        "property": {
+          "key": "P643",
+          "label": "Label von P643",
+          "valueType": "STRING"
+        },
+        "values": [
+          {
+            "value": "RDA-E-E005",
+            "id": "P531$37F7F634-2D0F-4029-82E4-8AFE41F3BF3C",
+            "type": "STRING"
+          }
+        ]
+      },
+      "P1": {
+        "property": {
+          "key": "P1",
+          "label": "Label von P1",
+          "valueType": "STRING"
+        },
+        "values": [
+          {
+            "value": "Eine Kategorisierung, die zum einen die grundlegende Form der Kommunikation widerspiegelt, in der der Inhalt ausgedrückt wird, und zum andern die menschliche Wahrnehmung wiedergibt, durch die diese wahrgenommen werden soll.",
+            "id": "P531$29E001C5-E900-4280-8491-ACC22A12C6E7",
+            "type": "STRING"
+          },
+          {
+            "value": "Für Inhalt, der in Form eines Bilds oder mehrerer Bilder ausgedrückt wird, spiegelt der Inhaltstyp auch die Anzahl räumlicher Dimensionen wider, in denen der Inhalt wahrgenommen werden soll, sowie die Wahrnehmung von vorhandener oder nicht vorhandener Bewegung.",
+            "id": "P531$9A0C767D-F1EF-40F1-8881-F83CB787119C",
+            "type": "STRING"
+          },
+          {
+            "value": "A categorization that reflects the fundamental form of communication in which the content is expressed and the human sense through which it is intended to be perceived.",
+            "id": "P531$F5A1746C-05F5-4D48-AF96-F5A8E56C41CD",
+            "type": "STRING"
+          },
+          {
+            "value": "Content type also reflects the number of spatial dimensions and the presence or absence of movement in which content expressed in the form of an image or images is intended to be perceived.",
+            "id": "P531$C99680BA-3853-4DF2-9F54-665C813D6327",
+            "type": "STRING"
+          }
+        ]
+      },
+      "P2": {
+        "property": {
+          "key": "P2",
+          "label": "Label von P2",
+          "valueType": "STRING"
+        },
+        "values": [
+          {
+            "value": "\u003ca href\u003d\"https://sta.dnb.de/entity/Q264\" title\u003d\"Element\"\u003eQ264\u003c/a\u003e",
+            "id": "P531$33751246-6AB6-445B-9016-5F3E04567F12",
+            "type": "STRING"
+          }
+        ]
+      },
+      "P656": {
+        "property": {
+          "key": "P656",
+          "label": "Label von P656",
+          "valueType": "STRING"
+        },
+        "values": [
+          {
+            "value": "Strukturierte Beschreibung: normiertes Vokabular",
+            "id": "P531$6D2EF674-3596-4922-A1E4-D17CCC620F18",
+            "type": "STRING"
+          }
+        ]
+      },
+      "P667": {
+        "property": {
+          "key": "P667",
+          "label": "Label von P667",
+          "valueType": "STRING"
+        },
+        "values": [
+          {
+            "value": "\u003ca href\u003d\"https://sta.dnb.de/entity/Q9727\" title\u003d\"Version 2023/1\"\u003eQ9727\u003c/a\u003e",
+            "id": "P531$86BBC3B7-30FA-4D45-8659-2B6DD7EC69D4",
+            "type": "STRING"
+          }
+        ]
+      },
+      "P402": {
+        "property": {
+          "key": "P402",
+          "label": "Label von P402",
+          "valueType": "STRING"
+        },
+        "values": [
+          {
+            "value": "Nehmen Sie Informationen über einen Inhaltstyp aus einer beliebigen Quelle.",
+            "id": "P531$66733154-D328-4A58-A115-57D4B05361B8",
+            "type": "STRING"
+          }
+        ]
+      },
+      "P4": {
+        "property": {
+          "key": "P4",
+          "label": "Label von P4",
+          "valueType": "STRING"
+        },
+        "values": [
+          {
+            "value": "\u003cstrong\u003eMARC 21 Bibliographic:\u0026nbsp;\u003c/strong\u003e336 ## $a $b $2rdacontent",
+            "id": "P531$51CF81B4-4A74-43AB-86E4-1B4EC9934157",
+            "type": "STRING"
+          },
+          {
+            "value": "\u003cstrong\u003eStandard:\u0026nbsp;\u003c/strong\u003e\u003ca href\u003d\"https://www.loc.gov/marc/authority/ad336.html\" target\u003d\"_blank\" rel\u003d\"noopener noreferrer\"\u003ehttps://www.loc.gov/marc/bibliographic/bd336.html\u003c/a\u003e",
+            "id": "P531$7D3DDD44-4FEE-4B8F-88BC-BD0342D6BCF7",
+            "type": "STRING"
+          },
+          {
+            "value": "\u003ca href\u003d\"https://www.loc.gov/marc/authority/ad336.html\" target\u003d\"_blank\" rel\u003d\"noopener noreferrer\"\u003e\u003cstrong\u003eOBV:\u0026nbsp;\u003c/strong\u003e\u003c/a\u003e\u003ca href\u003d\"https://wiki.obvsg.at/Katalogisierungshandbuch/Kategorienuebersicht336FE\" target\u003d\"_blank\" rel\u003d\"noopener noreferrer\"\u003ehttps://wiki.obvsg.at/Katalogisierungshandbuch/Kategorienuebersicht336FE\u003c/a\u003e",
+            "id": "P531$55A7065B-5A09-4A7F-8956-35F624FCCE78",
+            "type": "STRING"
+          },
+          {
+            "value": "\u003cstrong\u003eSLSP:\u0026nbsp;\u003c/strong\u003eLINK",
+            "id": "P531$BA218666-4315-44BE-B6E9-AD8BAF81749D",
+            "type": "STRING"
+          },
+          {
+            "value": "\u003cstrong\u003eASEQ/MAB:\u0026nbsp;\u003c/strong\u003e060_ $b",
+            "id": "P531$61105675-BD5B-4093-9C65-708EC1D2F0F8",
+            "type": "STRING"
+          },
+          {
+            "value": "\u003ca href\u003d\"https://www.bib-bvb.de/web/kkb-online/rda-felder-001-088\" target\u003d\"_blank\" rel\u003d\"noopener noreferrer\"\u003ehttps://www.bib-bvb.de/web/kkb-online/rda-felder-001-088\u003c/a\u003e",
+            "id": "P531$B4FEF65C-1AD8-4073-85CD-369884D33DA1",
+            "type": "STRING"
+          },
+          {
+            "value": "\u003cstrong\u003ePica DNB:\u003c/strong\u003e\u0026nbsp;0501",
+            "id": "P531$C0CB2280-142B-47E9-B63C-1BF5721857AD",
+            "type": "STRING"
+          },
+          {
+            "value": "\u003ca href\u003d\"https://wiki.dnb.de/display/ILTIS/0501\" target\u003d\"_blank\" rel\u003d\"noopener noreferrer\"\u003ehttps://wiki.dnb.de/display/ILTIS/0501\u003c/a\u003e",
+            "id": "P531$ECE05CA5-1519-45B8-81C1-6F63584BD9BC",
+            "type": "STRING"
+          },
+          {
+            "value": "\u003cstrong\u003ePica hebis:\u003c/strong\u003e 0501",
+            "id": "P531$9FC6F905-E55A-4B16-9208-1F47B8B39CCE",
+            "type": "STRING"
+          },
+          {
+            "value": "\u003ca href\u003d\"https://www.hebis.de/pica-kategorie/0501\" target\u003d\"_blank\" rel\u003d\"noopener noreferrer\"\u003ehttps://www.hebis.de/pica-kategorie/0501\u003c/a\u003e",
+            "id": "P531$DF859AA1-4253-40A2-B07B-3C6870A23CC4",
+            "type": "STRING"
+          },
+          {
+            "value": "\u003cstrong\u003ePica K10plus: \u003c/strong\u003e0501",
+            "id": "P531$90F9DB16-8E49-4229-8FB3-19C7D058692A",
+            "type": "STRING"
+          },
+          {
+            "value": "\u003ca href\u003d\"https://swbtools.bsz-bw.de/cgi-bin/k10plushelp.pl?cmd\u003dkat\u0026amp;val\u003d4026\u0026amp;katalog\u003dStandard\" target\u003d\"_blank\" rel\u003d\"noopener noreferrer\"\u003ehttps://\u003c/a\u003e\u003ca href\u003d\"https://format.k10plus.de/k10plushelp.pl?cmd\u003dkat\u0026amp;val\u003d4201\u0026amp;katalog\u003dStandard\" target\u003d\"_blank\" rel\u003d\"noopener noreferrer\"\u003eformat.k10plus.de/k10plushelp.pl?cmd\u003dkat\u0026amp;val\u003c/a\u003e\u003ca href\u003d\"https://swbtools.bsz-bw.de/cgi-bin/k10plushelp.pl?cmd\u003dkat\u0026amp;val\u003d4026\u0026amp;katalog\u003dStandard\" target\u003d\"_blank\" rel\u003d\"noopener noreferrer\"\u003e\u003d0501\u0026amp;katalog\u003dStandard\u003c/a\u003e",
+            "id": "P531$366F3FF1-9D9E-4F8D-A6BC-99F76DA6819F",
+            "type": "STRING"
+          },
+          {
+            "value": "\u003cstrong\u003ePica ZDB:\u0026nbsp;\u003c/strong\u003e0501",
+            "id": "P531$268E9017-68FE-4F72-8119-52D29298EAB4",
+            "type": "STRING"
+          },
+          {
+            "value": "\u003ca href\u003d\"https://zeitschriftendatenbank.de/fileadmin/user_upload/ZDB/pdf/zdbformat/0501.pdf\" target\u003d\"_blank\" rel\u003d\"noopener noreferrer\"\u003ehttps://zeitschriftendatenbank.de/fileadmin/user_upload/ZDB/pdf/zdbformat/0501.pdf\u003c/a\u003e",
+            "id": "P531$3B4A0379-336A-4FD7-9549-169513517CA6",
+            "type": "STRING"
+          }
+        ]
+      },
+      "P110": {
+        "property": {
+          "key": "P110",
+          "label": "Label von P110",
+          "valueType": "STRING"
+        },
+        "values": [
+          {
+            "value": "\u003ca href\u003d\"https://sta.dnb.de/entity/Q263\" title\u003d\"RDA-Dokumentation\"\u003eQ263\u003c/a\u003e",
+            "id": "P531$C81FCEE4-AAD9-455F-B06F-DEB6AE7D018B",
+            "type": "STRING"
+          }
+        ]
+      },
+      "P660": {
+        "property": {
+          "key": "P660",
+          "label": "Label von P660",
+          "valueType": "STRING"
+        },
+        "values": [
+          {
+            "value": "aufgeführte Musik\u003cbr\u003eBewegungsnotation\u003cbr\u003eComputerdaten\u003cbr\u003eComputerprogramm\u003cbr\u003edreidimensionale Form\u003cbr\u003edreidimensionales bewegtes Bild\u003cbr\u003eGeräusche\u003cbr\u003egesprochenes Wort\u003cbr\u003ekartografische dreidimensionale Form\u003cbr\u003ekartografische taktile dreidimensionale Form\u003cbr\u003ekartografischer Datensatz\u003cbr\u003ekartografisches bewegtes Bild\u003cbr\u003ekartografisches Bild\u003cbr\u003ekartografisches taktiles Bild\u003cbr\u003eNoten\u003cbr\u003etaktile Bewegungsnotation\u003cbr\u003etaktile dreidimensionale Form\u003cbr\u003etaktile Noten\u003cbr\u003etaktiler Text\u003cbr\u003etaktiles Bild\u003cbr\u003eText\u003cbr\u003eunbewegtes Bild\u003cbr\u003ezweidimensionales bewegtes Bild",
+            "id": "P531$A640C562-F9FC-4521-BDE2-64CF61AC3078",
+            "type": "STRING"
+          },
+          {
+            "value": "Sonstige",
+            "id": "P531$60D306A6-3734-4E62-99E9-A4FC60D1D498",
+            "type": "STRING"
+          }
+        ]
+      },
+      "P388": {
+        "property": {
+          "key": "P388",
+          "label": "Label von P388",
+          "valueType": "STRING"
+        },
+        "values": [
+          {
+            "value": "Erfassen des Inhaltstyps",
+            "id": "P531$FB81947C-CC11-4B2D-99D3-3D59C7B47C62",
+            "type": "STRING",
+            "qualifiers": {
+              "statements": {
+                "P389": {
+                  "property": {
+                    "key": "P389",
+                    "label": "Label von P389",
+                    "valueType": "STRING"
+                  },
+                  "values": [
+                    {
+                      "value": "Q1343",
+                      "type": "STRING"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "value": "Termini für Inhaltstyp nicht zutreffend",
+            "id": "P531$4B3D9E2F-A3F1-4CD0-A250-87955BBCEFB2",
+            "type": "STRING",
+            "qualifiers": {
+              "statements": {
+                "P389": {
+                  "property": {
+                    "key": "P389",
+                    "label": "Label von P389",
+                    "valueType": "STRING"
+                  },
+                  "values": [
+                    {
+                      "value": "Q1343",
+                      "type": "STRING"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "value": "Inhaltstyp nicht ermittelbar",
+            "id": "P531$84DB3DB3-2B5C-49BA-930A-8275CE999FE7",
+            "type": "STRING",
+            "qualifiers": {
+              "statements": {
+                "P389": {
+                  "property": {
+                    "key": "P389",
+                    "label": "Label von P389",
+                    "valueType": "STRING"
+                  },
+                  "values": [
+                    {
+                      "value": "Q1343",
+                      "type": "STRING"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      },
+      "P7": {
+        "property": {
+          "key": "P7",
+          "label": "Label von P7",
+          "valueType": "STRING"
+        },
+        "values": [
+          {
+            "value": "Erfassen Sie den Inhaltstyp, der in der Ressource enthalten ist und verwenden Sie einen oder mehrere der Termini aus der Liste. (siehe \u003ca class\u003d\"ref\" href\u003d\"P531\"\u003enormiertes Vokabular\u003c/a\u003e).\u003cbr\u003e \u003cbr\u003eErfassen Sie so viele Termini, wie auf die zu beschreibende Ressource zutreffen.",
+            "id": "Q9503$CF63F806-47BB-491E-AAA1-F10A686352F7",
+            "type": "STRING"
+          },
+          {
+            "value": "Erfassen Sie den Inhaltstyp nicht für Begleitmaterial.",
+            "id": "Q9503$E3FDB757-E784-49DE-AD77-FCDD4ECF978C",
+            "type": "STRING"
+          },
+          {
+            "value": "\u003cstrong\u003eBeispiel\u003c/strong\u003e",
+            "id": "Q9503$9FDB3AB9-FBAE-4B92-83D1-AC107D5F879F",
+            "type": "STRING"
+          },
+          {
+            "value": "Audio-CD plus mehrseitiges Booklet \u003cbr\u003eHauptkomponente: CD ; Begleitmaterial: Booklet \u003cbr\u003eInhaltstyp: aufgeführte Musik",
+            "id": "Q9503$6228A3BE-E821-4C8A-8402-6B886F7042DC",
+            "type": "STRING"
+          },
+          {
+            "value": "Wenn keiner der Termini aus der Liste auf den Inhalt der zu beschreibenden Ressource zutrifft, erfassen Sie \" Sonstige\" .",
+            "id": "Q9504$4726D85E-FAB6-42EE-9B47-0CDA350405C1",
+            "type": "STRING"
+          },
+          {
+            "value": "Wenn der auf die zu beschreibende Ressource zutreffende Inhaltstyp nicht einfach bestimmt werden kann, erfassen Sie \"nicht spezifiziert\".",
+            "id": "Q9505$0956E54A-DDA1-4302-B0A0-8B28A7D1CA0F",
+            "type": "STRING"
+          },
+          {
+            "value": "Erfassen des Inhaltstyps bei mehrteiligen Monografien",
+            "id": "Q9506$459466A8-B5A1-47AE-B17A-9223F4A5AEDA",
+            "type": "STRING",
+            "qualifiers": {
+              "statements": {
+                "P389": {
+                  "property": {
+                    "key": "P389",
+                    "label": "Label von P389",
+                    "valueType": "STRING"
+                  },
+                  "values": [
+                    {
+                      "value": "Q1343",
+                      "type": "STRING"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "value": "Bei mehrteiligen Ressourcen bestimmen und erfassen Sie den Inhaltstyp für die Ressource als Ganzes und für die einzelnen Teile.",
+            "id": "Q9506$148A1DDA-830F-4D2B-93DD-6342F5BDD859",
+            "type": "STRING"
+          },
+          {
+            "value": "Ressource mit Teilen aus demselben Inhaltstyp",
+            "id": "Q9506$DC193E36-2271-4626-AF78-06CA083DEF42",
+            "type": "STRING",
+            "qualifiers": {
+              "statements": {
+                "P389": {
+                  "property": {
+                    "key": "P389",
+                    "label": "Label von P389",
+                    "valueType": "STRING"
+                  },
+                  "values": [
+                    {
+                      "value": "Q1343",
+                      "type": "STRING"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "value": "\u003cstrong\u003eBeispiel\u003c/strong\u003e",
+            "id": "Q9506$8949600D-D40B-40C4-AF09-9A5CCA37CDF2",
+            "type": "STRING"
+          },
+          {
+            "value": "\u003cem\u003eÜbergeordnete Aufnahme\u003cbr\u003e \u003c/em\u003e Duden - die deutsche Sprache : Wörterbuch in drei Bänden \u003cbr\u003e Inhaltstyp: Text \u003cbr\u003e \u003cem\u003eAufnahme für einen Teil mit abhängigem Titel\u003c/em\u003e \u003cbr\u003e Band 1, A-Gelt \u003cbr\u003e Inhaltstyp: Text \u003cbr\u003e \u003cem\u003eAufnahme für einen Teil mit abhängigem Titel\u003c/em\u003e \u003cbr\u003e Band 2, Gelu-Pyxi \u003cbr\u003e Inhaltstyp: Text \u003cbr\u003e \u003cem\u003eAufnahme für einen Teil mit abhängigem Titel\u003c/em\u003e \u003cbr\u003e Band 3, Q-Zzgl \u003cbr\u003e Inhaltstyp: Text",
+            "id": "Q9506$C682A32C-FEDF-4C83-BFDD-71328AE4396D",
+            "type": "STRING"
+          },
+          {
+            "value": "Ressource mit Teilen aus unterschiedlichen Inhaltstypen",
+            "id": "Q9506$33391E98-3B33-43E1-ADBC-EBC26E0CF2C5",
+            "type": "STRING",
+            "qualifiers": {
+              "statements": {
+                "P389": {
+                  "property": {
+                    "key": "P389",
+                    "label": "Label von P389",
+                    "valueType": "STRING"
+                  },
+                  "values": [
+                    {
+                      "value": "Q1343",
+                      "type": "STRING"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "value": "Band, Audiodisk, Computerdisk - hierarchische Beschreibung:",
+            "id": "Q9506$9326C1A8-A6C5-4948-8BE7-6FD72C720952",
+            "type": "STRING"
+          },
+          {
+            "value": "\u003cbr\u003e \u003cem\u003eÜbergeordnete Aufnahme\u003c/em\u003e \u003cbr\u003eLangenscheidt - der Italienisch-Kurs Plus\u003cbr\u003eInhaltstyp: Text\u003cbr\u003eInhaltstyp: gesprochenes Wort\u003cbr\u003eInhaltstyp: Computerdaten\u003cbr\u003e \u003cem\u003eAufnahme für einen Teil mit abhängigem Titel\u003c/em\u003e \u003cbr\u003eLehrbuch\u003cbr\u003eInhaltstyp: Text\u003cbr\u003e \u003cem\u003eAufnahme für einen Teil mit abhängigem Titel\u003c/em\u003e \u003cbr\u003eBegleitbuch\u003cbr\u003eInhaltstyp: Text\u003cbr\u003e \u003cem\u003eAufnahme für einen Teil mit abhängigem Titel\u003c/em\u003e \u003cbr\u003eKurs-CDs/Wortschatztrainer (Audio-CDs)\u003cbr\u003eInhaltstyp: gesprochenes Wort\u003cbr\u003e \u003cem\u003eAufnahme für einen Teil mit abhängigem Titel\u003c/em\u003e \u003cbr\u003eVokabeltrainer (DVD-ROM)\u003cbr\u003eInhaltstyp: Computerdaten",
+            "id": "Q9506$209F3BF6-66C2-4550-B2C3-A390921F7652",
+            "type": "STRING"
+          },
+          {
+            "value": "Band, Audiodisk, Computerdisk - umfassende Beschreibung:",
+            "id": "Q9506$F1FC3BB4-0E8E-43D6-A904-2C530B7BC62B",
+            "type": "STRING"
+          },
+          {
+            "value": "\u003cbr\u003eDon Camillo e Peppone : das Hörbuch zum Sprachen lernen (Textbuch/Audio-CD/CD-ROM)\u003cbr\u003eInhaltstyp: Text\u003cbr\u003eInhaltstyp: gesprochenes Wort\u003cbr\u003eInhaltstyp: Computerdaten",
+            "id": "Q9506$B7317484-50C0-4504-AFE7-BFBF74F53A23",
+            "type": "STRING"
+          },
+          {
+            "value": "Weitere Beispiele finden Sie hier: \u003ca href\u003d\"https://wiki.dnb.de/download/attachments/106042227/AH-013.pdf\" target\u003d\"_blank\" rel\u003d\"noopener noreferrer\"\u003eAH-013\u003c/a\u003e",
+            "id": "Q9506$D83DD360-8C18-4CF5-9C01-963AB8579084",
+            "type": "STRING"
+          }
+        ]
+      },
+      "P410": {
+        "property": {
+          "key": "P410",
+          "label": "Label von P410",
+          "valueType": "STRING"
+        },
+        "values": [
+          {
+            "value": "Mehrteilige Monografien",
+            "id": "P531$330E1F56-4ECC-4EAE-BA8A-39C445F636E0",
+            "type": "STRING",
+            "qualifiers": {
+              "statements": {
+                "P389": {
+                  "property": {
+                    "key": "P389",
+                    "label": "Label von P389",
+                    "valueType": "STRING"
+                  },
+                  "values": [
+                    {
+                      "value": "Q1343",
+                      "type": "STRING"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      },
+      "P639": {
+        "property": {
+          "key": "P639",
+          "label": "Label von P639",
+          "valueType": "STRING"
+        },
+        "values": [
+          {
+            "value": "\u003ca href\u003d\"https://sta.dnb.de/entity/Q1941\" title\u003d\"Expression\"\u003eQ1941\u003c/a\u003e",
+            "id": "P531$5EAA642C-B9F8-4BED-9A06-3CBC15AC23F3",
+            "type": "STRING"
+          }
+        ]
+      },
+      "P668": {
+        "property": {
+          "key": "P668",
+          "label": "Label von P668",
+          "valueType": "STRING"
+        },
+        "values": [
+          {
+            "value": "\u003ca href\u003d\"https://sta.dnb.de/entity/Q9728\" title\u003d\"Version 2023/1-1\"\u003eQ9728\u003c/a\u003e",
+            "id": "P531$C9459193-0510-44E5-A56E-458B1F997371",
+            "type": "STRING"
+          }
+        ]
+      },
+      "P638": {
+        "property": {
+          "key": "P638",
+          "label": "Label von P638",
+          "valueType": "STRING"
+        },
+        "values": [
+          {
+            "value": "\u003ca href\u003d\"https://access.rdatoolkit.org/en-US_ala-1a6a5219-2cd5-3762-87e8-6ee28e327b8b\" target\u003d\"_blank\" rel\u003d\"noopener noreferrer\"\u003econtent type\u003c/a\u003e",
+            "id": "P531$E8767D10-0FE4-425F-B6FE-0D7A37631371",
+            "type": "STRING"
+          },
+          {
+            "value": "RDA 6.9 (Original Toolkit)",
+            "id": "P531$267332A0-9C58-4C61-A742-38177A4071E8",
+            "type": "STRING"
+          }
+        ]
+      }
+    }
+  }
+}

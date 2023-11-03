@@ -1,0 +1,11 @@
+P395	Bevorzugter Name einer Person/preferred name of person	https://wiki.dnb.de/pages/viewpage.action?pageId=217541956
+P416	Bedeutendes Familienmitglied/prominent member of family	https://wiki.dnb.de/pages/viewpage.action?pageId=223730325
+P491	Entstehungsangabe/production statement	https://wiki.dnb.de/pages/viewpage.action?pageId=202452560
+P518	Haupttitel	https://wiki.dnb.de/pages/viewpage.action?pageId=206377295
+P531	Inhaltstyp	https://wiki.dnb.de/pages/viewpage.action?pageId=198096483
+P548	Ma�stab	https://wiki.dnb.de/pages/viewpage.action?pageId=206397816
+P552	Medientyp	https://wiki.dnb.de/pages/viewpage.action?pageId=198096591
+P555	Mit Werk in Beziehung stehendes Werk	https://wiki.dnb.de/pages/viewpage.action?pageId=217523864
+P556	Mitwirkende/Mitwirkender	https://wiki.dnb.de/pages/viewpage.action?pageId=198097418
+P610	Verantwortlichkeitsangabe	https://wiki.dnb.de/pages/viewpage.action?pageId=198096318
+P621	Werkverzeichnisnummer	https://wiki.dnb.de/pages/viewpage.action?pageId=206398398

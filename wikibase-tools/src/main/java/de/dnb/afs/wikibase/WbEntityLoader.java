@@ -13,9 +13,12 @@ public interface WbEntityLoader {
 	public EntityDocument lookupEntity(String query) throws MediaWikiApiErrorException, IOException;
 	
 	public PropertyDocument lookupProperty(String query) throws MediaWikiApiErrorException, IOException;
-	
+
+	public String lookupPID(String query) throws MediaWikiApiErrorException, IOException;
 
 	public ItemDocument lookupItem(String query) throws MediaWikiApiErrorException, IOException;
+	
+	public String lookupQID(String query) throws MediaWikiApiErrorException, IOException;
 	
 	public EntityDocument getEntity(String wbEntityId) throws MediaWikiApiErrorException, IOException;
 

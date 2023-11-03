@@ -5,24 +5,27 @@
 			<PatternLayout
 				pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
 		</Console>
+		<File name="logFile" fileName="debug.log" immediateFlush="false"
+			append="false">
+			<PatternLayout
+				pattern="%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+		</File>
 	</Appenders>
 	<Loggers>
-	<!-- 
-		<Logger name="de.dnb.afs.wikibase.confluence.Utils" level="debug">
-			
+		<!-- <Logger name="de.dnb.afs.wikibase.confluence.Utils" level="debug"> 
+			</Logger> -->
+
+		<Logger name="de.dnb.afs" level="debug">
+
 		</Logger>
-		-->
-		
-				<Logger name="de.dnb.afs.wikibase" level="debug">
-			
-		</Logger>
-		
+
 		<Logger name="org.wikidata.wdtk" level="error">
-			
+
 		</Logger>
-		
+
 		<Root level="error">
 			<AppenderRef ref="Console" />
+			<AppenderRef ref="logFile" />
 		</Root>
 	</Loggers>
 </Configuration>

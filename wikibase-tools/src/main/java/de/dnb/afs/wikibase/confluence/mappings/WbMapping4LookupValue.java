@@ -15,22 +15,20 @@ import de.dnb.afs.wikibase.WbEntityLoader;
 import de.dnb.afs.wikibase.WbEntityProperties;
 import de.dnb.afs.wikibase.confluence.WbMapping;
 
-public class WbMappingLookupValue extends WbMapping {
+public class WbMapping4LookupValue extends WbMapping {
 
-	private static final Log logger = LogFactory.getLog(WbMappingLookupValue.class);
+	private static final Log logger = LogFactory.getLog(WbMapping4LookupValue.class);
 
 	public static final String VALUE_PLACEHOLDER = "$value";
 
-	private PropertyIdValue wbId;
 
 	private String lookupPattern;
 
 	private WbEntityLoader wbEntityLoader;
 
-	public WbMappingLookupValue(String labelPattern, PropertyIdValue wbId, String lookupPattern,
+	public WbMapping4LookupValue(String labelPattern, PropertyIdValue wbId, String lookupPattern,
 			WbEntityLoader wbEntityLoader) {
-		super(labelPattern);
-		this.wbId = wbId;
+		super(labelPattern, wbId);
 		this.lookupPattern = lookupPattern;
 		this.wbEntityLoader = wbEntityLoader;
 	}
@@ -55,7 +53,7 @@ public class WbMappingLookupValue extends WbMapping {
 				Statement statement = StatementBuilder.forSubjectAndProperty(newEntity.getEntityId(), wbId)
 						.withValue(refEntity.getEntityId()).build();
 				logger.debug("Füge statement für label " + panelLabelDe + " hinzu: " + statement);
-				newEntity.getStatements().add(statement);
+				newEntity.addStatement(statement);
 			}
 		} catch (MediaWikiApiErrorException e) {
 			logger.warn(e);

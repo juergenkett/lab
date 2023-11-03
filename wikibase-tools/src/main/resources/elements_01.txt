@@ -1,0 +1,14 @@
+P470	AP 2.1 | Bevorzugter Titel eines Werks/preferred title of work	198097574 	
+P483	AP 2.1 | Datenträgertyp/carrier type	198096116 	
+P493	AP 2.1 | Entstehungsmethode/production method	206396779 		
+P503	AP 2.1 | Erscheinungsfrequenz/frequency	198097537 		
+P505	AP 2.1 | Erscheinungsweise/mode of issuance	198097552 		
+P507	AP 2.1 | Farbinhalt/colour content	198096268 		
+P518	AP 2.1 | Haupttitel/title proper	206377295 	
+P528	AP 2.1 | In einer Manifestation verkörpertes Werk/work manifested	206377367 	
+P531	AP 2.1 | Inhaltstyp/content type	198096483 	
+P552	AP 2.1 | Medientyp/media type	198096591 	
+P592 	AP 2.1 | Sprache einer Expression/language of expression	198097540 		
+P593	AP 2.1 | Titel einer Manifestation/title of manifestation	206377283 	
+
+

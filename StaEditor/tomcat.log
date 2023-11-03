@@ -1,0 +1,668 @@
+Nov. 02, 2023 7:57:28 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Server Version:        Apache Tomcat/9.0.82
+Nov. 02, 2023 7:57:28 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Server built:          Oct 11 2023 13:15:08 UTC
+Nov. 02, 2023 7:57:28 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Server version number: 9.0.82.0
+Nov. 02, 2023 7:57:28 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: OS Name:               Windows 10
+Nov. 02, 2023 7:57:28 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: OS Version:            10.0
+Nov. 02, 2023 7:57:28 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Architektur:           amd64
+Nov. 02, 2023 7:57:28 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Java Home:             D:\jdk-17.0.8
+Nov. 02, 2023 7:57:28 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: JVM Version:           17.0.8+9-LTS-211
+Nov. 02, 2023 7:57:28 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: JVM Hersteller:        Oracle Corporation
+Nov. 02, 2023 7:57:28 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: CATALINA_BASE:         D:\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0
+Nov. 02, 2023 7:57:28 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: CATALINA_HOME:         D:\apache-tomcat-9.0.82
+Nov. 02, 2023 7:57:28 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Command line argument: -Dcatalina.base=D:\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0
+Nov. 02, 2023 7:57:28 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Command line argument: -Dcatalina.home=D:\apache-tomcat-9.0.82
+Nov. 02, 2023 7:57:28 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Command line argument: -Dwtp.deploy=D:\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps
+Nov. 02, 2023 7:57:28 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+Nov. 02, 2023 7:57:28 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+Nov. 02, 2023 7:57:28 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+Nov. 02, 2023 7:57:28 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+Nov. 02, 2023 7:57:28 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Nov. 02, 2023 7:57:28 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Command line argument: -Dfile.encoding=UTF-8
+Nov. 02, 2023 7:57:28 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Command line argument: -XX:+ShowCodeDetailsInExceptionMessages
+Nov. 02, 2023 7:57:28 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFORMATION: The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [D:\jdk-17.0.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/kett/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230801-1951/jre/bin/server;C:/Users/kett/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230801-1951/jre/bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Common Files\DX-Union\;C:\Program Files (x86)\Common Files\DX-Union\x86\;C:\Program Files (x86)\DX-Union\bin\;C:\Windows\SysWOW64;C:\Program Files\Calibre2\;C:\Users\kett\AppData\Local\Microsoft\WindowsApps;C:\Users\kett\AppData\Local\JetBrains\Toolbox\scripts;;C:\Windows\system32;;.]
+Nov. 02, 2023 7:57:28 PM org.apache.coyote.AbstractProtocol init
+INFORMATION: Initialisiere ProtocolHandler["http-nio-8080"]
+Nov. 02, 2023 7:57:28 PM org.apache.catalina.startup.Catalina load
+INFORMATION: Server initialization in [688] milliseconds
+Nov. 02, 2023 7:57:28 PM org.apache.catalina.core.StandardService startInternal
+INFORMATION: Starting service [Catalina]
+Nov. 02, 2023 7:57:28 PM org.apache.catalina.core.StandardEngine startInternal
+INFORMATION: Starting Servlet engine: [Apache Tomcat/9.0.82]
+Nov. 02, 2023 7:57:30 PM org.apache.jasper.servlet.TldScanner scanJars
+INFORMATION: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Nov. 02, 2023 7:57:30 PM org.apache.coyote.AbstractProtocol start
+INFORMATION: Starting ProtocolHandler ["http-nio-8080"]
+Nov. 02, 2023 7:57:30 PM org.apache.catalina.startup.Catalina start
+INFORMATION: Server startup in [2105] milliseconds
+Nov. 02, 2023 7:59:17 PM org.apache.catalina.core.StandardContext reload
+INFORMATION: Reloading Context with name [/STA-Editor] has started
+Nov. 02, 2023 7:59:17 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNUNG: The web application [STA-Editor] appears to have started a thread named [HttpClient-1-SelectorManager] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.8/sun.nio.ch.WEPoll.wait(Native Method)
+ java.base@17.0.8/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:111)
+ java.base@17.0.8/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+ java.base@17.0.8/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+ platform/java.net.http@17.0.8/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:889)
+Nov. 02, 2023 7:59:17 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNUNG: The web application [STA-Editor] appears to have started a thread named [OkHttp TaskRunner] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.8/java.lang.Object.wait(Native Method)
+ java.base@17.0.8/java.lang.Object.wait(Object.java:472)
+ okhttp3.internal.concurrent.TaskRunner$RealBackend.coordinatorWait(TaskRunner.kt:294)
+ okhttp3.internal.concurrent.TaskRunner.awaitTaskToRun(TaskRunner.kt:218)
+ okhttp3.internal.concurrent.TaskRunner$runnable$1.run(TaskRunner.kt:59)
+ java.base@17.0.8/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.8/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.8/java.lang.Thread.run(Thread.java:833)
+Nov. 02, 2023 7:59:19 PM org.apache.jasper.servlet.TldScanner scanJars
+INFORMATION: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Nov. 02, 2023 7:59:19 PM org.apache.catalina.core.StandardContext reload
+INFORMATION: Reloading Context with name [/STA-Editor] is completed
+Nov. 02, 2023 7:59:33 PM de.dnb.sta.webapp.editor.StaEditor doGet
+SCHWERWIEGEND: Cannot invoke "String.hashCode()" because "qualifierValue" is null
+java.lang.NullPointerException: Cannot invoke "String.hashCode()" because "qualifierValue" is null
+	at de.dnb.sta.storage.wikibase.ChainTextValuesModifier.chainTextValues(ChainTextValuesModifier.java:56)
+	at de.dnb.sta.storage.wikibase.ChainTextValuesModifier.modify(ChainTextValuesModifier.java:38)
+	at de.dnb.sta.storage.wikibase.ChainTextValuesModifier.lambda$1(ChainTextValuesModifier.java:27)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at de.dnb.sta.storage.wikibase.ChainTextValuesModifier.modify(ChainTextValuesModifier.java:27)
+	at de.dnb.sta.storage.wikibase.StaStorageWikibase.modify4Load(StaStorageWikibase.java:178)
+	at de.dnb.sta.storage.wikibase.StaStorageWikibase.load(StaStorageWikibase.java:95)
+	at de.dnb.sta.storage.wikibase.StaStorageWikibase.map(StaStorageWikibase.java:349)
+	at de.dnb.sta.storage.wikibase.StaStorageWikibase.map(StaStorageWikibase.java:302)
+	at de.dnb.sta.storage.wikibase.StaStorageWikibase.load(StaStorageWikibase.java:95)
+	at de.dnb.sta.webapp.editor.StaEditor.writeToConfluence(StaEditor.java:123)
+	at de.dnb.sta.webapp.editor.StaEditor.doGet(StaEditor.java:58)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Nov. 02, 2023 8:01:15 PM org.apache.catalina.core.StandardContext reload
+INFORMATION: Reloading Context with name [/STA-Editor] has started
+Nov. 02, 2023 8:01:15 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNUNG: The web application [STA-Editor] appears to have started a thread named [HttpClient-2-SelectorManager] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.8/sun.nio.ch.WEPoll.wait(Native Method)
+ java.base@17.0.8/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:111)
+ java.base@17.0.8/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+ java.base@17.0.8/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+ platform/java.net.http@17.0.8/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:889)
+Nov. 02, 2023 8:01:15 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNUNG: The web application [STA-Editor] appears to have started a thread named [OkHttp TaskRunner] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.8/java.lang.Object.wait(Native Method)
+ java.base@17.0.8/java.lang.Object.wait(Object.java:472)
+ okhttp3.internal.concurrent.TaskRunner$RealBackend.coordinatorWait(TaskRunner.kt:294)
+ okhttp3.internal.concurrent.TaskRunner.awaitTaskToRun(TaskRunner.kt:218)
+ okhttp3.internal.concurrent.TaskRunner$runnable$1.run(TaskRunner.kt:59)
+ java.base@17.0.8/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.8/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.8/java.lang.Thread.run(Thread.java:833)
+Nov. 02, 2023 8:01:17 PM org.apache.jasper.servlet.TldScanner scanJars
+INFORMATION: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Nov. 02, 2023 8:01:17 PM org.apache.catalina.core.StandardContext reload
+INFORMATION: Reloading Context with name [/STA-Editor] is completed
+Nov. 02, 2023 8:05:54 PM org.apache.catalina.core.StandardContext reload
+INFORMATION: Reloading Context with name [/STA-Editor] has started
+Nov. 02, 2023 8:05:54 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNUNG: The web application [STA-Editor] appears to have started a thread named [HttpClient-3-SelectorManager] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.8/sun.nio.ch.WEPoll.wait(Native Method)
+ java.base@17.0.8/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:111)
+ java.base@17.0.8/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+ java.base@17.0.8/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+ platform/java.net.http@17.0.8/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:889)
+Nov. 02, 2023 8:05:54 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNUNG: The web application [STA-Editor] appears to have started a thread named [OkHttp TaskRunner] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.8/java.lang.Object.wait(Native Method)
+ java.base@17.0.8/java.lang.Object.wait(Object.java:472)
+ okhttp3.internal.concurrent.TaskRunner$RealBackend.coordinatorWait(TaskRunner.kt:294)
+ okhttp3.internal.concurrent.TaskRunner.awaitTaskToRun(TaskRunner.kt:218)
+ okhttp3.internal.concurrent.TaskRunner$runnable$1.run(TaskRunner.kt:59)
+ java.base@17.0.8/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.8/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.8/java.lang.Thread.run(Thread.java:833)
+Nov. 02, 2023 8:05:56 PM org.apache.jasper.servlet.TldScanner scanJars
+INFORMATION: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Nov. 02, 2023 8:05:56 PM org.apache.catalina.core.StandardContext reload
+INFORMATION: Reloading Context with name [/STA-Editor] is completed
+Nov. 02, 2023 8:08:56 PM org.apache.catalina.core.StandardContext reload
+INFORMATION: Reloading Context with name [/STA-Editor] has started
+Nov. 02, 2023 8:08:56 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNUNG: The web application [STA-Editor] appears to have started a thread named [HttpClient-4-SelectorManager] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.8/sun.nio.ch.WEPoll.wait(Native Method)
+ java.base@17.0.8/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:111)
+ java.base@17.0.8/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+ java.base@17.0.8/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+ platform/java.net.http@17.0.8/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:889)
+Nov. 02, 2023 8:08:56 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNUNG: The web application [STA-Editor] appears to have started a thread named [OkHttp TaskRunner] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.8/java.lang.Object.wait(Native Method)
+ java.base@17.0.8/java.lang.Object.wait(Object.java:472)
+ okhttp3.internal.concurrent.TaskRunner$RealBackend.coordinatorWait(TaskRunner.kt:294)
+ okhttp3.internal.concurrent.TaskRunner.awaitTaskToRun(TaskRunner.kt:218)
+ okhttp3.internal.concurrent.TaskRunner$runnable$1.run(TaskRunner.kt:59)
+ java.base@17.0.8/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.8/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.8/java.lang.Thread.run(Thread.java:833)
+Nov. 02, 2023 8:08:57 PM org.apache.jasper.servlet.TldScanner scanJars
+INFORMATION: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Nov. 02, 2023 8:08:57 PM org.apache.catalina.core.StandardContext reload
+INFORMATION: Reloading Context with name [/STA-Editor] is completed
+Nov. 02, 2023 8:09:49 PM org.apache.catalina.core.StandardContext reload
+INFORMATION: Reloading Context with name [/STA-Editor] has started
+Nov. 02, 2023 8:09:50 PM org.apache.jasper.servlet.TldScanner scanJars
+INFORMATION: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Nov. 02, 2023 8:09:50 PM org.apache.catalina.core.StandardContext reload
+INFORMATION: Reloading Context with name [/STA-Editor] is completed
+Nov. 02, 2023 8:10:01 PM org.apache.catalina.core.StandardContext reload
+INFORMATION: Reloading Context with name [/STA-Editor] has started
+Nov. 02, 2023 8:10:02 PM org.apache.jasper.servlet.TldScanner scanJars
+INFORMATION: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Nov. 02, 2023 8:10:02 PM org.apache.catalina.core.StandardContext reload
+INFORMATION: Reloading Context with name [/STA-Editor] is completed
+Nov. 02, 2023 8:10:23 PM org.apache.catalina.core.StandardContext reload
+INFORMATION: Reloading Context with name [/STA-Editor] has started
+Nov. 02, 2023 8:10:24 PM org.apache.jasper.servlet.TldScanner scanJars
+INFORMATION: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Nov. 02, 2023 8:10:24 PM org.apache.catalina.core.StandardContext reload
+INFORMATION: Reloading Context with name [/STA-Editor] is completed
+Nov. 02, 2023 8:11:16 PM org.apache.catalina.core.StandardContext reload
+INFORMATION: Reloading Context with name [/STA-Editor] has started
+Nov. 02, 2023 8:11:17 PM org.apache.jasper.servlet.TldScanner scanJars
+INFORMATION: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Nov. 02, 2023 8:11:17 PM org.apache.catalina.core.StandardContext reload
+INFORMATION: Reloading Context with name [/STA-Editor] is completed
+Nov. 02, 2023 8:14:57 PM org.apache.catalina.core.StandardContext reload
+INFORMATION: Reloading Context with name [/STA-Editor] has started
+Nov. 02, 2023 8:14:57 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNUNG: The web application [STA-Editor] appears to have started a thread named [HttpClient-5-SelectorManager] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.8/sun.nio.ch.WEPoll.wait(Native Method)
+ java.base@17.0.8/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:111)
+ java.base@17.0.8/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+ java.base@17.0.8/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+ platform/java.net.http@17.0.8/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:889)
+Nov. 02, 2023 8:14:57 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNUNG: The web application [STA-Editor] appears to have started a thread named [OkHttp TaskRunner] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.8/java.lang.Object.wait(Native Method)
+ java.base@17.0.8/java.lang.Object.wait(Object.java:472)
+ okhttp3.internal.concurrent.TaskRunner$RealBackend.coordinatorWait(TaskRunner.kt:294)
+ okhttp3.internal.concurrent.TaskRunner.awaitTaskToRun(TaskRunner.kt:218)
+ okhttp3.internal.concurrent.TaskRunner$runnable$1.run(TaskRunner.kt:59)
+ java.base@17.0.8/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.8/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.8/java.lang.Thread.run(Thread.java:833)
+Nov. 02, 2023 8:14:59 PM org.apache.jasper.servlet.TldScanner scanJars
+INFORMATION: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Nov. 02, 2023 8:14:59 PM org.apache.catalina.core.StandardContext reload
+INFORMATION: Reloading Context with name [/STA-Editor] is completed
+Nov. 02, 2023 8:16:23 PM org.apache.catalina.core.StandardContext reload
+INFORMATION: Reloading Context with name [/STA-Editor] has started
+Nov. 02, 2023 8:16:23 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNUNG: The web application [STA-Editor] appears to have started a thread named [HttpClient-6-SelectorManager] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.8/sun.nio.ch.WEPoll.wait(Native Method)
+ java.base@17.0.8/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:111)
+ java.base@17.0.8/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+ java.base@17.0.8/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+ platform/java.net.http@17.0.8/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:889)
+Nov. 02, 2023 8:16:23 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNUNG: The web application [STA-Editor] appears to have started a thread named [OkHttp TaskRunner] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.8/java.lang.Object.wait(Native Method)
+ java.base@17.0.8/java.lang.Object.wait(Object.java:472)
+ okhttp3.internal.concurrent.TaskRunner$RealBackend.coordinatorWait(TaskRunner.kt:294)
+ okhttp3.internal.concurrent.TaskRunner.awaitTaskToRun(TaskRunner.kt:218)
+ okhttp3.internal.concurrent.TaskRunner$runnable$1.run(TaskRunner.kt:59)
+ java.base@17.0.8/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.8/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.8/java.lang.Thread.run(Thread.java:833)
+Nov. 02, 2023 8:16:23 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNUNG: The web application [STA-Editor] appears to have started a thread named [Okio Watchdog] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.8/java.lang.Object.wait(Native Method)
+ okio.AsyncTimeout$Companion.awaitTimeout$okio(AsyncTimeout.kt:302)
+ okio.AsyncTimeout$Watchdog.run(AsyncTimeout.kt:183)
+Nov. 02, 2023 8:16:23 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNUNG: The web application [STA-Editor] appears to have started a thread named [HttpClient-6-Worker-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.8/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.8/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.8/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:401)
+ java.base@17.0.8/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:903)
+ java.base@17.0.8/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+ java.base@17.0.8/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.8/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.8/java.lang.Thread.run(Thread.java:833)
+Nov. 02, 2023 8:16:24 PM org.apache.jasper.servlet.TldScanner scanJars
+INFORMATION: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Nov. 02, 2023 8:16:24 PM org.apache.catalina.core.StandardContext reload
+INFORMATION: Reloading Context with name [/STA-Editor] is completed
+Nov. 02, 2023 8:17:50 PM org.apache.catalina.core.StandardContext reload
+INFORMATION: Reloading Context with name [/STA-Editor] has started
+Nov. 02, 2023 8:17:50 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNUNG: The web application [STA-Editor] appears to have started a thread named [HttpClient-7-SelectorManager] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.8/sun.nio.ch.WEPoll.wait(Native Method)
+ java.base@17.0.8/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:111)
+ java.base@17.0.8/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+ java.base@17.0.8/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+ platform/java.net.http@17.0.8/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:889)
+Nov. 02, 2023 8:17:50 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNUNG: The web application [STA-Editor] appears to have started a thread named [OkHttp TaskRunner] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.8/java.lang.Object.wait(Native Method)
+ java.base@17.0.8/java.lang.Object.wait(Object.java:472)
+ okhttp3.internal.concurrent.TaskRunner$RealBackend.coordinatorWait(TaskRunner.kt:294)
+ okhttp3.internal.concurrent.TaskRunner.awaitTaskToRun(TaskRunner.kt:218)
+ okhttp3.internal.concurrent.TaskRunner$runnable$1.run(TaskRunner.kt:59)
+ java.base@17.0.8/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.8/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.8/java.lang.Thread.run(Thread.java:833)
+Nov. 02, 2023 8:17:51 PM org.apache.jasper.servlet.TldScanner scanJars
+INFORMATION: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Nov. 02, 2023 8:17:51 PM org.apache.catalina.core.StandardContext reload
+INFORMATION: Reloading Context with name [/STA-Editor] is completed
+Nov. 02, 2023 8:18:07 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modify
+INFORMATION: RDA-E-E005
+Nov. 02, 2023 8:18:07 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modify
+INFORMATION: Eine Kategorisierung, die zum einen die grundlegende Form der Kommunikation widerspiegelt, in der der Inhalt ausgedrückt wird, und zum andern die menschliche Wahrnehmung wiedergibt, durch die diese wahrgenommen werden soll.
+Nov. 02, 2023 8:18:07 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modify
+INFORMATION: Für Inhalt, der in Form eines Bilds oder mehrerer Bilder ausgedrückt wird, spiegelt der Inhaltstyp auch die Anzahl räumlicher Dimensionen wider, in denen der Inhalt wahrgenommen werden soll, sowie die Wahrnehmung von vorhandener oder nicht vorhandener Bewegung.
+Nov. 02, 2023 8:18:07 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modify
+INFORMATION: A categorization that reflects the fundamental form of communication in which the content is expressed and the human sense through which it is intended to be perceived.
+Nov. 02, 2023 8:18:07 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modify
+INFORMATION: Content type also reflects the number of spatial dimensions and the presence or absence of movement in which content expressed in the form of an image or images is intended to be perceived.
+Nov. 02, 2023 8:18:07 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modify
+INFORMATION: Q264
+Nov. 02, 2023 8:18:07 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modify
+INFORMATION: Strukturierte Beschreibung: normiertes Vokabular
+Nov. 02, 2023 8:18:07 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modify
+INFORMATION: Q9727
+Nov. 02, 2023 8:18:07 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modify
+INFORMATION: Nehmen Sie Informationen über einen Inhaltstyp aus einer beliebigen Quelle.
+Nov. 02, 2023 8:18:07 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modify
+INFORMATION: <strong>MARC 21 Bibliographic:&nbsp;</strong>336 ## $a $b $2rdacontent
+Nov. 02, 2023 8:18:07 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modify
+INFORMATION: <strong>Standard:&nbsp;</strong><a href="https://www.loc.gov/marc/authority/ad336.html" rel="nofollow" target="_blank">https://www.loc.gov/marc/bibliographic/bd336.html</a>
+Nov. 02, 2023 8:18:07 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modify
+INFORMATION: <a href="https://www.loc.gov/marc/authority/ad336.html" rel="nofollow" target="_blank"><strong>OBV:&nbsp;</strong></a><a href="https://wiki.obvsg.at/Katalogisierungshandbuch/Kategorienuebersicht336FE" rel="nofollow" target="_blank">https://wiki.obvsg.at/Katalogisierungshandbuch/Kategorienuebersicht336FE</a>
+Nov. 02, 2023 8:18:07 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modify
+INFORMATION: <strong>SLSP:&nbsp;</strong>LINK
+Nov. 02, 2023 8:18:07 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modify
+INFORMATION: <strong>ASEQ/MAB:&nbsp;</strong>060_ $b
+Nov. 02, 2023 8:18:07 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modify
+INFORMATION: <a href="https://www.bib-bvb.de/web/kkb-online/rda-felder-001-088" rel="nofollow" target="_blank">https://www.bib-bvb.de/web/kkb-online/rda-felder-001-088</a>
+Nov. 02, 2023 8:18:07 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modify
+INFORMATION: <strong>Pica DNB:</strong>&nbsp;0501
+Nov. 02, 2023 8:18:07 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modify
+INFORMATION: <a href="https://wiki.dnb.de/display/ILTIS/0501" rel="nofollow" target="_blank">https://wiki.dnb.de/display/ILTIS/0501</a>
+Nov. 02, 2023 8:18:07 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modify
+INFORMATION: <strong>Pica hebis:</strong> 0501
+Nov. 02, 2023 8:18:07 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modify
+INFORMATION: <a href="https://www.hebis.de/pica-kategorie/0501" rel="nofollow" target="_blank">https://www.hebis.de/pica-kategorie/0501</a>
+Nov. 02, 2023 8:18:07 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modify
+INFORMATION: <strong>Pica K10plus: </strong>0501
+Nov. 02, 2023 8:18:07 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modify
+INFORMATION: <a href="https://swbtools.bsz-bw.de/cgi-bin/k10plushelp.pl?cmd=kat&amp;val=4026&amp;katalog=Standard" rel="nofollow" target="_blank">https://</a><a href="https://format.k10plus.de/k10plushelp.pl?cmd=kat&amp;val=4201&amp;katalog=Standard" rel="nofollow" target="_blank">format.k10plus.de/k10plushelp.pl?cmd=kat&amp;val</a><a href="https://swbtools.bsz-bw.de/cgi-bin/k10plushelp.pl?cmd=kat&amp;val=4026&amp;katalog=Standard" rel="nofollow" target="_blank">=0501&amp;katalog=Standard</a>
+Nov. 02, 2023 8:18:07 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modify
+INFORMATION: <strong>Pica ZDB:&nbsp;</strong>0501
+Nov. 02, 2023 8:18:07 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modify
+INFORMATION: <a href="https://zeitschriftendatenbank.de/fileadmin/user_upload/ZDB/pdf/zdbformat/0501.pdf" rel="nofollow" target="_blank">https://zeitschriftendatenbank.de/fileadmin/user_upload/ZDB/pdf/zdbformat/0501.pdf</a>
+Nov. 02, 2023 8:18:07 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modify
+INFORMATION: Q263
+Nov. 02, 2023 8:18:07 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modify
+INFORMATION: <div style="margin-left: 5.0px;">
+ aufgeführte Musik<br>Bewegungsnotation<br>Computerdaten<br>Computerprogramm<br>dreidimensionale Form<br>dreidimensionales bewegtes Bild<br>Geräusche<br>gesprochenes Wort<br>kartografische dreidimensionale Form<br>kartografische taktile dreidimensionale Form<br>kartografischer Datensatz<br>kartografisches bewegtes Bild<br>kartografisches Bild<br>kartografisches taktiles Bild<br>Noten<br>taktile Bewegungsnotation<br>taktile dreidimensionale Form<br>taktile Noten<br>taktiler Text<br>taktiles Bild<br>Text<br>unbewegtes Bild<br>zweidimensionales bewegtes Bild
+</div>
+Nov. 02, 2023 8:18:07 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modify
+INFORMATION: <div style="margin-left: 5.0px;">
+ Sonstige
+</div>
+Nov. 02, 2023 8:18:07 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modify
+INFORMATION: Erfassen des Inhaltstyps
+Nov. 02, 2023 8:18:07 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modify
+INFORMATION: Termini für Inhaltstyp nicht zutreffend
+Nov. 02, 2023 8:18:07 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modify
+INFORMATION: Inhaltstyp nicht ermittelbar
+Nov. 02, 2023 8:18:07 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modify
+INFORMATION: Mehrteilige Monografien
+Nov. 02, 2023 8:18:07 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modify
+INFORMATION: Q1941
+Nov. 02, 2023 8:18:07 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modify
+INFORMATION: Q9728
+Nov. 02, 2023 8:18:07 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modify
+INFORMATION: <a href="https://access.rdatoolkit.org/en-US_ala-1a6a5219-2cd5-3762-87e8-6ee28e327b8b" rel="nofollow" target="_blank">content type</a>
+Nov. 02, 2023 8:18:07 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modify
+INFORMATION: RDA 6.9 (Original Toolkit)
+Nov. 02, 2023 8:23:44 PM org.apache.catalina.core.StandardContext reload
+INFORMATION: Reloading Context with name [/STA-Editor] has started
+Nov. 02, 2023 8:23:44 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNUNG: The web application [STA-Editor] appears to have started a thread named [HttpClient-8-SelectorManager] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.8/sun.nio.ch.WEPoll.wait(Native Method)
+ java.base@17.0.8/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:111)
+ java.base@17.0.8/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+ java.base@17.0.8/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+ platform/java.net.http@17.0.8/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:889)
+Nov. 02, 2023 8:23:44 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNUNG: The web application [STA-Editor] appears to have started a thread named [OkHttp TaskRunner] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.8/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.8/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.8/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:401)
+ java.base@17.0.8/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:903)
+ java.base@17.0.8/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+ java.base@17.0.8/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.8/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.8/java.lang.Thread.run(Thread.java:833)
+Nov. 02, 2023 8:23:45 PM org.apache.jasper.servlet.TldScanner scanJars
+INFORMATION: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Nov. 02, 2023 8:23:45 PM org.apache.catalina.core.StandardContext reload
+INFORMATION: Reloading Context with name [/STA-Editor] is completed
+Nov. 02, 2023 8:25:30 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modifyText
+INFORMATION: <p>Erfassen Sie den Inhaltstyp, der in der Ressource enthalten ist und verwenden Sie einen oder mehrere der Termini aus der Liste. (siehe <a class="ref" href="P531">normiertes Vokabular</a>).<br> <br>Erfassen Sie so viele Termini, wie auf die zu beschreibende Ressource zutreffen.</p>
+<p>Erfassen Sie den Inhaltstyp nicht für Begleitmaterial.</p>
+<p><strong>Beispiel</strong></p><example>
+ Audio-CD plus mehrseitiges Booklet 
+ <br>Hauptkomponente: CD ; Begleitmaterial: Booklet 
+ <br>Inhaltstyp: aufgeführte Musik
+</example>
+Nov. 02, 2023 8:25:30 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modifyText
+INFORMATION: EXAMPLE gefunden!
+Nov. 02, 2023 8:25:30 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modifyText
+INFORMATION: <p>Wenn keiner der Termini aus der Liste auf den Inhalt der zu beschreibenden Ressource zutrifft, erfassen Sie " Sonstige" .</p>
+Nov. 02, 2023 8:25:30 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modifyText
+INFORMATION: <p>Wenn der auf die zu beschreibende Ressource zutreffende Inhaltstyp nicht einfach bestimmt werden kann, erfassen Sie "nicht spezifiziert".</p>
+Nov. 02, 2023 8:25:30 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modifyText
+INFORMATION: <h1>Erfassen des Inhaltstyps bei mehrteiligen Monografien</h1>
+<p>Bei mehrteiligen Ressourcen bestimmen und erfassen Sie den Inhaltstyp für die Ressource als Ganzes und für die einzelnen Teile.</p>
+<h1>Ressource mit Teilen aus demselben Inhaltstyp</h1>
+<p><strong>Beispiel</strong></p><example>
+ <em>Übergeordnete Aufnahme<br> </em> Duden - die deutsche Sprache : Wörterbuch in drei Bänden 
+ <br> Inhaltstyp: Text 
+ <br>
+ <em>Aufnahme für einen Teil mit abhängigem Titel</em>
+ <br> Band 1, A-Gelt 
+ <br> Inhaltstyp: Text 
+ <br>
+ <em>Aufnahme für einen Teil mit abhängigem Titel</em>
+ <br> Band 2, Gelu-Pyxi 
+ <br> Inhaltstyp: Text 
+ <br>
+ <em>Aufnahme für einen Teil mit abhängigem Titel</em>
+ <br> Band 3, Q-Zzgl 
+ <br> Inhaltstyp: Text
+</example>
+<h1>Ressource mit Teilen aus unterschiedlichen Inhaltstypen</h1>
+<p>Band, Audiodisk, Computerdisk - hierarchische Beschreibung:</p><example>
+ <p><br> <em>Übergeordnete Aufnahme</em> <br>Langenscheidt - der Italienisch-Kurs Plus<br>Inhaltstyp: Text<br>Inhaltstyp: gesprochenes Wort<br>Inhaltstyp: Computerdaten<br> <em>Aufnahme für einen Teil mit abhängigem Titel</em> <br>Lehrbuch<br>Inhaltstyp: Text<br> <em>Aufnahme für einen Teil mit abhängigem Titel</em> <br>Begleitbuch<br>Inhaltstyp: Text<br> <em>Aufnahme für einen Teil mit abhängigem Titel</em> <br>Kurs-CDs/Wortschatztrainer (Audio-CDs)<br>Inhaltstyp: gesprochenes Wort<br> <em>Aufnahme für einen Teil mit abhängigem Titel</em> <br>Vokabeltrainer (DVD-ROM)<br>Inhaltstyp: Computerdaten</p>
+</example>
+<p>Band, Audiodisk, Computerdisk - umfassende Beschreibung:</p><example>
+ <p><br>Don Camillo e Peppone : das Hörbuch zum Sprachen lernen (Textbuch/Audio-CD/CD-ROM)<br>Inhaltstyp: Text<br>Inhaltstyp: gesprochenes Wort<br>Inhaltstyp: Computerdaten</p>
+</example>
+<p>Weitere Beispiele finden Sie hier: <a href="https://wiki.dnb.de/download/attachments/106042227/AH-013.pdf" rel="nofollow" target="_blank">AH-013</a></p>
+Nov. 02, 2023 8:25:30 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modifyText
+INFORMATION: EXAMPLE gefunden!
+Nov. 02, 2023 8:25:30 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modifyText
+INFORMATION: EXAMPLE gefunden!
+Nov. 02, 2023 8:25:30 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modifyText
+INFORMATION: EXAMPLE gefunden!
+Nov. 02, 2023 8:33:30 PM org.apache.catalina.core.StandardContext reload
+INFORMATION: Reloading Context with name [/STA-Editor] has started
+Nov. 02, 2023 8:33:30 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNUNG: The web application [STA-Editor] appears to have started a thread named [HttpClient-9-SelectorManager] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.8/sun.nio.ch.WEPoll.wait(Native Method)
+ java.base@17.0.8/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:111)
+ java.base@17.0.8/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+ java.base@17.0.8/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+ platform/java.net.http@17.0.8/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:889)
+Nov. 02, 2023 8:33:32 PM org.apache.jasper.servlet.TldScanner scanJars
+INFORMATION: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Nov. 02, 2023 8:33:32 PM org.apache.catalina.core.StandardContext reload
+INFORMATION: Reloading Context with name [/STA-Editor] is completed
+Nov. 02, 2023 8:33:44 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modifyText
+INFORMATION: EXAMPLE gefunden!
+Nov. 02, 2023 8:33:44 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modifyText
+INFORMATION: EXAMPLE gefunden!
+Nov. 02, 2023 8:33:44 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modifyText
+INFORMATION: EXAMPLE gefunden!
+Nov. 02, 2023 8:33:44 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modifyText
+INFORMATION: EXAMPLE gefunden!
+Nov. 02, 2023 8:34:46 PM org.apache.catalina.core.StandardContext reload
+INFORMATION: Reloading Context with name [/STA-Editor] has started
+Nov. 02, 2023 8:34:46 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNUNG: The web application [STA-Editor] appears to have started a thread named [HttpClient-10-SelectorManager] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.8/sun.nio.ch.WEPoll.wait(Native Method)
+ java.base@17.0.8/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:111)
+ java.base@17.0.8/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+ java.base@17.0.8/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+ platform/java.net.http@17.0.8/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:889)
+Nov. 02, 2023 8:34:46 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNUNG: The web application [STA-Editor] appears to have started a thread named [OkHttp TaskRunner] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.8/java.lang.Object.wait(Native Method)
+ java.base@17.0.8/java.lang.Object.wait(Object.java:472)
+ okhttp3.internal.concurrent.TaskRunner$RealBackend.coordinatorWait(TaskRunner.kt:294)
+ okhttp3.internal.concurrent.TaskRunner.awaitTaskToRun(TaskRunner.kt:218)
+ okhttp3.internal.concurrent.TaskRunner$runnable$1.run(TaskRunner.kt:59)
+ java.base@17.0.8/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.8/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.8/java.lang.Thread.run(Thread.java:833)
+Nov. 02, 2023 8:34:46 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNUNG: The web application [STA-Editor] appears to have started a thread named [Okio Watchdog] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.8/java.lang.Object.wait(Native Method)
+ okio.AsyncTimeout$Companion.awaitTimeout$okio(AsyncTimeout.kt:302)
+ okio.AsyncTimeout$Watchdog.run(AsyncTimeout.kt:183)
+Nov. 02, 2023 8:34:46 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNUNG: The web application [STA-Editor] appears to have started a thread named [HttpClient-10-Worker-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.8/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.8/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.8/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:401)
+ java.base@17.0.8/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:903)
+ java.base@17.0.8/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+ java.base@17.0.8/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.8/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.8/java.lang.Thread.run(Thread.java:833)
+Nov. 02, 2023 8:34:46 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNUNG: The web application [STA-Editor] appears to have started a thread named [HttpClient-10-Worker-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.8/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.8/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.8/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:401)
+ java.base@17.0.8/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:903)
+ java.base@17.0.8/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+ java.base@17.0.8/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.8/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.8/java.lang.Thread.run(Thread.java:833)
+Nov. 02, 2023 8:34:47 PM org.apache.jasper.servlet.TldScanner scanJars
+INFORMATION: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Nov. 02, 2023 8:34:47 PM org.apache.catalina.core.StandardContext reload
+INFORMATION: Reloading Context with name [/STA-Editor] is completed
+Nov. 02, 2023 8:34:55 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modifyText
+INFORMATION: EXAMPLE gefunden!
+Nov. 02, 2023 8:34:55 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modifyText
+INFORMATION: EXAMPLE gefunden!
+Nov. 02, 2023 8:34:55 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modifyText
+INFORMATION: EXAMPLE gefunden!
+Nov. 02, 2023 8:34:55 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modifyText
+INFORMATION: EXAMPLE gefunden!
+Nov. 02, 2023 8:36:34 PM org.apache.catalina.core.StandardContext reload
+INFORMATION: Reloading Context with name [/STA-Editor] has started
+Nov. 02, 2023 8:36:34 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNUNG: The web application [STA-Editor] appears to have started a thread named [HttpClient-11-SelectorManager] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.8/sun.nio.ch.WEPoll.wait(Native Method)
+ java.base@17.0.8/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:111)
+ java.base@17.0.8/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+ java.base@17.0.8/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+ platform/java.net.http@17.0.8/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:889)
+Nov. 02, 2023 8:36:34 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNUNG: The web application [STA-Editor] appears to have started a thread named [OkHttp TaskRunner] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.8/java.lang.Object.wait(Native Method)
+ java.base@17.0.8/java.lang.Object.wait(Object.java:472)
+ okhttp3.internal.concurrent.TaskRunner$RealBackend.coordinatorWait(TaskRunner.kt:294)
+ okhttp3.internal.concurrent.TaskRunner.awaitTaskToRun(TaskRunner.kt:218)
+ okhttp3.internal.concurrent.TaskRunner$runnable$1.run(TaskRunner.kt:59)
+ java.base@17.0.8/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.8/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.8/java.lang.Thread.run(Thread.java:833)
+Nov. 02, 2023 8:36:35 PM org.apache.jasper.servlet.TldScanner scanJars
+INFORMATION: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Nov. 02, 2023 8:36:35 PM org.apache.catalina.core.StandardContext reload
+INFORMATION: Reloading Context with name [/STA-Editor] is completed
+Nov. 02, 2023 8:36:43 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modifyText
+INFORMATION: EXAMPLE gefunden!
+Nov. 02, 2023 8:36:43 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modifyText
+INFORMATION: BEISPIEL
+Nov. 02, 2023 8:36:43 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modifyText
+INFORMATION: EXAMPLE gefunden!
+Nov. 02, 2023 8:36:43 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modifyText
+INFORMATION: BEISPIEL
+Nov. 02, 2023 8:36:43 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modifyText
+INFORMATION: EXAMPLE gefunden!
+Nov. 02, 2023 8:36:43 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modifyText
+INFORMATION: BEISPIEL
+Nov. 02, 2023 8:36:43 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modifyText
+INFORMATION: EXAMPLE gefunden!
+Nov. 02, 2023 8:36:43 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modifyText
+INFORMATION: BEISPIEL
+Nov. 02, 2023 8:38:21 PM org.apache.catalina.core.StandardContext reload
+INFORMATION: Reloading Context with name [/STA-Editor] has started
+Nov. 02, 2023 8:38:21 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNUNG: The web application [STA-Editor] appears to have started a thread named [HttpClient-12-SelectorManager] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.8/sun.nio.ch.WEPoll.wait(Native Method)
+ java.base@17.0.8/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:111)
+ java.base@17.0.8/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+ java.base@17.0.8/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+ platform/java.net.http@17.0.8/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:889)
+Nov. 02, 2023 8:38:21 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNUNG: The web application [STA-Editor] appears to have started a thread named [OkHttp TaskRunner] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.8/java.lang.Object.wait(Native Method)
+ java.base@17.0.8/java.lang.Object.wait(Object.java:472)
+ okhttp3.internal.concurrent.TaskRunner$RealBackend.coordinatorWait(TaskRunner.kt:294)
+ okhttp3.internal.concurrent.TaskRunner.awaitTaskToRun(TaskRunner.kt:218)
+ okhttp3.internal.concurrent.TaskRunner$runnable$1.run(TaskRunner.kt:59)
+ java.base@17.0.8/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.8/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.8/java.lang.Thread.run(Thread.java:833)
+Nov. 02, 2023 8:38:23 PM org.apache.jasper.servlet.TldScanner scanJars
+INFORMATION: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Nov. 02, 2023 8:38:23 PM org.apache.catalina.core.StandardContext reload
+INFORMATION: Reloading Context with name [/STA-Editor] is completed
+Nov. 02, 2023 8:38:34 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modifyText
+INFORMATION: EXAMPLE gefunden!
+Nov. 02, 2023 8:38:34 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modifyText
+INFORMATION: Audio-CD plus mehrseitiges Booklet 
+<br>Hauptkomponente: CD ; Begleitmaterial: Booklet 
+<br>Inhaltstyp: aufgeführte Musik
+Nov. 02, 2023 8:38:34 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modifyText
+INFORMATION: EXAMPLE gefunden!
+Nov. 02, 2023 8:38:34 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modifyText
+INFORMATION: <em>Übergeordnete Aufnahme<br> </em> Duden - die deutsche Sprache : Wörterbuch in drei Bänden 
+<br> Inhaltstyp: Text 
+<br>
+<em>Aufnahme für einen Teil mit abhängigem Titel</em>
+<br> Band 1, A-Gelt 
+<br> Inhaltstyp: Text 
+<br>
+<em>Aufnahme für einen Teil mit abhängigem Titel</em>
+<br> Band 2, Gelu-Pyxi 
+<br> Inhaltstyp: Text 
+<br>
+<em>Aufnahme für einen Teil mit abhängigem Titel</em>
+<br> Band 3, Q-Zzgl 
+<br> Inhaltstyp: Text
+Nov. 02, 2023 8:38:34 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modifyText
+INFORMATION: EXAMPLE gefunden!
+Nov. 02, 2023 8:38:34 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modifyText
+INFORMATION: <p><br> <em>Übergeordnete Aufnahme</em> <br>Langenscheidt - der Italienisch-Kurs Plus<br>Inhaltstyp: Text<br>Inhaltstyp: gesprochenes Wort<br>Inhaltstyp: Computerdaten<br> <em>Aufnahme für einen Teil mit abhängigem Titel</em> <br>Lehrbuch<br>Inhaltstyp: Text<br> <em>Aufnahme für einen Teil mit abhängigem Titel</em> <br>Begleitbuch<br>Inhaltstyp: Text<br> <em>Aufnahme für einen Teil mit abhängigem Titel</em> <br>Kurs-CDs/Wortschatztrainer (Audio-CDs)<br>Inhaltstyp: gesprochenes Wort<br> <em>Aufnahme für einen Teil mit abhängigem Titel</em> <br>Vokabeltrainer (DVD-ROM)<br>Inhaltstyp: Computerdaten</p>
+Nov. 02, 2023 8:38:34 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modifyText
+INFORMATION: EXAMPLE gefunden!
+Nov. 02, 2023 8:38:34 PM de.dnb.sta.storage.confluence.ConvertToStorageFormatModifier modifyText
+INFORMATION: <p><br>Don Camillo e Peppone : das Hörbuch zum Sprachen lernen (Textbuch/Audio-CD/CD-ROM)<br>Inhaltstyp: Text<br>Inhaltstyp: gesprochenes Wort<br>Inhaltstyp: Computerdaten</p>
+Nov. 02, 2023 8:39:26 PM org.apache.catalina.core.StandardContext reload
+INFORMATION: Reloading Context with name [/STA-Editor] has started
+Nov. 02, 2023 8:39:26 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNUNG: The web application [STA-Editor] appears to have started a thread named [HttpClient-13-SelectorManager] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.8/sun.nio.ch.WEPoll.wait(Native Method)
+ java.base@17.0.8/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:111)
+ java.base@17.0.8/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+ java.base@17.0.8/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+ platform/java.net.http@17.0.8/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:889)
+Nov. 02, 2023 8:39:26 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNUNG: The web application [STA-Editor] appears to have started a thread named [OkHttp TaskRunner] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.8/java.lang.Object.wait(Native Method)
+ java.base@17.0.8/java.lang.Object.wait(Object.java:472)
+ okhttp3.internal.concurrent.TaskRunner$RealBackend.coordinatorWait(TaskRunner.kt:294)
+ okhttp3.internal.concurrent.TaskRunner.awaitTaskToRun(TaskRunner.kt:218)
+ okhttp3.internal.concurrent.TaskRunner$runnable$1.run(TaskRunner.kt:59)
+ java.base@17.0.8/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.8/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.8/java.lang.Thread.run(Thread.java:833)
+Nov. 02, 2023 8:39:26 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNUNG: The web application [STA-Editor] appears to have started a thread named [Okio Watchdog] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.8/java.lang.Object.wait(Native Method)
+ okio.AsyncTimeout$Companion.awaitTimeout$okio(AsyncTimeout.kt:302)
+ okio.AsyncTimeout$Watchdog.run(AsyncTimeout.kt:183)
+Nov. 02, 2023 8:39:26 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNUNG: The web application [STA-Editor] appears to have started a thread named [HttpClient-13-Worker-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.8/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.8/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.8/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:401)
+ java.base@17.0.8/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:903)
+ java.base@17.0.8/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+ java.base@17.0.8/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.8/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.8/java.lang.Thread.run(Thread.java:833)
+Nov. 02, 2023 8:39:26 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNUNG: The web application [STA-Editor] appears to have started a thread named [HttpClient-13-Worker-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.8/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.8/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.8/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:401)
+ java.base@17.0.8/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:903)
+ java.base@17.0.8/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+ java.base@17.0.8/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.8/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.8/java.lang.Thread.run(Thread.java:833)
+Nov. 02, 2023 8:39:27 PM org.apache.jasper.servlet.TldScanner scanJars
+INFORMATION: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Nov. 02, 2023 8:39:27 PM org.apache.catalina.core.StandardContext reload
+INFORMATION: Reloading Context with name [/STA-Editor] is completed

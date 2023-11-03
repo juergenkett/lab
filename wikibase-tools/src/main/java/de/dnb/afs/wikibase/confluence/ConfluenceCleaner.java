@@ -1,9 +1,15 @@
 package de.dnb.afs.wikibase.confluence;
 
+import java.io.UnsupportedEncodingException;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.net.URLDecoder;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
+
 import org.apache.commons.codec.CharEncoding;
 import org.apache.commons.lang3.StringUtils;
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.nodes.Entities.EscapeMode;
@@ -12,16 +18,48 @@ import org.jsoup.safety.Cleaner;
 import org.jsoup.safety.Safelist;
 import org.jsoup.select.Elements;
 
-import de.dnb.afs.wikibase.confluence.mappings.WbMappingRule;
+import de.dnb.afs.wikibase.confluence.mappings.WbMapping4Rules;
 
-public class ConfluenceDokuCleaner {
-
-	private static final Log logger = LogFactory.getLog(ConfluenceDokuCleaner.class);
+/**
+ * Klasse zum Bereinigen und AUfräumen von Confluence HTML-Seiten als
+ * Vorverarbeitungschritt für den Import in Wikibase.
+ */
+public class ConfluenceCleaner {
 
 	public Document clean(Document document) {
+		Cleaner cleaner = new Cleaner(Safelist.basic().removeTags("span").addAttributes("ri:url", "ri:value")
+				.addAttributes("div", "data-macro-name").addAttributes("h1", "id")
+				.addTags("head", "h2", "h3", "h4", "h5", "table", "th", "tr", "td", "code").removeTags("pre"));
+		document = cleaner.clean(document);
+		
+		Document newDocument = Document.createShell(document.baseUri());
+		newDocument.outputSettings().escapeMode(EscapeMode.extended);
+		newDocument.outputSettings().charset(CharEncoding.UTF_8);
+		
+		for (Element panel : document.body().getElementsByAttributeValue("data-macro-name", "panel")) {
+			Element property = new Element("property");
+			property.attr("label", panel.child(0).text());
+			if (panel.children().size() > 1) {
+				property.appendChildren(panel.child(1).childNodes());
+				cleanValue(property);
+				if (!isSkipProperty(property)) {
+					newDocument.body().appendChild(property);
+				}
+			}
+		}
+		return newDocument;
+	}
+	
+	public void cleanTable() {
+		
+	}
+
+	public Document cleanElementDesc(Document document) {
 		Element head = document.head();
-		Cleaner cleaner = new Cleaner(Safelist.basic().addAttributes("div", "data-macro-name").addAttributes("h1", "id")
-				.addTags("head", "h2", "h3", "h4").addAttributes("span", "style"));
+		Cleaner cleaner = new Cleaner(Safelist.basic().removeTags("span").addAttributes("ri:url", "ri:value")
+				.addAttributes("div", "data-macro-name").addAttributes("h1", "id").addAttributes("p", "style")
+				.addTags("head", "h2", "h3", "h4", "h5", "code").removeAttributes("all:", "rel").removeTags("pre"));
+//				.addAttributes("span", "style"));
 		document = cleaner.clean(document);
 
 		Document newDocument = Document.createShell(document.baseUri());
@@ -30,28 +68,83 @@ public class ConfluenceDokuCleaner {
 		newDocument.title(getLabel(document));
 		newDocument.head().appendChildren(cleanHead(head));
 		for (Element panel : document.body().getElementsByAttributeValue("data-macro-name", "panel")) {
-			if (isRemovePanel(panel)) {
-				logger.debug("# remove panel " + panel.text());
-				panel.remove();
-				continue;
+			Element property = new Element("property");
+			property.attr("label", panel.child(0).text());
+			if (panel.children().size() > 1) {
+				property.appendChildren(panel.child(1).childNodes());
+				cleanValue(property);
+				if (!isSkipProperty(property)) {
+					newDocument.body().appendChild(property);
+				}
 			}
-			cleanPanel(panel);
-			newDocument.body().appendChild(panel);
 		}
 		return newDocument;
 	}
 
-	public boolean isRemovePanel(Element panel) {
-		return panel.text().replaceAll("&nbsp;", " ").trim().startsWith("Kommentare") || isEmptyPanel(panel);
+	public Document cleanRessource(Document document) {
+		Element head = document.head();
+		Cleaner cleaner = new Cleaner(Safelist.basic().removeTags("span").addAttributes("ri:url", "ri:value")
+				.addAttributes("div", "data-macro-name").addAttributes("h1", "id")
+				.addTags("head", "h2", "h3", "h4", "h5", "table", "tr", "td", "code").removeTags("pre"));
+//				.addAttributes("span", "style"));
+		document = cleaner.clean(document);
+
+		Document newDocument = Document.createShell(document.baseUri());
+		newDocument.outputSettings().escapeMode(EscapeMode.extended);
+		newDocument.outputSettings().charset(CharEncoding.UTF_8);
+		newDocument.title(getLabel(document));
+		newDocument.outputSettings().prettyPrint();
+		newDocument.head().appendChildren(cleanHead(head));
+
+		Element property = null;
+
+		for (Element h2 : document.body().getElementsByTag("h2")) {
+			property = new Element("property");
+			property.attr("label", h2.text());
+			Element subproperty = null;
+			for (Element sibling : h2.nextElementSiblings()) {
+				if (sibling.normalName().equals("h2")) {
+					break;
+				}
+				if (sibling.normalName().equals("h3")) {
+					subproperty = new Element("subproperty");
+					subproperty.attr("label", sibling.text());
+					property.appendChild(subproperty);
+				} else if (subproperty != null) {
+					subproperty.appendChild(sibling);
+				} else {
+					property.appendChild(sibling);
+				}
+			}
+
+			cleanValue(property);
+			if (!isSkipProperty(property)) {
+				newDocument.body().appendChild(property);
+			}
+		}
+		return newDocument;
 	}
 
-	public static boolean isEmptyPanel(Element panel) {
-		if (panel.children().size() < 2)
-			return true;
-		if (panel.child(1).hasAttr("data-macro-name"))
-			return true;
-		String content = panel.child(1).text().replaceAll("nbsp;", "").trim().toLowerCase();
+	public void addSubproperties(Element property) {
+		Element subproperty;
+		for (Element h : property.getElementsByTag("h3")) {
+			subproperty = new Element("subproperty");
+			subproperty.attr("label", h.text());
+			for (Element sibling : h.nextElementSiblings()) {
+				if (sibling.normalName().equals("h3")) {
+					break;
+				}
+				subproperty.appendChild(sibling);
+			}
+		}
+	}
 
+	public boolean isSkipProperty(Element property) {
+		return property.attr("label").startsWith("Kommentare") || isEmptyProperty(property);
+	}
+
+	public static boolean isEmptyProperty(Element panel) {
+		String content = panel.text().replaceAll("nbsp;", "").trim().toLowerCase();
 		if (content.isBlank())
 			return true;
 		if (content.startsWith("nicht zutreffend")) {
@@ -89,59 +182,89 @@ public class ConfluenceDokuCleaner {
 		return label.replaceFirst("AP .* \\| ", "").replaceFirst(".* - .* - ", "");
 	}
 
-	public void cleanPanel(Element panel) {
-
-//		panel.tagName("panel");
-//		panel.removeAttr("data-macro-name");
-		for (Element e : panel.getAllElements()) {
-			// remove empty tags (for example: <em></em> <div></div>)
-			if (!e.hasText() && e.isBlock()) {
-				e.remove();
-				// remove sections that are not needed
-			} else if (e.attr("data-macro-name").equals("expand")) {
-				e.remove();
-			} else if (e.tag().normalName().equals("span")) {
-				if (isRef(e)) {
-					if (isContainingWords(e)) {
-//						logger.debug("Füge Referenz hinzu: '" + e + "'");
-						e.tagName("a");
-						e.attr("class", "ref");
-						e.removeAttr("style");
-					} else {
-//						logger.debug("Entferne Referenz: '" + e + "'");
-						e.unwrap();
-
-					}
-				} else if (isLocalRef(e)) {
-					if (isContainingWords(e)) {
-//						logger.debug("Füge lokale Referenz hinzu: '" + e + "'");
-						String anchorId = getLocalRef(e.text());
-						e.tagName("a");
-						e.attr("class", "localRef");
-						e.removeAttr("style");
-						e.attr("href", anchorId);
-
-					} else {
-//						logger.debug("Entferne lokale Referenz: '" + e + "'");
-						e.unwrap();
-
-					}
-				} else {
-//					logger.debug("Entferne span: '" + e + "'");
-					e.unwrap();
+	public static Map<String, String> getUrlQueryParameters(String href) {
+		final Map<String, String> ret = new LinkedHashMap<String, String>();
+		try {
+			URL url = new URL(href);
+			if (url.getQuery() != null) {
+				final String[] pairs = url.getQuery().split("&");
+				for (String pair : pairs) {
+					final int idx = pair.indexOf("=");
+					final String key = idx > 0 ? URLDecoder.decode(pair.substring(0, idx), "UTF-8") : pair;
+					final String value = idx > 0 && pair.length() > idx + 1
+							? URLDecoder.decode(pair.substring(idx + 1), "UTF-8")
+							: null;
+					ret.put(key, value);
 				}
-			} else if (e.attr("data-macro-name").equals("info")) {
+			}
+		} catch (MalformedURLException | UnsupportedEncodingException e) {
+		}
 
-				e.child(0).attr("class", "example");
-				e.unwrap();
+		return ret;
+	}
+
+	public static String getUrlTitleParam(String href) {
+		return getUrlQueryParameters(href).get("title");
+	}
+
+	public boolean isWbId(String value) {
+		return value != null && value.matches("[PQ]\\d+");
+	}
+
+	public void cleanValue(Element panel) {
+		for (Element element : panel.getAllElements()) {
+			// remove empty tags (for example: <em></em> <div></div>)
+			if (!element.hasText() && element.isBlock() && element.hasParent()) {
+				element.remove();
+				// remove sections that are not needed
+			} else if (element.attr("data-macro-name").equals("expand")) {
+				element.remove();
+			} else if (element.normalName().equals("a")) {
+				cleanA(element);
+			} else if (element.normalName().equals("ri:url")) {
+				cleanRiUrl(panel);
+			} else if (element.normalName().equals("p")) {
+				if (element.attr("style").startsWith("margin-left:")) {
+					Element div = new Element("div");
+					div.attr("style", element.attr("style"));
+					List<Node> childNodes = element.childNodes();
+					div.appendChildren(childNodes);
+					element.appendChild(div);
+				}
+				element.removeAttr("style");
+			}
+//			else if (e.tag().normalName().equals("span")) {
+//				cleanSpan(e);
+//			} 
+			else if (element.attr("data-macro-name").equals("info")) {
+				element.tagName("example");
+				element.removeAttr("data-macro-name");
+				for (Element subelement : element.children()) {
+					if (subelement.normalName().equals("div")) {
+						subelement.unwrap();
+					} else {
+						String label = subelement.text();
+						if (label.equals("Vollbeispiel")) {
+							element.attr("class", "detailed-example");
+							subelement.remove();
+						} else {
+							subelement.tagName("strong");
+							element.attr("label", label);
+						}
+					}
+				}
+			} else if (element.attr("data-macro-name").equals("code")) {
+				element.tagName("embed");
+				element.clearAttributes();
+				element.text(element.text());
 			}
 			// remove redundant nested elements (for example: <em><em>Text</em></em>
-			else if (!e.isBlock() && e.parent().tagName().equals(e.tagName()) && e.attributes().size() == 0) {
-
-				e.unwrap();
-			} else if ((e.tagName().equals("em") || e.tagName().equals("strong"))
-					&& (!e.hasText() || e.parent().tagName().equals(e.tagName()))) {
-				e.unwrap();
+			else if (!element.isBlock() && element.hasParent() && element.parent().tagName().equals(element.tagName())
+					&& element.attributes().size() == 0) {
+				element.unwrap();
+			} else if ((element.tagName().equals("em") || element.tagName().equals("strong"))
+					&& (!element.hasText() || element.parent().tagName().equals(element.tagName()))) {
+				element.unwrap();
 			}
 
 //			/*
@@ -156,8 +279,87 @@ public class ConfluenceDokuCleaner {
 		}
 	}
 
+	/**
+	 * Korrigiere fehlerhafte interne Referenzen
+	 * 
+	 * @param e
+	 */
+	public void cleanA(Element e) {
+		String href = e.attr("href");
+		String wbRefEntityId = getUrlTitleParam(href);
+		if (isWbId(wbRefEntityId)) {
+			e.clearAttributes();
+			e.attr("class", "ref");
+			e.attr("href", wbRefEntityId);
+		}
+	}
+
+	/**
+	 * &height=563&width=915" alt="Dies ist ein Bild" style="border:5px"
+	 * 
+	 * @param e
+	 */
+	public void cleanRiUrl(Element e) {
+		String href = e.attr("ri:value");
+		String imgPath = getImgPath(href);
+		if (imgPath != null) {
+			e.tagName("img");
+			e.clearAttributes();
+			e.attr("src", imgPath);
+			e.attr("height", "563");
+			e.attr("width", "915");
+			e.attr("alt", "Dies ist ein Bild");
+			e.attr("style", "border:5px");
+		}
+	}
+
+	public static String getImgPath(String href) {
+		String ret = null;
+		if (href == null)
+			return null;
+		try {
+			URL url = new URL(href);
+			ret = url.getPath().substring(url.getPath().lastIndexOf('/'));
+		} catch (MalformedURLException e) {
+		}
+		return ret;
+	}
+
+	public void cleanSpan(Element e) {
+		if (isRef(e)) {
+			if (isContainingWords(e)) {
+//				logger.debug("Füge Referenz hinzu: '" + e + "'");
+
+				e.tagName("a");
+				e.attr("class", "ref");
+				e.removeAttr("style");
+			} else {
+//				logger.debug("Entferne Referenz: '" + e + "'");
+				e.unwrap();
+
+			}
+		} else if (isLocalRef(e)) {
+			if (isContainingWords(e)) {
+//				logger.debug("Füge lokale Referenz hinzu: '" + e + "'");
+				String anchorId = getLocalRef(e.text());
+				e.tagName("a");
+				e.attr("class", "localRef");
+				e.removeAttr("style");
+				e.attr("href", anchorId);
+
+			} else {
+//				logger.debug("Entferne lokale Referenz: '" + e + "'");
+				e.unwrap();
+
+			}
+		} else {
+//			logger.debug("Entferne span: '" + e + "'");
+			e.unwrap();
+		}
+	}
+
 	public static String getLocalRef(String text) {
-		return "#" + WbMappingRule.getShortLabel(StringUtils.removeEnd(text.trim(), "."));
+		return "#" + WbMapping4Rules.getShortLabel(StringUtils.removeEnd(text.trim(), "."));
 	}
 
 	public boolean isContainingWords(Element e) {
